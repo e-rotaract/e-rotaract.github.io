@@ -1,0 +1,143 @@
+---
+layout: blank
+title: e-Rotaract
+permalink: /meeting
+---
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>e-Rotaract</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+      .wrapper {
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        background-color: black;
+        color: gray;
+      }
+      .header {
+         float: left;
+         width: 100%;
+         height: 5%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+      }
+      .wrapleft {
+         float: left;
+         width: 100%;
+         height: 90%;
+      }
+      .left {
+         margin-right: 150px;
+         height: 100%;
+      }
+      .left-full {
+         margin-right: 0px;
+         height: 100%;
+      }
+      .right {
+         float: right;
+         width: 150px;
+         margin-left: -150px;
+         height: 90%;
+         display: grid;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+      }
+      .right-full {
+         float: right;
+         width: 150px;
+         margin-left: -150px;
+         height: 90%;
+         display: none;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+      }
+      .footer {
+         float: left;
+         width: 100%;
+         height: 5%;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         text-align: center;
+      }
+      body {
+         padding: 0px;
+         margin: 0px;
+      }
+    </style>
+    <script>
+        function toggleBar() {
+            var bar = document.getElementById('bar');
+            var left = document.getElementById('left');
+            
+            if (bar.className === 'right') {
+                bar.className = 'right-full';
+            } else {
+                bar.className = 'right';
+            }
+            
+            if (left.className === 'left') {
+                left.className = 'left-full';
+            } else {
+                left.className = 'left';
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">
+            <a style="cursor: pointer;" onclick="toggleBar()">(hide/show toolbar)</a>
+        </div>
+        <div class="wrapleft">
+        <div class="left" id="left">
+            <iframe id="call" allow="camera; microphone; fullscreen; display-capture; autoplay" src="https://meet.jit.si/e-rotaract" style="height: 100%; width: 100%; border: 0px;"></iframe>
+        </div>
+        </div>
+        <div class="right" id="bar">
+            <span>
+                (agenda)
+            </span>
+            <span>
+                (timer)
+            </span>
+            <span>
+                (attendance form)
+            </span>
+            <span>
+                (+)
+            </span>
+            <span id="time"></span>
+            <script>
+              function startTime() {
+                var today = new Date();
+                var h = ("0" + today.getHours()).slice(-2);
+                var m = ("0" + today.getMinutes()).slice(-2);
+                var s = ("0" + today.getSeconds()).slice(-2);
+                document.getElementById('time').innerHTML = h + ":" + m + ":" + s;
+                t = setTimeout(function() {
+                  startTime();
+                }, 900);
+              }
+              startTime();
+            </script>
+        </div>
+        <div class="footer">
+            <a style="cursor: pointer;" onclick="document.getElementById('call').src = document.getElementById('call').src;">(reload meeting call)</a>
+        </div>
+    </div>
+</body>
+
+</html>
+
