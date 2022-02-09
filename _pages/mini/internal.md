@@ -19,7 +19,7 @@ permalink: "/internal"
 </head>
 <body class="en" tabIndex=0>
     <div class="author-photo">
-        <a class="js-scroll-trigger" href="https://www.instagram.com/rotaract.eclub">
+        <a class="js-scroll-trigger" href="https://www.instagram.com/rotaract_eclub">
             <img src="/assets/images/rac-e-club-logo.jpeg">
             <br>
             @rotaract_eclub
