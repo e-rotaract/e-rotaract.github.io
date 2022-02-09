@@ -71,8 +71,6 @@ permalink: "/internal"
                 </p>
             </a>
         </li>
-    </ul>
-    <ul>
         <li class="i-s">
             <a href="https://drive.google.com/drive/folders/1-61TDAwYQemlLU2fu3vOkEn6Wax-iLYB?usp=sharing" target="_blank">
                 <div class='logo'>
@@ -86,8 +84,6 @@ permalink: "/internal"
                 </p>
             </a>
         </li>
-    </ul>
-    <ul>
         <li class="i-s">
             <a href="https://calendar.google.com/calendar/u/4?cid=cm90YXJhY3RiZXlvbmRmcm9udGllcnNAZ21haWwuY29t" target="_blank">
                 <div class='logo'>
@@ -101,8 +97,6 @@ permalink: "/internal"
                 </p>
             </a>
         </li>
-    </ul>
-    <ul>
         <li class="i-s">
             <a href="https://calendar.google.com/calendar/embed?src=rotaractbeyondfrontiers%40gmail.com" target="_blank">
                 <div class='logo'>
