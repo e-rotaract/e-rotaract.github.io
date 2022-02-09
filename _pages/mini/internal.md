@@ -96,7 +96,22 @@ permalink: "/internal"
                 <p class='title'>
                     Add us to your Calendar
                     <span>
-                        (Google Agenda)
+                        (Add to Google Agenda)
+                    </span>
+                </p>
+            </a>
+        </li>
+    </ul>
+    <ul>
+        <li class="i-s">
+            <a href="https://calendar.google.com/calendar/embed?src=rotaractbeyondfrontiers%40gmail.com" target="_blank">
+                <div class='logo'>
+                    <i class='fas fa-calendar-alt fa-2x'></i>
+                </div>
+                <p class='title'>
+                    View our Calendar
+                    <span>
+                        (Open in the browser)
                     </span>
                 </p>
             </a>
