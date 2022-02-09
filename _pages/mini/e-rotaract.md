@@ -87,65 +87,17 @@ permalink: /e-rotaract
             </a>
         </li>
     </ul>
-    <script>
-        var start = {y: "2021",  m: "11",    d: "14",    h: "18", min: "00"};
-        var end =   {y: start.y, m: start.m, d: start.d, h: "19", min: start.min};
-        var repeat = "&recur=RRULE:FREQ=MONTHLY;BYDAY=2SU";
-
-        var title = "e-Rotaract";
-        var link = "https://iaco.me/e-rotaract"
-        var description = "Details and videocall link: " + link;
-
-        var titleEncoded = escape(title);
-        var linkEncoded = escape(link);
-        var descriptionEncoded = escape(description);
-
-        var dateStartGoogle = start.y + start.m + start.d + "T" + start.h + start.min;
-        var dateEndGoogle = end.y + end.m + end.d + "T" + end.h + end.min;
-        var urlGoogle = "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=" + dateStartGoogle + "00Z%2F" + dateEndGoogle + "00Z&details=" + descriptionEncoded + "&text=" + titleEncoded + repeat;
-
-        var dateStartOutlook = start.y + "-" + start.m + "-" + start.d + "T" + start.h + "%3A" + start.min;
-        var dateEndOutlook = end.y + "-" + end.m + "-" + end.d + "T" + end.h + "%3A" + end.min;
-        var urlOutlook = "https://outlook.live.com/calendar/0/deeplink/compose?body=" + descriptionEncoded + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + titleEncoded + "&rec=RRULE:FREQ=MONTHLY;BYDAY=1SU";
-
-        var urlOffice = "https://outlook.office.com/calendar/0/deeplink/compose?body=" + descriptionEncoded + "&enddt=" + dateEndOutlook + "%3A00%2B00%3A00&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=" + dateStartOutlook + "%3A00%2B00%3A00&subject=" + titleEncoded;
-
-        var icsFile = "BEGIN:VCALENDAR\nVERSION:2.0\nPRODID:-//www.iaco.me//SpeakEat Rotaract\nBEGIN:VEVENT\nUID:" + dateStartGoogle + "hi@iaco.me\nDTSTAMP:" + dateStartGoogle + "00Z\n" + /*ATTENDEE;CN=My Self ;RSVP=TRUE:MAILTO:me@gmail.com\nORGANIZER;CN=Me:MAILTO:me@gmail.com\n*/ "DTSTART:" + dateStartGoogle +"00Z\nRRULE:FREQ=MONTHLY;BYDAY=1SU\nDTEND:" + dateEndGoogle +"00Z\nSUMMARY:" + title + "\nURL:" + link + "\nDESCRIPTION:" + description + "\nTRANSP:OPAQUE\nX-MICROSOFT-CDO-BUSYSTATUS:BUSY\nBEGIN:VALARM\nACTION:DISPLAY\nDESCRIPTION:" + title + "\nTRIGGER:-PT1H\nEND:VALARM\nEND:VEVENT\nEND:VCALENDAR";
-    </script>
     <ul>
         <li class="i-s">
-            <a onclick="window.open('data:text/calendar;charset=utf8,' + escape(icsFile));" target="_blank" style="cursor: pointer;">
+            <a href="https://calendar.google.com/calendar/u/4?cid=cm90YXJhY3RiZXlvbmRmcm9udGllcnNAZ21haWwuY29t" target="_blank">
                 <div class='logo'>
                     <i class='far fa-calendar-plus fa-2x'></i>
                 </div>
                 <p class='title'>
-                    Add Event to Calendar
+                    Add us to your Calendar
                     <span>
-                        (click for .ICS, or choose below)
+                        (Google Agenda)
                     </span>
-                </p>
-            </a>
-        </li>
-    </ul>
-    <ul>
-        <li class="i-v" style="margin: 0 8px 8px;">
-            <a onclick="window.open(urlGoogle);" target="_blank">
-                <p class='title' style="margin: 10px; cursor: pointer;">
-                    Google
-                </p>
-            </a>
-        </li>
-        <li class="i-v" style="margin: 0 8px 8px;">
-            <a onclick="window.open(urlOutlook);" target="_blank">
-                <p class='title' style="margin: 10px; cursor: pointer;">
-                    Outlook
-                </p>
-            </a>
-        </li>
-        <li class="i-v" style="margin: 0 8px 8px;">
-            <a onclick="window.open(urlOffice);" target="_blank">
-                <p class='title' style="margin: 10px; cursor: pointer;">
-                    Office 365
                 </p>
             </a>
         </li>
