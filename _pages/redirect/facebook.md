@@ -2,5 +2,5 @@
 layout: redirect
 title: Facebook
 permalink: /facebook
-redirect: "https://www.facebook.com/www.iaco.io"
+redirect: "https://fb.com/rotaract.eclub.bf"
 ---
