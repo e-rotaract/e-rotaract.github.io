@@ -36,7 +36,7 @@ permalink: "/guardian-protege"
     <br>
     <ul>
         <li class="i-s shake">
-            <a target="_blank" href="https://univ-grenoble-alpes-fr.zoom.us/j/93915103056?pwd=VXl2dEVCd1dNUUhqNFd6Mk9nYmZTQT09"><!--https://meet.google.com/vue-vhfn-tec-->
+            <a href>
                 <div class='logo'>
                     <i class='fas fa-laptop fa-2x'></i>
                 </div>
@@ -62,7 +62,7 @@ permalink: "/guardian-protege"
                         Rudolph !Santa !Nicholas (the elf)
 
                         # You can also cheat a bit and force someone to be paired with another
-                        Nicholas (the saint) =Nicholas (the elf)
+                        Nicholas (the saint) = Nicholas (the elf)
 
                         ...
                     </script>
