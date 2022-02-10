@@ -21,5 +21,4 @@ group :jekyll_plugins do
     gem "nokogiri", ">= 1.11.4"
     gem "kramdown", ">= 2.3.1"
     gem 'rouge'
-    gem "nokogiri", ">= 1.11.0"
 end
