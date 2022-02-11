@@ -199,7 +199,13 @@ permalink: "/guardian-protege"
                     for(let i=0; i < v.length; i+=5) {
                         v = cypherCharAt(v, i, dict[v[i]]);
                     }
-                    document.getElementById("result").innerHTML += k + ":<br><input type='text' value='" + url1 + k + url2 + v + "'><br><br>";
+
+                    if(getRandomInt(0, 1) == 0) {
+                        document.getElementById("result").innerHTML = k + ":<br><input type='text' value='" + url1 + k + url2 + v + "'><br><br>" + document.getElementById("result").innerHTML;
+                    } else {
+                        document.getElementById("result").innerHTML += k + ":<br><input type='text' value='" + url1 + k + url2 + v + "'><br><br>";
+                    }
+                    
                 });
             } else {
                 pairings.forEach((k, v) => document.getElementById("result").innerHTML += k + " -> " + v + "<br><br>");
