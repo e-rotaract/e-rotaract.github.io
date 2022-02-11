@@ -191,7 +191,7 @@ permalink: "/guardian-protege"
             document.getElementById("result").innerHTML = "";
             
             var url1 = "https://e-rotaract.com/guardian-protege?guardian=";
-            var url2 = "?protege=";
+            var url2 = "&protege=";
 
             if(document.getElementById("secret").checked) {
                 pairings.forEach((k, v) => {
