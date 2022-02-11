@@ -11,21 +11,13 @@ permalink: "/guardian-protege"
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>e-Rotaract Guardian-Protégé Generator</title>
-    <link rel="stylesheet" href="/config/mini.css">
+    <link rel="stylesheet" href="config/mini.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-    <style>
-        @font-face { font-family: linja; src: url('../assets/fonts/linja-pona-4.9.otf'); } 
-    </style>
-
-    <script src="/guardian-protege/vendors/Lodash-3.10.1.js"></script>
-    <script src="/guardian-protege/vendors/Cryptojs.aes-3.1.2.js"></script>
-
-    <script src="/guardian-protege/SecretSanta.js"></script>
 </head>
 <body class="en" tabIndex=0>
     <div class="author-photo">
         <a class="js-scroll-trigger" href="https://www.instagram.com/rotaract_eclub">
-            <img src="/assets/images/rac-e-club-logo.jpeg">
+            <img src="assets/images/rac-e-club-logo.jpeg">
             <br>
             e-Rotaract Beyond Frontiers
             <br>
@@ -34,55 +26,185 @@ permalink: "/guardian-protege"
         </a>
     </div>
     <br>
+    <ul id="form">
+        <li class="i-s">
+            <div class='logo'>
+                <i class='fas fa-list fa-2x'></i>
+            </div>
+            <p class='title'>
+                    <textarea id="input" class="input" autofocus style="height: 100px;"></textarea>
+                    <br>
+                    <input type="checkbox" id="secret" name="secret" value="Secret">
+                    <label for="secret"> is it secret?</label>
+            </p>
+        </li>
+    </ul>
     <ul>
-        <li class="i-s shake">
-            <a href>
-                <div class='logo'>
-                    <i class='fas fa-laptop fa-2x'></i>
-                </div>
-                <p class='title'>
-                    <form id="form" class="part">
-                        <textarea id="input" class="input" autofocus></textarea>
-                        <button type="submit" class="generate">Generate your pairings</button>
-                        <div id="result" class="result none"></div>
-                    </form>
-                    <script id="input-placeholder" type="text/placeholder">
-                        # You can add a user by adding a line
-                        Santa
-
-                        # You can add some details if you want to, using parentheses after the name
-                        Nicholas (the elf)
-
-                        # You can prevent someone from being paired with someone else
-                        Maël !Aurélie
-                        Aurélie !Maël
-
-                        # You can also exclude someone from being paired with multiple people
-                        # Careful: too many exclusion rules can make your secret santa less interesting!
-                        Rudolph !Santa !Nicholas (the elf)
-
-                        # You can also cheat a bit and force someone to be paired with another
-                        Nicholas (the saint) = Nicholas (the elf)
-
-                        ...
-                    </script>
-                </p>
-            </a>
+        <li class="i-s" onclick="generate()">
+            <div class='logo'>
+                <i class='fas fa-dice fa-2x'></i>
+            </div>
+            <p class='title'>
+                    Generate!
+            </p>
         </li>
     </ul>
     <ul>
         <li class="i-s">
-            <a target="_blank" href="https://forms.gle/8U4qf5KGMozELFnY7">
-                <div class="logo" style="font-family: linja; font-size: 46px; overflow: hidden;">poki-toki</div>
-                <p class="title">
-                    Anonymous Form
-                    <span>
-                        (poki-toki: communication box)
-                    </span>
-                </p>
-            </a>
+            <div class='logo'>
+                <i class='far fa-user-friends fa-2x'></i>
+            </div>
+            <p class='title' id="result">
+                    Result...
+            </p>
         </li>
     </ul>
+    <script>
+        var dict = {
+            "a": "9",
+            "b": "8",
+            "c": "7",
+            "d": "6",
+            "e": "5",
+            "f": "4",
+            "g": "3",
+            "h": "2",
+            "i": "1",
+            "j": "0",
+            "k": "z",
+            "l": "y",
+            "m": "x",
+            "n": "w",
+            "o": "v",
+            "p": "u",
+            "q": "t",
+            "r": "s",
+            "s": "r",
+            "t": "q",
+            "u": "p",
+            "v": "o",
+            "w": "n",
+            "x": "m",
+            "y": "l",
+            "z": "k",
+            "0": "j",
+            "1": "i",
+            "2": "h",
+            "3": "g",
+            "4": "f",
+            "5": "e",
+            "6": "d",
+            "7": "c",
+            "8": "b",
+            "9": "a"
+        }
+
+        var vars = {};
+        window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+
+        if(vars["guardian"] != null) {
+            document.getElementById("form").style.display = "none";
+            document.getElementById("result").innerHTML = "Guradian: " + vars["guardian"] + "<br>Protégé: " + decypherString(vars["protege"]);
+        }
+        
+        function arrayRemove(arr, value) {     
+            return arr.filter(function(ele) { 
+                return ele != value;
+            });
+        }
+
+        function getRandomInt(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function setCharAt(str, index, chr) {
+            if(index > str.length-1) return str;
+            return str.substring(0,index) + chr + str.substring(index+1);
+        }
+
+        function getKeyByValue(object, value) {
+            return Object.keys(object).find(key => object[key] === value);
+        }
+
+        function cypherCharAt(str, index, chr) {
+            if(index > str.length-1) return str;
+
+            var randomNum = getRandomInt(10, 99).toString();
+            for(let i=0; i < randomNum.length; i++) {
+                randomNum = setCharAt(randomNum, i, dict[randomNum[i]]);
+            }
+
+            var randomNum2 = getRandomInt(10, 99).toString();
+            for(let i=0; i < randomNum2.length; i++) {
+                randomNum2 = setCharAt(randomNum2, i, dict[randomNum2[i]]);
+            }
+
+            return str.substring(0,index) + randomNum + chr + randomNum2 + str.substring(index+1);
+        }
+
+        function decypherString(str) {
+            var name = "";
+            for(let i=2; i < str.length; i+=5) {
+                name += getKeyByValue(dict, str[i]);
+            }
+            return name;
+        }
+
+        function generate() {
+            var names = document.getElementById("input").value;
+            names = names.trim().split("\n");
+            for(let i=0; i < names.length; i++) {
+                names[i] = names[i].toLowerCase();
+                names[i] = names[i].normalize("NFD").replace(/\p{Diacritic}/gu, "")
+            }
+
+            var arrayNumbers = [];
+            for (let i = 0; i < names.length; i++) {
+                arrayNumbers.push(i);
+            }
+            
+            var initialName = names[0];
+            var curPos = 0;
+            var curName = names[0];
+            arrayNumbers = arrayRemove(arrayNumbers, curPos);
+            names = arrayRemove(names, curName);
+            
+            let size = arrayNumbers.length;
+            pairings = new Map();
+
+            for(let i=0; i < size; i++) {
+                var nextPos = getRandomInt(0, arrayNumbers.length-1);
+                pairings.set(curName, names[nextPos]);
+
+                curPos = nextPos;
+                curName = names[curPos];
+
+                arrayNumbers = arrayNumbers.splice(curPos, 1);
+                names = arrayRemove(names, curName);
+            }
+            pairings.set(curName, initialName);
+
+            document.getElementById("result").innerHTML = "";
+            
+            var url1 = "https://e-rotaract.com/guardian-protege?guardian=";
+            var url2 = "?protege=";
+
+            if(document.getElementById("secret").checked) {
+                pairings.forEach((k, v) => {
+                    for(let i=0; i < v.length; i+=5) {
+                        v = cypherCharAt(v, i, dict[v[i]]);
+                    }
+                    document.getElementById("result").innerHTML += k + ":<br><input type='text' value='" + url1 + k + url2 + v + "'><br><br>";
+                });
+            } else {
+                pairings.forEach((k, v) => document.getElementById("result").innerHTML += k + " -> " + v + "<br><br>");
+            }
+        }
+    </script>
     <br><br><br>
     <hr style="width: 100px;">
     <br><br><br>
