@@ -155,48 +155,23 @@ permalink: "/guardian-protege"
             return name;
         }
 
-        function shuffleArray(array) {
-            for (let i = array.length - 1; i > 0; i--) {
-                const j = Math.floor(Math.random() * (i + 1));
-                [array[i], array[j]] = [array[j], array[i]];
+        function shuffleArray(a) {
+            var j, x, i;
+            for (i = a.length - 1; i > 0; i--) {
+                j = Math.floor(Math.random() * (i + 1));
+                x = a[i];
+                a[i] = a[j];
+                a[j] = x;
             }
+            return a;
         }
 
         function generate() {
             var names = document.getElementById("input").value;
-            names = names.trim().split("\n");
-            for(let i=0; i < names.length; i++) {
-                names[i] = names[i].toLowerCase();
-                names[i] = names[i].normalize("NFD").replace(/\p{Diacritic}/gu, "")
-            }
-
-            // var arrayNumbers = [];
-            // for (let i = 0; i < names.length; i++) {
-            //     arrayNumbers.push(i);
-            // }
-            
-            // var initialName = names[0];
-            // var curPos = 0;
-            // var curName = names[0];
-            // arrayNumbers = arrayRemove(arrayNumbers, curPos);
-            // names = arrayRemove(names, curName);
-            
-            // let size = arrayNumbers.length;
-            pairings = new Map();
-
-            // for(let i=0; i < size; i++) {
-            //     var nextPos = getRandomInt(0, arrayNumbers.length-1);
-            //     pairings.set(curName, names[nextPos]);
-
-            //     curPos = nextPos;
-            //     curName = names[curPos];
-
-            //     arrayNumbers = arrayNumbers.splice(curPos, 1);
-            //     names = arrayRemove(names, curName);
-            // }
-            // pairings.set(curName, initialName);
-
+            names = names.toLowerCase().normalize("NFD").replace(/\p{Diacritic}/gu, "").trim().split("\n");
             names = shuffleArray(names);
+            
+            pairings = new Map();
             for(let i=0; i < names.length; i++) {
                 pairings.set(names[i], names[(i+1)%names.length]);
             }
