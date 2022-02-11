@@ -39,7 +39,7 @@ permalink: "/guardian-protege"
             </p>
         </li>
     </ul>
-    <ul>
+    <ul id="generate">
         <li class="i-s" onclick="generate()">
             <div class='logo'>
                 <i class='fas fa-dice fa-2x'></i>
@@ -106,6 +106,7 @@ permalink: "/guardian-protege"
 
         if(vars["guardian"] != null) {
             document.getElementById("form").style.display = "none";
+            document.getElementById("generate").style.display = "none";
             document.getElementById("result").innerHTML = "Guradian: " + vars["guardian"] + "<br>Protégé: " + decypherString(vars["protege"]);
         }
         
