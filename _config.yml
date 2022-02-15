@@ -1,7 +1,7 @@
 # Site
-name: "IΛCO VIVΛCI"
-title: "IACO VIVACI"
-description: "Build YOU."
+name: "e-Rotaract Beyond Frontiers"
+title: "e-Rotaract Beyond Frontiers"
+description: "e-Rotaract Beyond Frontiers"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
@@ -15,13 +15,13 @@ future: false
 # Authors
 authors:
   iaco:
-    name: IΛCO VIVΛCI
-    display_name: IΛCO VIVΛCI
+    name: e-Rotaract Beyond Frontiers
+    display_name: e-Rotaract Beyond Frontiers
     avatar: 'assets/images/avatar.png'
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: hi@iaco.mem
-    web: https://iaco.me
-    twitter: https://iaco.me/youtube
+    web: https://e-rotaract.com
+    twitter: https://e-rotaract.com
     description: "I Care for Life"
 
 # Plugins
