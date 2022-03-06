@@ -26,7 +26,7 @@
     <!-- script
     ================================================== -->
     <script src="{{ site.baseurl }}/assets/js/modernizr.js"></script>
-    <!-- <script src="{{ site.baseurl }}/assets/js/pace.min.js"></script> -->
+    <script src="{{ site.baseurl }}/assets/js/pace.min.js"></script>
 
     <!-- favicons
     ================================================== -->
@@ -184,18 +184,8 @@
                 </div>
                 {% endif %}
 
-                <iframe src="https://iaco.io"></iframe>
-
                 <div class="section-intro">
                     {{ content }}
-
-                    <h2></h2>
-                    <script>
-                        // var i, list = document.querySelectorAll("#main .section-intro p, #main .section-intro h1, #main .section-intro h2, #main .section-intro img, #main .section-intro li, #main .section-intro blockquote");
-                        // for (i = 0; i < list.length; ++i) {
-                        //     list[i].classList.add('animate-this');
-                        // }
-                    </script>
                 </div>
                 <!-- <div class="section-intro">
                     <h3>
@@ -1022,12 +1012,18 @@
     <!-- <div id="loader"></div> -->
     <!-- </div> -->
 
+    <script>
+        var i, list = document.querySelectorAll("blockquote, h1, h2, h3, h4, h5, p, a, li, img, .timeline-block, .item-wrap, .form-field, .video-wrapper");
+        for (i = 0; i < list.length; ++i) {
+            list[i].classList.add('animate-this');
+        }
+    </script>
+
     <!-- Java Script
    ================================================== -->
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
-
 </body>
 
 </html>
