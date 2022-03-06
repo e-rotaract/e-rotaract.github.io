@@ -324,9 +324,9 @@ permalink: /speakeat
     <br>
     <br>
 
-    <script src="../config/jquery/jquery.min.js"></script>
-    <script src="../config/jquery-easing/jquery.easing.min.js"></script>
-    <script src="../config/grayscale.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.easing.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/grayscale.js"></script>
 </body>
 
 </html>
