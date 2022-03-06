@@ -66,25 +66,25 @@
             <h3>{{ site.name }}</h3>
 
             <ul class="nav-list">
-                {% if page.site-menu %}
-                    {% for item in site.menu %}
+                {% if page.site-links %}
+                    {% for item in site.links %}
                     <li>
-                        <a href="{{ item.url | liquify }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} {% if item.newtab %}target="_blank" {% endif %}>
+                        <a href="{{ item.url }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} {% if item.newtab %}target="_blank" {% endif %}>
                             <i class="{{ item.icon }}"></i> {{ item.name }}
                         </a>
                     </li>
                     {% endfor %}
-                    {% if page.menu.size > 0 %}
+                    {% if page.links.size > 0 %}
                     <li>
                         <hr>
                     </li>
                     {% endif %}
                 {% endif %}
 
-                {% for item in page.menu %}
+                {% for item in page.links %}
                     {% if item.show-in-menu %}
                     <li>
-                        <a href="{{ item.url | liquify }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} {% if item.newtab %}target="_blank" {% endif %}>
+                        <a href="{{ item.url }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} {% if item.newtab %}target="_blank" {% endif %}>
                             <i class="{{ item.icon }}"></i> {{ item.name }}
                         </a>
                     </li>
@@ -140,12 +140,12 @@
                             </h2>
 
                             <ul class="home-section-links">
-                                {% for item in page.menu %}
+                                {% for item in page.links %}
                                 {% if item.hr %}
                                 {% else %}
                                     {% if item.show-in-intro %}
                                     <li class="animate-intro">
-                                        <a href="{{ item.url | liquify }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} class="text" {% if item.newtab %}target="_blank" {% endif %}>
+                                        <a href="{{ item.url }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} class="text" {% if item.newtab %}target="_blank" {% endif %}>
                                             {{ item.name }}
                                             <span><i class="{{ item.icon }}"></i></span>
                                         </a>

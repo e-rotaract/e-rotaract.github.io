@@ -20,7 +20,7 @@ permalink: "/internal"
 <body class="en" tabIndex=0>
     <div class="author-photo">
         <a class="js-scroll-trigger" href="https://www.instagram.com/rotaract_eclub">
-            <img src="{{ site.baseurl }}/assets/images/rotaract-logo-pink.jpeg">
+            <img src="{{ site.baseurl }}/assets/images/rotaract-logo-pink.png">
             <br>
             @rotaract_eclub
             <br>
@@ -31,7 +31,7 @@ permalink: "/internal"
     <br>
     <ul>
         <li class="i-s shake">
-            <a target="_blank" href="https://univ-grenoble-alpes-fr.zoom.us/j/93915103056?pwd=VXl2dEVCd1dNUUhqNFd6Mk9nYmZTQT09"><!--https://meet.google.com/vue-vhfn-tec-->
+            <a target="_blank" href='{%for i in site.links%}{%if i.id=="meeting"%}{{i.url}}{%break%}{%endif%}{%endfor%}'>
                 <div class='logo'>
                     <i class='fas fa-laptop fa-2x'></i>
                 </div>

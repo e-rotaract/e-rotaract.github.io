@@ -9,8 +9,8 @@ pretitle: Join us, together we can
 title: Make our world a better&nbsp;place!
 description: We are e-Rotaract Beyond Frontiers,<br>And we are here to hear your idea, let's&nbsp;do&nbsp;it!
 
-site-menu: true     # show the default site menu
-menu:
+site-links: true     # show the default site menu
+links:
     - name: "Join us!"
       icon: "fa fa-hands-helping"
       url: "#join"
