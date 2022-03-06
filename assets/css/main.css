@@ -1611,7 +1611,7 @@ header .header-logo a {
 #menu-nav-wrap .nav-list li {
     padding-left: 0;
     border-bottom: 1px dotted rgba(255, 255, 255, 0.03);
-    padding-bottom: 2rem;
+    padding: 1rem 0;
 }
 
 #menu-nav-wrap .nav-list li:first-child {
