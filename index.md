@@ -11,7 +11,7 @@ description: We are e-Rotaract Beyond Frontiers,<br>And we are here to hear your
 
 left-link:
   url: "https://e-rotaract.com/speakeat"
-  cta: "SpeakEat"
+  cta: "Come to our SpeakEat"
   title: "A moment to share knowledge and experiences!"
   image: "assets/images/speakeat-logo-only.jpg"
 
@@ -43,7 +43,9 @@ links:
       show-in-menu: true
 ---
 
-We are an international group of friends , members of the global network of volunteering associations from Rotary International!
+We are an international group of friends, and we share one goal: do our best to help the world, because we believe together we can go further.
+
+Our club is part of the global network of volunteering associations from Rotary International, and everyone is more than welcome to join.
 
 
 

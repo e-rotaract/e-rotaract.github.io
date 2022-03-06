@@ -231,7 +231,7 @@
                 {% endif %}
                 {% assign left-cta = "READ MORE" %}
             {% endif %}
-            <a href="{{ site.baseurl }}{{ left.url }}">
+            <a href="{{ site.baseurl }}{{ left.url }}" {% assign val = left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
                 <div class="more-bg-1" style="background-image: url('{{ left.image }}');"></div>
                 <div class="more-1">
                     <div class="intro">
@@ -254,7 +254,7 @@
                 {% endif %}
                 {% assign right-cta = "FEATURED" %}
             {% endif %}
-            <a href="{{ site.baseurl }}{{ right.url }}">
+            <a href="{{ site.baseurl }}{{ right.url }}" {% assign val = right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
                 <div class="more-bg-2" style="background-image: url('{{ right.image }}');"></div>
                 <div class="more-2">
                     <div class="intro">
