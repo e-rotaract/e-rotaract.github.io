@@ -244,7 +244,7 @@
 	* ------------------------------------------------------- */
 	var ssIntroAnimation = function() {
 
-		$WIN.on('load', function() {
+		// $WIN.on('load', function() {
 
 	     	if (!$("html").hasClass('no-cssanimations')) {
 	     		setTimeout(function(){
@@ -262,7 +262,7 @@
 					});
 				}, 100);
 	     	}
-		});
+		// });
 
 	};
 
