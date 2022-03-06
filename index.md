@@ -57,9 +57,11 @@ Let's be social, find us online and connect with us!
 And of course, we would love to hear you, so feel free to send us a message!
 
 <p style="text-align: center;">
-  <a href="https://instagram.com/rotaract_eclub" target="_blank" class="button button-primary full-width large">
-    <i class="fab fa-instagram fa-lg"></i> Follow us and send a message @rotaract_eclub
+  <a href="https://instagram.com/rotaract_eclub" target="_blank" class="button button-primary">
+    <i class="fab fa-instagram fa-lg"></i> Follow us and<br> send a message @rotaract_eclub
   </a>
+</p>
+<p style="text-align: center;">
   <a href="mailto:hi@e-rotaract.com" target="_blank" class="button">
     <i class="fa fa-envelope fa-lg"></i> E-mail us hi@e-rotaract.com
   </a>

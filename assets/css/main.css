@@ -846,13 +846,13 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-    display: inline-block;
+    display: inline-table;
     font-family: "noto-bold", sans-serif;
     font-size: 1.4rem;
     letter-spacing: .1rem;
     height: 5.4rem;
-    line-height: 5.4rem;
-    padding: 0 3rem;
+    /*line-height: 5.4rem;*/
+    padding: 1.2rem 3rem;
     margin: 0 .3rem 1.2rem 0;
     background: #35294f;
     color: #FFFFFF;
