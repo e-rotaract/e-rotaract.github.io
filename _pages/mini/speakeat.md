@@ -79,7 +79,7 @@ permalink: /speakeat
 <body class="en">
     <div class="author-photo">
         <a class="js-scroll-trigger" href="https://instagram.com/speak.eat">
-            <img src="../../assets/images/speakeat-logo.png">
+            <img src="{{ site.baseurl }}/assets/images/speakeat-logo.png">
             <br>
             @speak.eat
             <br>
