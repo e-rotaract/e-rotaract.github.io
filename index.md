@@ -9,6 +9,18 @@ pretitle: Join us, together we can
 title: Make our world a better&nbsp;place!
 description: We are e-Rotaract Beyond Frontiers,<br>And we are here to hear your idea, let's&nbsp;do&nbsp;it!
 
+left-link:
+  url: "https://e-rotaract.com/speakeat"
+  cta: "SpeakEat"
+  title: "A moment to share knowledge and experiences!"
+  image: "assets/images/speakeat-logo-only.jpg"
+
+right-link:
+  url: "#social"
+  cta: "We are Rotaract"
+  title: "Join us today!"
+  image: "assets/images/rotaract-logo-pink.png"
+
 site-links: true     # show the default site menu
 links:
     - name: "Join us!"
@@ -31,23 +43,59 @@ links:
       show-in-menu: true
 ---
 
-We were born in 2021,
+We are an international group of friends , members of the global network of volunteering associations from Rotary International!
+
+
+
+# Let's connect! {#social}
+
+![]({{site.baseurl}}/assets/images/friends-camping.jpg "Let's connect!")
+
+Let's be social, find us online and connect with us!
+And of course, we would love to hear you, so feel free to send us a message!
+
+<p style="text-align: center;">
+  <a href="https://instagram.com/rotaract_eclub" target="_blank" class="button button-primary full-width large">
+    <i class="fab fa-instagram fa-lg"></i> Follow us and send a message @rotaract_eclub
+  </a>
+  <a href="mailto:hi@e-rotaract.com" target="_blank" class="button">
+    <i class="fa fa-envelope fa-lg"></i> E-mail us hi@e-rotaract.com
+  </a>
+  <!-- <a href="https://chat.whatsapp.com/INkMh1VrXbr3H77piY4Lrh" target="_blank" class="button button-success">
+    <i class="fab fa-whatsapp fa-lg"></i> Join our WhatsApp
+  </a> -->
+</p>
+
+
+
+# Let's make a partnership! {#partnership}
+
+![]({{site.baseurl}}/assets/images/friends-toast.jpg "Let's make a partnership!")
+
+We work on a variety of projects and causes!
+<br>
+If you have an idea, we can work together: send us a message, we are here to help make our world a better place for everyone.
+
+<p style="text-align: center;">
+  <a href="#social" class="button smoothscroll">
+    <i class="fa fa-user-friends fa-lg"></i> Tell us your idea!
+  </a>
+</p>
+
 
 
 # Come and join us! {#join}
 
 ![]({{site.baseurl}}/assets/images/hands-heart.jpg "Join us!")
 
-Everyone is welcome!
-We have at least one meeting per month 
+You and your friends are more than welcome!
+<br>
+We meet online at least once per month, and we can also meet face-to-face if our members live close by!
+<br>
+If you are interested in joining us, the best is to send us a message:
 
-
-# Let's connect! {#social}
-
-<i class="fab fa-instagram"></i> [rotaract_eclub](https://instagram.com/rotaract_eclub){:target="_blank"}
-
-<i class="fa fa-envelope"></i> [hi@e-rotaract.com](mailto:hi@e-rotaract.com)
-
-
-
-# Let's make a partnership! {#partnership}
+<p style="text-align: center;">
+  <a href="#social" class="button smoothscroll">
+    <i class="fa fa-user-friends fa-lg"></i> Send us a message!
+  </a>
+</p>
