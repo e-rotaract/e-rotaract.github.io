@@ -82,7 +82,7 @@ If you have an idea, we can work together: send us a message, we are here to hel
 
 <p style="text-align: center;">
   <a href="#social" class="button smoothscroll">
-    <i class="fa fa-user-friends fa-lg"></i> Tell us your idea!
+    <i class="fa fa-hands-helping fa-lg"></i> Tell us your idea!
   </a>
 </p>
 
