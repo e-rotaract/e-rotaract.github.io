@@ -63,7 +63,7 @@
 
             <a href="#0" class="close-button" title="close"><span>Close</span></a>
 
-            <h3>{{ site.name }}</h3>
+            <h3><a href="{{ site.baseurl }}/" title="Homepage">{{ site.name }}</a></h3>
 
             <ul class="nav-list">
                 {% if page.site-links %}
@@ -121,7 +121,9 @@
                                 <center>
                                 {% endif %}
 
-                                <img class="animate-intro" src="{{ site.baseurl }}/{{ page.logo }}" width="150px" />
+                                <a href="{{ site.baseurl }}/" title="Homepage">
+                                    <img class="animate-intro" src="{{ site.baseurl }}/{{ page.logo }}" width="150px" />
+                                </a>
                                 <br><br>
 
                                 {% if page.logo-center %}
