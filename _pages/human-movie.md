@@ -58,6 +58,6 @@ Spanning dozens and dozens of countries and languages, Human is a mission to exp
     <i class="fa fa-user-friends fa-lg"></i> Vol. 2
   </a>
   <a href="https://www.youtube.com/watch?v=w0653vsLSqE&list=PLEgA6bEeal3yh19xRhfVt5q5xBohcPYz7&index=4" target="_blank" class="button button-success">
-    <i class="fab fa-users fa-lg"></i> Vol. 3
+    <i class="fa fa-users fa-lg"></i> Vol. 3
   </a>
 </p>
