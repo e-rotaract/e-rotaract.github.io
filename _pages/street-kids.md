@@ -17,7 +17,7 @@ left-link:
   image: "assets/images/rotaract-logo-pink.png"
 
 right-link:
-  url: "https://instagram.com/rotaract_eclub"
+  url: "https://www.instagram.com/rotaractgeneveinternational"
   cta: "Follow us"
   title: "Get to know us on Instagram!"
   image: "assets/images/instagram-logo.jpg"
