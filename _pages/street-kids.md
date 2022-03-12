@@ -65,9 +65,8 @@ We have weekly videocalls, every Sunday:
   </a>
 </p>
 
-Meeting ID: 948 8913 6636
-
-Meeting password: Project
+- Meeting ID: 948 8913 6636
+- Meeting password: Project
 
 
 
