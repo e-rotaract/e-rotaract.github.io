@@ -60,10 +60,14 @@ We have weekly videocalls, every Sunday:
 - Kenya: at 18:00
 
 <p style="text-align: center;">
-  <a target="_blank" class="button button-primary">
+  <a href="https://univ-grenoble-alpes-fr.zoom.us/j/94889136636?pwd=RFJ5ckdXYmN4RUdsS1REbjgwVlZwZz09" target="_blank" class="button button-primary">
     <i class="fa fa-video fa-lg"></i> Street Kids Videocall
   </a>
 </p>
+
+Meeting ID: 948 8913 6636
+
+Meeting password: Project
 
 
 
