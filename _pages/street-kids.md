@@ -45,20 +45,20 @@ morelinks:
       image: "assets/images/instagram-logo.jpg"
 ---
 
-'Street Kids' is a <b>1 year program for 10 kids</b> from Nairobi/Kenya!
+The 'Street Kids' project is a <b>1 year program for 10 kids</b> from Nairobi/Kenya, inwhich we provide <b>2 meals</b> a day for each kid.
 
-Our project will provide <b>2 meals</b> a day for each kid.
+We keep regular contact with the kids through weekly calls, sharing photos, messages, etc.
 
-We will keep regular contact with them through weekly calls, sharing photos, messages, etc.
+It is a project from Rotaract Genève International and Rotaract Club of Eco Warriors. We believe in making the world better together, so we from e-Rotaract Beyond Frontiers are helping them as we can!
 
 
 
 # Join our videocall {#videocall}
 
 We have weekly videocalls, every Sunday:
-- Western Europe (PT, UK...): at 15:00
-- Central Europe (CH, FR...): at 16:00
-- Kenya: at 18:00
+- Western Europe (PT🇵🇹, UK🇬🇧...): at 15:00
+- Central Europe (CH🇨🇭, FR🇫🇷...): at 16:00
+- Kenya 🇰🇪: at 18:00
 
 <p style="text-align: center;">
   <a href="https://univ-grenoble-alpes-fr.zoom.us/j/94889136636?pwd=RFJ5ckdXYmN4RUdsS1REbjgwVlZwZz09" target="_blank" class="button button-primary">
