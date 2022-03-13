@@ -217,50 +217,68 @@
 
     </section>
 
-    <!-- more
+    <!-- morelinks
    ================================================== -->
-    <section id="more">
+    {% for item in page.morelinks %}
+    <section class="morelinks">
 
         <div class="more-wrap">
-            {% if page.left-link %}
-                {% assign left = page.left-link %}
-                {% assign left-cta = page.left-link.cta %}
+            <a href="{{ site.baseurl }}{{ item.left.url }}" {% assign val = item.left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %} {% if item.left.newtab %}target="_blank"{% endif %}>
+                <div class="more-bg-1" style="background-image: url('{{ item.left.image }}');"></div>
+                <div class="more-1">
+                    <div class="intro">
+                        <h3>{{ item.left.cta }}</h3>
+                        <h4>{{ item.left.title }}</h4>
+                        <!-- <p class="lead">{{ left.description }}</p> -->
+                    </div>
+                </div>
+            </a>
+            <a href="{{ site.baseurl }}{{ item.right.url }}" {% assign val = item.right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %} {% if item.right.newtab %}target="_blank"{% endif %}>
+                <div class="more-bg-2" style="background-image: url('{{ item.right.image }}');"></div>
+                <div class="more-2">
+                    <div class="intro">
+                        <h3>{{ item.right.cta }}</h3>
+                        <h4>{{ item.right.title }}</h4>
+                        <!-- <p class="lead">{{ right.description }}</p> -->
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </section>
+    {% endfor %}
+
+    {% if page.previous or page.next %}
+    <section class="morelinks">
+
+        <div class="more-wrap">
+            {% if page.previous.url %}
+                {% assign left = page.previous %}
             {% else %}
-                {% if page.previous.url %}
-                    {% assign left = page.previous %}
-                {% else %}
-                    {% assign left = site.posts[0] %}
-                {% endif %}
-                {% assign left-cta = "READ MORE" %}
+                {% assign left = site.posts[0] %}
             {% endif %}
             <a href="{{ site.baseurl }}{{ left.url }}" {% assign val = left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
                 <div class="more-bg-1" style="background-image: url('{{ left.image }}');"></div>
                 <div class="more-1">
                     <div class="intro">
-                        <h3>{{ left-cta }}</h3>
+                        <h3>READ MORE</h3>
                         <h4>{{ left.title }}</h4>
                         <!-- <p class="lead">{{ left.description }}</p> -->
                     </div>
                 </div>
             </a>
-            {% if page.right-link %}
-                {% assign right = page.right-link %}
-                {% assign right-cta = page.right-link.cta %}
+            {% if page.next.url %}
+                {% assign right = page.next %}
+            {% elsif page.previous.url == site.posts[1].url %}
+                {% assign right = site.posts[2] %}
             {% else %}
-                {% if page.next.url %}
-                    {% assign right = page.next %}
-                {% elsif page.previous.url == site.posts[1] %}
-                    {% assign right = site.posts[2] %}
-                {% else %}
-                    {% assign right = site.posts[1] %}
-                {% endif %}
-                {% assign right-cta = "FEATURED" %}
+                {% assign right = site.posts[1] %}
             {% endif %}
             <a href="{{ site.baseurl }}{{ right.url }}" {% assign val = right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
                 <div class="more-bg-2" style="background-image: url('{{ right.image }}');"></div>
                 <div class="more-2">
                     <div class="intro">
-                        <h3>{{ right-cta }}</h3>
+                        <h3>FEATURED</h3>
                         <h4>{{ right.title }}</h4>
                         <!-- <p class="lead">{{ right.description }}</p> -->
                     </div>
@@ -269,6 +287,7 @@
         </div>
 
     </section>
+    {% endif %}
 
 
 

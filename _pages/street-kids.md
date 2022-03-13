@@ -9,19 +9,6 @@ pretitle: Help them smile again!
 title: Streek Kids
 description: One Meal A Day for a Kenyan Kid
 
-left-link:
-  url: "https://rotaract-geneve-international.org"
-  newtab: yes
-  cta: "Rotaract Genève International"
-  title: "We are Rotaract!"
-  image: "assets/images/rotaract-logo-pink.png"
-
-right-link:
-  url: "https://www.instagram.com/rotaractgeneveinternational"
-  cta: "Follow us"
-  title: "Get to know us on Instagram!"
-  image: "assets/images/instagram-logo.jpg"
-
 site-links: true     # show the default site menu
 links:
     - name: "Street Kids Videocall"
@@ -42,6 +29,20 @@ links:
       newtab: false
       show-in-intro: true
       show-in-menu: true
+
+morelinks:
+  - left:
+      url: "https://rotaract-geneve-international.org"
+      newtab: true
+      cta: "Rotaract Genève International"
+      title: "We are Rotaract!"
+      image: "assets/images/rotaract-logo-pink.png"
+    right:
+      url: "https://www.instagram.com/rotaractgeneveinternational"
+      newtab: true
+      cta: "Follow us"
+      title: "Get to know us on Instagram!"
+      image: "assets/images/instagram-logo.jpg"
 ---
 
 'Street Kids' is a <b>1 year program for 10 kids</b> from Nairobi/Kenya!

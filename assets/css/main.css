@@ -2169,10 +2169,10 @@ header .header-logo a {
 }
 
 /* ===================================================================
- *  09c. more - (_layout.scss)
+ *  09c. morelinks - (_layout.scss)
  *
  * ------------------------------------------------------------------- */
-#more {
+.morelinks {
     position: relative;
     padding: 5rem 0 5rem;
     background-color: var(--dark);
@@ -2180,11 +2180,11 @@ header .header-logo a {
     height: 28.125vw;
 }
 
-#more h4 {
+.morelinks h4 {
     color: white;
 }
 
-#more h3 {
+.morelinks h3 {
     font-family: "noto-bold", sans-serif;
     font-size: 1.6rem;
     color: white;
@@ -2193,7 +2193,7 @@ header .header-logo a {
     margin: 0 0 0 .3rem;
 }
 
-#more h1 {
+.morelinks h1 {
     font-family: "notos-bold", serif;
     font-size: 3.6rem;
     line-height: 1.455;
@@ -2317,7 +2317,7 @@ header .header-logo a {
 }
 
 @media only screen and (max-width:768px) {
-    #more {
+    .morelinks {
         padding-top: 0;
         height: 112.5vw;
     }

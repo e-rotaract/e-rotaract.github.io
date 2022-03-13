@@ -9,18 +9,6 @@ pretitle: Join us, together we can
 title: Make our world a better&nbsp;place!
 description: We are e-Rotaract Beyond Frontiers,<br>And we are here to hear your idea, let's&nbsp;do&nbsp;it!
 
-left-link:
-  url: "https://e-rotaract.com/speakeat"
-  cta: "Come to our SpeakEat"
-  title: "A moment to share knowledge and experiences!"
-  image: "assets/images/speakeat-logo-only.jpg"
-
-right-link:
-  url: "#social"
-  cta: "We are Rotaract"
-  title: "Join us today!"
-  image: "assets/images/rotaract-logo-pink.png"
-
 site-links: true     # show the default site menu
 links:
     - name: "Join us!"
@@ -41,6 +29,20 @@ links:
       newtab: false
       show-in-intro: true
       show-in-menu: true
+
+morelinks:
+  - left:
+      url: "https://e-rotaract.com/speakeat"
+      newtab: false
+      cta: "Come to our SpeakEat"
+      title: "A moment to share knowledge and experiences!"
+      image: "assets/images/speakeat-logo-only.jpg"
+    right:
+      url: "#social"
+      newtab: false
+      cta: "We are Rotaract"
+      title: "Join us today!"
+      image: "assets/images/rotaract-logo-pink.png"
 ---
 
 We are an international group of friends, and we share one goal: do our best to help the world, because we believe together we can go further.

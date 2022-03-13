@@ -11,18 +11,6 @@ description: A film to help you let go, take a step back, or simply feel connect
 
 youtube: vdb4XGVTHkE
 
-left-link:
-  url: "https://e-rotaract.com/#social"
-  cta: "e-Rotaract Beyond Frontiers"
-  title: "We are Rotaract – Join us today!"
-  image: "assets/images/rotaract-logo-pink.png"
-
-right-link:
-  url: "https://instagram.com/rotaract_eclub"
-  cta: "Follow us"
-  title: "Get to know us on Instagram!"
-  image: "assets/images/instagram-logo.jpg"
-
 site-links: true     # show the default site menu
 links:
     - name: "Volume 1"
@@ -43,6 +31,20 @@ links:
       newtab: false
       show-in-intro: true
       show-in-menu: true
+
+morelinks:
+  - left:
+      url: "https://e-rotaract.com/#social"
+      newtab: false
+      cta: "e-Rotaract Beyond Frontiers"
+      title: "We are Rotaract – Join us today!"
+      image: "assets/images/rotaract-logo-pink.png"
+    right:
+      url: "https://instagram.com/rotaract_eclub"
+      newtab: true
+      cta: "Follow us"
+      title: "Get to know us on Instagram!"
+      image: "assets/images/instagram-logo.jpg"
 ---
 
 
