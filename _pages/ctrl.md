@@ -45,16 +45,30 @@ morelinks:
       image: "assets/images/rotaract-logo-pink.png"
 ---
 
-<ul class="ll">
+<ul class="showcase">
+  <a href="https://iago.me">
+    <li>
+    asdfsadf asdkfsa  jksad fkjsad <br>po
+    </li>
+  </a>
+    <a href="https://e-rotaract.me">
+    <li>
+    IΛCO 🌟 <b id="borndayspassed">_</b><br>
+    IΛCO 🌟 <b id="bornweekspassed">_</b>
+    </li>
+  </a>
+</ul>
+
+<ul class="showcase">
   <li>
-    💪 <span id="gym">_</span><br>
-    🌱 <span id="vegan">_</span><br>
-    😴 <span id="sleepmaster">_</span>
+    💪 <b id="gym">_</b><br>
+    🌱 <b id="vegan">_</b><br>
+    😴 <b id="sleepmaster">_</b>
   </li>
   <li>
-    🐢 <span id="iaco2030">_</span><small> 2030</small><br>
-    🌲 <span id="vivaci2100">_</span><small> 2100</small><br>
-    🔮 <span id="iacovivaci3000">_</span><small> 3000</small>
+    🐢 <b id="iaco2030">_</b><small> 2030</small><br>
+    🌲 <b id="vivaci2100">_</b><small> 2100</small><br>
+    🔮 <b id="iacovivaci3000">_</b><small> 3000</small>
   </li>
 </ul>
 
@@ -64,8 +78,8 @@ morelinks:
     //countUpFromTime(new Date().getFullYear()+"-01-01", 'yeardayspassed', "j", false);
     //countUpFromTime(new Date().getFullYear()+"-12-30", 'yeardaystogo', "j", false);
 
-    //countUpFromTime("1994-02-01", 'borndayspassed', "j");
-    //countUpFromTime("1994-02-01", 'bornweekspassed', "w");
+    countUpFromTime("1994-02-01", 'borndayspassed', "j");
+    countUpFromTime("1994-02-01", 'bornweekspassed', "w");
 
     //countUpFromTime("2018-06-28", 'gym', "j", true);
     countUpFromTime("2022-03-01", 'gym', "j", true);
@@ -100,18 +114,4 @@ morelinks:
     document.getElementById(id).innerHTML = txtVar + "<small>" + type + (date ? " " + txtdate.replaceAll("-", "&#x2011;") : "") + "</small>";
   }
 </script>
-
-
-<ul class="ll">
-  <a href="https://iago.me">
-    <li>
-    asdfsadf asdkfsa  jksad fkjsad <br>po
-    </li>
-  </a>
-    <a href="https://e-rotaract.me">
-    <li>
-    eclub eclub eclub eclub eclub eclub eclub eclub eclub eclub eclub eclub eclub <br>po
-    </li>
-  </a>
-</ul>
 

@@ -960,22 +960,22 @@ input::-moz-focus-inner {
  *  05.2  linklist
  *
  * ------------------------------------------------------------------- */
-ul.ll {
+ul.showcase {
     text-align: center;
     margin: 0;
     padding: 0;
 }
 
-ul.ll small {
+ul.showcase small {
     opacity: 0.7;
     font-family: "noto";
 }
 
-ul.ll br {
+ul.showcase br {
     line-height: 30px;
 }
 
-ul.ll li {
+ul.showcase li {
     line-height: 2.2rem;
     display: inline-table;
     font-family: "noto-bold", sans-serif;
@@ -995,45 +995,45 @@ ul.ll li {
     max-width: 45%;
 }
 
-ul.ll li:hover,
-ul.ll li:focus {
+ul.showcase li:hover,
+ul.showcase li:focus {
     background: #503a7f;
     color: #FFFFFF;
     outline: 0;
 }
 
-ul.ll li.primary {
+ul.showcase li.primary {
     background: #680d2d;
     color: #FFFFFF;
 }
 
-ul.ll li.primary:hover,
-ul.ll li.primary:focus {
+ul.showcase li.primary:hover,
+ul.showcase li.primary:focus {
     background: #c10042;
 }
 
-ul.ll li.success {
+ul.showcase li.success {
     background: #0a4f2e;
     color: #FFFFFF;
 }
 
-ul.ll li.success:hover,
-ul.ll li.success:focus {
+ul.showcase li.success:hover,
+ul.showcase li.success:focus {
     background: #188753;
 }
 
-ul.ll li.full-width {
+ul.showcase li.full-width {
     width: 100%;
     margin-right: 0;
 }
 
-ul.ll li.medium {
+ul.showcase li.medium {
     height: 5.7rem !important;
     line-height: 5.7rem !important;
     padding: 0 1.8rem !important;
 }
 
-ul.ll li.large {
+ul.showcase li.large {
     height: 6rem !important;
     line-height: 6rem !important;
     padding: 0rem 3rem !important;
