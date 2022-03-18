@@ -45,19 +45,6 @@ morelinks:
       image: "assets/images/rotaract-logo-pink.png"
 ---
 
-We are an international group of friends, and we share one goal: do our best to help the world, because we believe together we can go further.
-
-Our club is part of the global network of volunteering associations from Rotary International, and everyone is more than welcome to join.
-
-
-
-# Let's connect! {#social}
-
-![]({{site.baseurl}}/assets/images/friends-camping.jpg "Let's connect!")
-
-Let's be social, find us online and connect with us!
-And of course, we would love to hear you, so feel free to send us a message!
-
 <ul class="ll">
   <li>
     💪 <span id="gym">_</span><br>
@@ -128,48 +115,3 @@ And of course, we would love to hear you, so feel free to send us a message!
   </a>
 </ul>
 
-<p style="text-align: center;">
-  <a href="https://instagram.com/rotaract_eclub" target="_blank" class="button button-primary">
-    <i class="fab fa-instagram fa-lg"></i> Follow us and<br> send a message @rotaract_eclub
-  </a>
-  <a href="mailto:hi@e-rotaract.com" target="_blank" class="button">
-    <i class="fa fa-envelope fa-lg"></i> E-mail us<br>a
-  </a>
-  <!-- <a href="https://chat.whatsapp.com/INkMh1VrXbr3H77piY4Lrh" target="_blank" class="button button-success">
-    <i class="fab fa-whatsapp fa-lg"></i> Join our WhatsApp
-  </a> -->
-</p>
-
-
-
-# Let's make a partnership! {#partnership}
-
-![]({{site.baseurl}}/assets/images/friends-toast.jpg "Let's make a partnership!")
-
-We work on a variety of projects and causes!
-<br>
-If you have an idea, we can work together: send us a message, we are here to help make our world a better place for everyone.
-
-<p style="text-align: center;">
-  <a href="#social" class="button smoothscroll">
-    <i class="fa fa-lightbulb fa-lg"></i> Tell us your idea!
-  </a>
-</p>
-
-
-
-# Come and join us! {#join}
-
-![]({{site.baseurl}}/assets/images/hands-heart.jpg "Join us!")
-
-You and your friends are more than welcome!
-<br>
-We meet online at least once per month, and we can also meet face-to-face if our members live close by!
-<br>
-If you are interested in joining us, the best is to send us a message:
-
-<p style="text-align: center;">
-  <a href="#social" class="button smoothscroll">
-    <i class="fa fa-user-friends fa-lg"></i> Send us a message!
-  </a>
-</p>
