@@ -46,9 +46,14 @@
    ================================================== -->
     <header>
 
+        {% if page.logo and page.logo.position == "top" %}
         <div class="header-logo">
-            <a href="{{ site.baseurl }}/">{{ site.name }}</a>
+            <a href="{{ site.baseurl }}/"
+                style="background-image: url('{{ site.baseurl }}/{{ page.logo.url }}');">
+                {{ site.name }}
+            </a>
         </div>
+        {% endif %}
 
         {% if page.hide-menu != true %}
         <a id="header-menu-trigger" href="#0">
@@ -114,17 +119,17 @@
                     <div class="col-twelve">
                         <div class="home-bottom-text">
 
-                            {% if page.logo %}
-                                {% if page.logo-center %}
+                            {% if page.logo and page.logo.position != "top" %}
+                                {% if page.logo.position == "center" %}
                                 <center>
                                 {% endif %}
 
                                 <a href="{{ site.baseurl }}/" title="Homepage">
-                                    <img class="animate-intro" src="{{ site.baseurl }}/{{ page.logo }}" width="150px" />
+                                    <img class="animate-intro" src="{{ site.baseurl }}/{{ page.logo.url }}" width="150px" />
                                 </a>
                                 <br><br>
 
-                                {% if page.logo-center %}
+                                {% if page.logo.position == "center" %}
                                 </center>
                                 {% endif %}
                             {% endif %}
@@ -289,7 +294,7 @@
     {% endif %}
 
 
-
+    {% if page.hide-footer != true %}
     <!-- footer
    ================================================== -->
     <footer>
@@ -297,11 +302,13 @@
 
             <div class="col-twelve tab-full social">
                 <ul class="footer-social">
+                    {% for item in page.footer %}
                     <li>
-                        <a target="_blank" href="https://instagram.com/rotaract_eclub" title="Instagram">
-                            <i class="fab fa-instagram"></i> rotaract_eclub
+                        <a {% if item.newtab %}target="_blank"{% endif %} href="{{ item.url }}" title="Instagram">
+                            {{ item.icon }} {{ item.text }}
                         </a>
                     </li>
+                    {% endfor %}
                 </ul>
             </div>
 
@@ -319,7 +326,11 @@
 
         </div> <!-- end row -->
     </footer>
+    {% endif %}
 
+    {% if page.hide-go-top != true %}
+    <!-- go-top
+   ================================================== -->
     <div id="go-top">
         <div id="dark-bg"></div>
         <script>
@@ -370,6 +381,7 @@
             how it will display if the text is really really big enourmously big hahahah
         </div>
     </div>
+    {% endif %}
 
     <script>
         var i, list = document.querySelectorAll("blockquote, h1, h2, h3, h4, h5, p, a, li, img, hr, .timeline-block, .item-wrap, .form-field, .video-wrapper");

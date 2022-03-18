@@ -3,8 +3,10 @@ layout: default
 permalink: "/"
 author: eclub
 
-logo: "assets/images/rotaract-logo-white.png"
-logo-center: true
+logo:
+  url: "assets/images/rotaract-logo-white.png"
+  position: "center"
+
 pretitle: Join us, together we can
 title: Make our world a better&nbsp;place!
 description: We are e-Rotaract Beyond Frontiers,<br>And we are here to hear your idea, let's&nbsp;do&nbsp;it!
@@ -43,6 +45,13 @@ morelinks:
       cta: "We are Rotaract"
       title: "Join us today!"
       image: "assets/images/rotaract-logo-pink.png"
+
+footer:
+  - icon: "<i class='fab fa-instagram'></i>"
+    text: "rotaract_eclub"
+    url: "https://instagram.com/rotaract_eclub"
+    newtab: true
+
 ---
 
 We are an international group of friends, and we share one goal: do our best to help the world, because we believe together we can go further.

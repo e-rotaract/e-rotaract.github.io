@@ -57,58 +57,50 @@
 @font-face {
     font-family: "noto";
     src: url("../fonts/notosans/NotoSans-Medium.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
 }
 
 @font-face {
-    font-family: "noto-bold";
+    font-family: "noto";
     src: url("../fonts/notosans/NotoSans-Bold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 @font-face {
-    font-family: "noto-italic";
+    font-family: "noto";
     src: url("../fonts/notosans/NotoSans-Italic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face {
-    font-family: "noto-bold-italic";
+    font-family: "noto";
     src: url("../fonts/notosans/NotoSans-BoldItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-style: italic;
+    font-weight: bold;
 }
 
 /* noto serif */
 @font-face {
     font-family: "notos";
-    src: url("../fonts/notoserif/NotoSerif-Regular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    src: url("../fonts/notoserif/NotoSerif-Regular.ttf") format("truetype") ;
 }
 
 @font-face {
     font-family: "notos-bold";
     src: url("../fonts/notoserif/NotoSerif-Bold.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
 }
 
 @font-face {
-    font-family: "notos-italic";
+    font-family: "notos";
     src: url("../fonts/notoserif/NotoSerif-Italic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-style: italic;
 }
 
 @font-face {
-    font-family: "notos-bold-italic";
+    font-family: "notos";
     src: url("../fonts/notoserif/NotoSerif-BoldItalic.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
+    font-style: italic;
 }
 
 /* ===================================================================
@@ -178,10 +170,6 @@ body {
 a,
 a:visited {
     color: var(--ivioletvivid);
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
@@ -196,6 +184,7 @@ a:focus {
  * ------------------------------------------------------------------- */
 h1, h2, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
     font-family: "notos-bold", serif;
+    font-weight: bold;
     color: var(--igray);
     font-style: normal;
     text-rendering: optimizeLegibility;
@@ -280,23 +269,23 @@ mark, m {
 }
 
 em {
-    font-family: "notos-italic", serif;
+    font-family: "notos", serif;
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 }
 
 strong, b {
-    font-family: "notos-italic", serif;
+    font-family: "notos", serif;
     font-weight: bold;
-    font-style: normal;
+    font-style: italic;
     font-variant: normal;
 }
 
 strong>em,
 em>strong {
-    font-family: "notos-italic", serif;
+    font-family: "notos", serif;
     font-weight: normal;
-    font-variant: normal;
+    font-style: italic;
     font-variant: small-caps;
 }
 
@@ -324,7 +313,7 @@ blockquote:before {
 }
 
 blockquote p {
-    font-family: "notos-italic", georgia, serif;
+    font-family: "notos", georgia, serif;
     font-style: italic;
     padding: 0;
     font-size: 2.2rem;
@@ -349,7 +338,8 @@ blockquote cite a:visited {
 }
 
 abbr {
-    font-family: "notos-bold", serif;
+    font-family: "notos", serif;
+    font-weight: bold;
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: .05rem;
@@ -464,7 +454,6 @@ dd {
 /* -------------------------------------------------------------------
  * Spacing - (_document-setup)
  * ------------------------------------------------------------------- */
-button,
 .button {
     margin-bottom: 1.2;
 }
@@ -550,7 +539,8 @@ th, td {
 
 th {
     color: var(--light);
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
 }
 
 td {
@@ -567,7 +557,6 @@ th:last-child, td:last-child {
 
 .table-responsive {
     overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
 }
 
 /* -------------------------------------------------------------------
@@ -745,11 +734,6 @@ select {
     color: #252525;
 }
 
-/* IE9 and below */
-.oldie .ss-custom-select::after {
-    display: none;
-}
-
 textarea {
     min-height: 25rem;
 }
@@ -769,7 +753,8 @@ select:focus {
 
 label,
 legend {
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     font-size: 1.4rem;
     margin-bottom: .6rem;
     color: #020202;
@@ -795,154 +780,98 @@ label>input[type="radio"] {
     top: .15rem;
 }
 
+
+
 /* -----------------------------------------------------------
  * Style Placeholder Text
  * ----------------------------------------------------------- */
-::-webkit-input-placeholder {
-    color: #828282;
-}
-
-:-moz-placeholder {
-    color: #828282;
-    /* Firefox 18- */
-}
-
-::-moz-placeholder {
-    color: #828282;
-    /* Firefox 19+ */
-}
-
-:-ms-input-placeholder {
-    color: #828282;
-}
-
 .placeholder {
     color: #828282 !important;
 }
 
-/* -----------------------------------------------------------
- * Change Autocomplete styles in Chrome
- * ----------------------------------------------------------- */
-input:-webkit-autofill,
-input:-webkit-autofill:hover,
-input:-webkit-autofill:focus input:-webkit-autofill,
-textarea:-webkit-autofill,
-textarea:-webkit-autofill:hover textarea:-webkit-autofill:focus,
-select:-webkit-autofill,
-select:-webkit-autofill:hover,
-select:-webkit-autofill:focus {
-    border: none;
-    -webkit-text-fill-color: var(--ibluevivid);
-    transition: background-color 5000s ease-in-out 0s;
-}
+
 
 /* ===================================================================
  *  05.  buttons - (_button-essentials.scss)
  *
  * ------------------------------------------------------------------- */
-.button,
-a.button,
-button {
+.button {
     display: inline-table;
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     font-size: 1.4rem;
     letter-spacing: .1rem;
     height: 5.4rem;
-    /*line-height: 5.4rem;*/
     padding: 1.2rem 3rem;
     margin: 0 .3rem 1.2rem 0;
     background: #35294f;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     text-decoration: none;
     cursor: pointer;
     text-align: center;
     white-space: nowrap;
     border: none;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
 
 .button:hover,
-a.button:hover,
-button:hover,
-.button:focus,
-button:focus {
+.button:focus {
     background: #503a7f;
     color: #FFFFFF;
     outline: 0;
 }
 
-.button.button-primary,
-a.button.button-primary,
-button.button-primary {
+.button.button-primary {
     background: #680d2d;
     color: #FFFFFF;
 }
 
 .button.button-primary:hover,
-a.button.button-primary:hover,
-button.button-primary:hover,
-.button.button-primary:focus,
-button.button-primary:focus {
+.button.button-primary:focus {
     background: #c10042;
 }
 
-.button.button-success,
-a.button.button-success,
-button.button-success {
+.button.button-success {
     background: #0a4f2e;
     color: #FFFFFF;
 }
 
 .button.button-success:hover,
-a.button.button-success:hover,
-button.button-success:hover,
-.button.button-success:focus,
-button.button-success:focus {
+.button.button-success:focus {
     background: #188753;
 }
 
-button.full-width,
 .button.full-width {
     width: 100%;
     margin-right: 0;
 }
 
-button.medium,
 .button.medium {
     height: 5.7rem !important;
     line-height: 5.7rem !important;
     padding: 0 1.8rem !important;
 }
 
-button.large,
 .button.large {
     height: 6rem !important;
     line-height: 6rem !important;
     padding: 0rem 3rem !important;
 }
 
-button.stroke,
 .button.stroke {
     background: transparent !important;
     border: 3px solid #313131;
     line-height: 4.8rem;
 }
 
-button.stroke.medium,
 .button.stroke.medium {
     line-height: 5.1rem !important;
 }
 
-button.stroke.large,
 .button.stroke.large {
     line-height: 5.4rem !important;
 }
 
-button.stroke:hover,
 .button.stroke:hover {
     border: 3px solid var(--ivioletvivid);
     color: var(--ivioletvivid);
@@ -975,12 +904,13 @@ ul.showcase small {
 ul.showcase li {
     line-height: 2.2rem;
     display: inline-table;
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     font-size: 1.4rem;
     letter-spacing: .1rem;
     height: 5.4rem;
     padding: 1.5rem;
-    margin: 1rem .5rem;
+    margin: .5rem .5rem;
     background: #444444; /*change it!*/
     color: #FFFFFF;
     text-decoration: none;
@@ -988,8 +918,13 @@ ul.showcase li {
     text-align: center;
     border: none;
     transition: all 0.3s ease-in-out;
-    width: 50vw;
+    width: 45%;
     max-width: 45%;
+}
+
+ul.showcase.large li {
+    width: calc(90% + 1.5rem);
+    max-width: 100% !important;
 }
 
 ul.showcase li:hover,
@@ -997,43 +932,6 @@ ul.showcase li:focus {
     background: #503a7f;
     color: #FFFFFF;
     outline: 0;
-}
-
-ul.showcase li.primary {
-    background: #680d2d;
-    color: #FFFFFF;
-}
-
-ul.showcase li.primary:hover,
-ul.showcase li.primary:focus {
-    background: #c10042;
-}
-
-ul.showcase li.success {
-    background: #0a4f2e;
-    color: #FFFFFF;
-}
-
-ul.showcase li.success:hover,
-ul.showcase li.success:focus {
-    background: #188753;
-}
-
-ul.showcase li.full-width {
-    width: 100%;
-    margin-right: 0;
-}
-
-ul.showcase li.medium {
-    height: 5.7rem !important;
-    line-height: 5.7rem !important;
-    padding: 0 1.8rem !important;
-}
-
-ul.showcase li.large {
-    height: 6rem !important;
-    line-height: 6rem !important;
-    padding: 0rem 3rem !important;
 }
 
 
@@ -1172,7 +1070,8 @@ ul.showcase li.large {
     margin: 0;
     padding: 1.5rem .6rem 0 0;
     font-size: 8.4rem;
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     line-height: 6rem;
     text-indent: 0;
     background: transparent;
@@ -1306,7 +1205,8 @@ ul.showcase li.large {
 .stats-tabs li a {
     display: inline-block;
     font-size: 2.5rem;
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     border: none;
     color: #252525;
 }
@@ -1345,7 +1245,8 @@ ul.showcase li.large {
     position: absolute;
     left: 0;
     top: -3rem;
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     color: #313131;
     text-transform: uppercase;
     letter-spacing: .2rem;
@@ -1475,7 +1376,8 @@ ul.showcase li.large {
 }
 
 .section-intro h1 {
-    font-family: "notos-italic", serif;
+    font-family: "notos", serif;
+    font-style: italic;
     font-weight: bolder;
     line-height: 1.375;
     color: var(--ibluelight);
@@ -1483,7 +1385,8 @@ ul.showcase li.large {
 }
 
 .section-intro h2 {
-    font-family: "notos-italic", serif;
+    font-family: "notos", serif;
+    font-style: italic;
     font-weight: bolder;
     line-height: 1.375;
     color: var(--ivioletlight);
@@ -1571,9 +1474,10 @@ header .header-logo a {
     border: none;
     width: 60px;
     height: 60px;
-    background: url("../images/logo.png");
-    background: url("../images/logo.svg") no-repeat center, linear-gradient(transparent, transparent);
     background-size: 60px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: linear-gradient(transparent, transparent);
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
@@ -1900,7 +1804,8 @@ header .header-logo a {
 }
 
 .home-content-tablecell h3 {
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     font-size: 2.2rem;
     color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
@@ -1931,7 +1836,8 @@ header .header-logo a {
 
 .home-content-tablecell .home-section-links li {
     display: inline-block;
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
@@ -2245,7 +2151,8 @@ header .header-logo a {
 }
 
 .morelinks h3 {
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     font-size: 1.6rem;
     color: white;
     text-transform: uppercase;
@@ -2254,7 +2161,8 @@ header .header-logo a {
 }
 
 .morelinks h1 {
-    font-family: "notos-bold", serif;
+    font-family: "notos", serif;
+    font-weight: bold;
     font-size: 3.6rem;
     line-height: 1.455;
 }
@@ -2466,7 +2374,8 @@ header .header-logo a {
 }
 
 #about h3 {
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     font-size: 1.6rem;
     color: var(--ivioletvivid);
     text-transform: uppercase;
@@ -2475,7 +2384,8 @@ header .header-logo a {
 }
 
 #about h1 {
-    font-family: "notos-bold", serif;
+    font-family: "notos", serif;
+    font-weight: bold;
     font-size: 3.6rem;
     line-height: 1.455;
 }
@@ -3252,7 +3162,8 @@ header .header-logo a {
     margin: 1.5rem 0 0 0;
     padding-top: 1.5rem;
     line-height: 1;
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     position: relative;
     text-align: center;
 }
@@ -3370,7 +3281,8 @@ header .header-logo a {
 }
 
 #contact form .form-field label {
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     font-size: 1.1rem;
     line-height: 2.4rem;
     position: absolute;
@@ -3483,7 +3395,8 @@ header .header-logo a {
 
 #submit-loader .text-loader {
     display: none;
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     color: #FFFFFF;
     letter-spacing: .2rem;
     text-transform: uppercase;
@@ -3617,7 +3530,8 @@ footer .footer-social li {
     display: inline-block;
     padding-left: 0;
     margin: 0 8px 1.5rem 8px;
-    font-family: "noto-bold", sans-serif;
+    font-family: "noto", sans-serif;
+    font-weight: bold;
     font-size: 1.8rem;
 }
 

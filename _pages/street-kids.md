@@ -3,8 +3,10 @@ layout: default
 permalink: "street-kids"
 author: eclub
 
-logo: "assets/images/rotaract-logo-white.png"
-logo-center: true
+logo:
+  url: "assets/images/rotaract-logo-white.png"
+  position: "center"
+
 pretitle: Help them smile again!
 title: Streek Kids
 description: One Meal A Day for a Kenyan Kid
@@ -43,6 +45,13 @@ morelinks:
       cta: "Follow us"
       title: "Get to know us on Instagram!"
       image: "assets/images/instagram-logo.jpg"
+
+footer:
+  - icon: "<i class='fab fa-instagram'></i>"
+    text: "rotaract_eclub"
+    url: "https://instagram.com/rotaract_eclub"
+    newtab: true
+
 ---
 
 The 'Street Kids' project is a <b>1 year program for 10 kids</b> from Nairobi/Kenya, in which we provide <b>2 meals</b> a day for each kid.

@@ -3,8 +3,10 @@ layout: default
 permalink: "human-movie"
 author: eclub
 
-logo: "assets/images/rotaract-logo-white.png"
-logo-center: true
+logo:
+  url: "assets/images/rotaract-logo-white.png"
+  position: "center"
+
 pretitle: Watch with us
 title: HUMAN
 description: A film to help you let go, take a step back, or simply feel connected to all of humanity.
@@ -45,6 +47,13 @@ morelinks:
       cta: "Follow us"
       title: "Get to know us on Instagram!"
       image: "assets/images/instagram-logo.jpg"
+
+footer:
+  - icon: "<i class='fab fa-instagram'></i>"
+    text: "rotaract_eclub"
+    url: "https://instagram.com/rotaract_eclub"
+    newtab: true
+
 ---
 
 
