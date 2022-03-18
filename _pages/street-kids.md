@@ -45,7 +45,7 @@ morelinks:
       image: "assets/images/instagram-logo.jpg"
 ---
 
-The 'Street Kids' project is a <b>1 year program for 10 kids</b> from Nairobi/Kenya, inwhich we provide <b>2 meals</b> a day for each kid.
+The 'Street Kids' project is a <b>1 year program for 10 kids</b> from Nairobi/Kenya, in which we provide <b>2 meals</b> a day for each kid.
 
 We keep regular contact with the kids through weekly calls, sharing photos, messages, etc.
 
