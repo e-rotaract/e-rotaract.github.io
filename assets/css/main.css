@@ -842,10 +842,7 @@ select:-webkit-autofill:focus {
  * ------------------------------------------------------------------- */
 .button,
 a.button,
-button,
-input[type="submit"],
-input[type="reset"],
-input[type="button"] {
+button {
     display: inline-table;
     font-family: "noto-bold", sans-serif;
     font-size: 1.4rem;
@@ -871,14 +868,8 @@ input[type="button"] {
 .button:hover,
 a.button:hover,
 button:hover,
-input[type="submit"]:hover,
-input[type="reset"]:hover,
-input[type="button"]:hover,
 .button:focus,
-button:focus,
-input[type="submit"]:focus,
-input[type="reset"]:focus,
-input[type="button"]:focus {
+button:focus {
     background: #503a7f;
     color: #FFFFFF;
     outline: 0;
@@ -886,10 +877,7 @@ input[type="button"]:focus {
 
 .button.button-primary,
 a.button.button-primary,
-button.button-primary,
-input[type="submit"].button-primary,
-input[type="reset"].button-primary,
-input[type="button"].button-primary {
+button.button-primary {
     background: #680d2d;
     color: #FFFFFF;
 }
@@ -897,23 +885,14 @@ input[type="button"].button-primary {
 .button.button-primary:hover,
 a.button.button-primary:hover,
 button.button-primary:hover,
-input[type="submit"].button-primary:hover,
-input[type="reset"].button-primary:hover,
-input[type="button"].button-primary:hover,
 .button.button-primary:focus,
-button.button-primary:focus,
-input[type="submit"].button-primary:focus,
-input[type="reset"].button-primary:focus,
-input[type="button"].button-primary:focus {
+button.button-primary:focus {
     background: #c10042;
 }
 
 .button.button-success,
 a.button.button-success,
-button.button-success,
-input[type="submit"].button-success,
-input[type="reset"].button-success,
-input[type="button"].button-success {
+button.button-success {
     background: #0a4f2e;
     color: #FFFFFF;
 }
@@ -921,14 +900,8 @@ input[type="button"].button-success {
 .button.button-success:hover,
 a.button.button-success:hover,
 button.button-success:hover,
-input[type="submit"].button-success:hover,
-input[type="reset"].button-success:hover,
-input[type="button"].button-success:hover,
 .button.button-success:focus,
-button.button-success:focus,
-input[type="submit"].button-success:focus,
-input[type="reset"].button-success:focus,
-input[type="button"].button-success:focus {
+button.button-success:focus {
     background: #188753;
 }
 
@@ -980,6 +953,93 @@ input::-moz-focus-inner {
     border: 0;
     padding: 0;
 }
+
+
+
+/* ===================================================================
+ *  05.2  linklist
+ *
+ * ------------------------------------------------------------------- */
+ul.ll {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+ul.ll small {
+    opacity: 0.7;
+    font-family: "noto";
+}
+
+ul.ll br {
+    line-height: 30px;
+}
+
+ul.ll li {
+    line-height: 2.2rem;
+    display: inline-table;
+    font-family: "noto-bold", sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
+    height: 5.4rem;
+    padding: 1.5rem;
+    margin: 1rem .5rem;
+    background: #444444; /*change it!*/
+    color: #FFFFFF;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    transition: all 0.3s ease-in-out;
+    width: 45%;
+    max-width: 45%;
+}
+
+ul.ll li:hover,
+ul.ll li:focus {
+    background: #503a7f;
+    color: #FFFFFF;
+    outline: 0;
+}
+
+ul.ll li.primary {
+    background: #680d2d;
+    color: #FFFFFF;
+}
+
+ul.ll li.primary:hover,
+ul.ll li.primary:focus {
+    background: #c10042;
+}
+
+ul.ll li.success {
+    background: #0a4f2e;
+    color: #FFFFFF;
+}
+
+ul.ll li.success:hover,
+ul.ll li.success:focus {
+    background: #188753;
+}
+
+ul.ll li.full-width {
+    width: 100%;
+    margin-right: 0;
+}
+
+ul.ll li.medium {
+    height: 5.7rem !important;
+    line-height: 5.7rem !important;
+    padding: 0 1.8rem !important;
+}
+
+ul.ll li.large {
+    height: 6rem !important;
+    line-height: 6rem !important;
+    padding: 0rem 3rem !important;
+}
+
+
 
 /* ===================================================================
  *  06. other components - (_others.scss)
