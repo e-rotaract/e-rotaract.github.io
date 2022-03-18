@@ -33,27 +33,22 @@ hide-go-top: true
 </script>
 
 <ul class="showcase">
-  <a onclick="document.location='https://www.timeanddate.com/calendar/custom.html?year='+new Date().getFullYear()+'&amp;country=5&amp;cols=0&amp;fdow=6&amp;wno=6&amp;wncs=2&amp;ctf=2&amp;wdf=1&amp;holmark=2&amp;hod=1&amp;hcl=1&amp;cdt=1&amp;ccg=1&amp;cci=6&amp;ccp=3&amp;ccu=10&amp;ccz=0&amp;cwd=2______2&amp;cwf=______&amp;holm=1&amp;doy=1&amp;dly=1&amp;hid=1&amp;typ=0&amp;display=3&amp;df=1'">
-    <li>
-      📆 <b id="yeardayspassed">_</b>&nbsp;<i class="fas fa-angle-right"></i>&nbsp;<b id="yeardaystogo">_</b>
-      <br>
-      📆 <script>document.write(new Date().getWeekNumber());</script><small>w</small>&nbsp;<i class="fas fa-angle-right"></i>&nbsp;<script>document.write(new Date(new Date().getFullYear(), 11, 30).getWeekNumber() - new Date().getWeekNumber());</script><small>w</small>
-    </li>
-  </a>
-  <li>
+  <a onclick="document.location='https://www.timeanddate.com/calendar/custom.html?year='+new Date().getFullYear()+'&amp;country=5&amp;cols=0&amp;fdow=6&amp;wno=6&amp;wncs=2&amp;ctf=2&amp;wdf=1&amp;holmark=2&amp;hod=1&amp;hcl=1&amp;cdt=1&amp;ccg=1&amp;cci=6&amp;ccp=3&amp;ccu=10&amp;ccz=0&amp;cwd=2______2&amp;cwf=______&amp;holm=1&amp;doy=1&amp;dly=1&amp;hid=1&amp;typ=0&amp;display=3&amp;df=1'"><li>
+    📆 <b id="yeardayspassed">_</b>&nbsp;<i class="fas fa-angle-right"></i>&nbsp;<b id="yeardaystogo">_</b>
+    <br>
+    📆 <script>document.write(new Date().getWeekNumber());</script><small>w</small>&nbsp;<i class="fas fa-angle-right"></i>&nbsp;<script>document.write(new Date(new Date().getFullYear(), 11, 30).getWeekNumber() - new Date().getWeekNumber());</script><small>w</small>
+  </li></a><a><li>
     IΛCO 🌟 <b id="borndayspassed">_</b><br>
     IΛCO 🌟 <b id="bornweekspassed">_</b>
-  </li>
-  <li>
+  </li></a><a><li>
     💪 <b id="gym">_</b><br>
     🌱 <b id="vegan">_</b><br>
     😴 <b id="sleepmaster">_</b>
-  </li>
-  <li>
+  </li></a><a><li>
     🐢 <b id="iaco2030">_</b><small> 2030</small><br>
     🌲 <b id="vivaci2100">_</b><small> 2100</small><br>
     🔮 <b id="iacovivaci3000">_</b><small> 3000</small>
-  </li>
+  </li></a>
 </ul>
 
 <script>

@@ -923,7 +923,7 @@ ul.showcase li {
 }
 
 ul.showcase.large li {
-    width: calc(90% + 1.5rem);
+    width: calc(90% + 1rem);
     max-width: 100% !important;
 }
 
