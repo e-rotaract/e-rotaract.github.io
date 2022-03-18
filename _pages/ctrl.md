@@ -45,16 +45,30 @@ morelinks:
       image: "assets/images/rotaract-logo-pink.png"
 ---
 
+<script>
+  Date.prototype.getWeekNumber = function(){
+    var d = new Date(Date.UTC(this.getFullYear(), this.getMonth(), this.getDate()));
+    var dayNum = d.getUTCDay() || 7;
+    d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+    var yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+    var w = Math.ceil((((d - yearStart) / 86400000) + 1)/7);
+    if(this.getDay() == 0 | this.getDay() == 6) w = w + 1;
+    return w;
+  };
+</script>
+
 <ul class="showcase">
   <a href="https://iago.me">
     <li>
-    asdfsadf asdkfsa  jksad fkjsad <br>po
+      📆 <b id="yeardayspassed">_</b>&nbsp;<i class="fas fa-angle-right"></i>&nbsp;<b id="yeardaystogo">_</b>
+      <br>
+      📆 <script>document.write(new Date().getWeekNumber());</script><small>w</small>&nbsp;<i class="fas fa-angle-right"></i>&nbsp;<script>document.write(new Date(new Date().getFullYear(), 11, 30).getWeekNumber() - new Date().getWeekNumber());</script><small>w</small>
     </li>
   </a>
     <a href="https://e-rotaract.me">
     <li>
-    IΛCO 🌟 <b id="borndayspassed">_</b><br>
-    IΛCO 🌟 <b id="bornweekspassed">_</b>
+      IΛCO 🌟 <b id="borndayspassed">_</b><br>
+      IΛCO 🌟 <b id="bornweekspassed">_</b>
     </li>
   </a>
 </ul>
@@ -75,8 +89,8 @@ morelinks:
 
 <script>
   window.onload = function() {
-    //countUpFromTime(new Date().getFullYear()+"-01-01", 'yeardayspassed', "j", false);
-    //countUpFromTime(new Date().getFullYear()+"-12-30", 'yeardaystogo', "j", false);
+    countUpFromTime(new Date().getFullYear()+"-01-01", 'yeardayspassed', "j", false);
+    countUpFromTime(new Date().getFullYear()+"-12-30", 'yeardaystogo', "j", false);
 
     countUpFromTime("1994-02-01", 'borndayspassed', "j");
     countUpFromTime("1994-02-01", 'bornweekspassed', "w");
