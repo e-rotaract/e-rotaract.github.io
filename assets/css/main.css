@@ -962,7 +962,7 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 ul.showcase {
     text-align: center;
-    margin: 0;
+    margin: 0 -25px;
     padding: 0;
 }
 
