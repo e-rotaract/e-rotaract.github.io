@@ -9,6 +9,9 @@ pretitle: Join us, together we can
 title: Make our world a better&nbsp;place!
 description: We are e-Rotaract Beyond Frontiers,<br>And we are here to hear your idea, let's&nbsp;do&nbsp;it!
 
+hide-menu: true
+hide-home: true
+
 site-links: true     # show the default site menu
 links:
     - name: "Join us!"
@@ -129,3 +132,22 @@ morelinks:
   }
 </script>
 
+<ul class="showcase" id="list"></ul>
+
+<script>
+  var links = [
+    ["📨 My E-mails", "https://mail.ovh.net/roundcube/?_task=login", "mail.ovh.net"],
+    ["🥕 iago-food-1w", "https://lite.framacalc.org/iago-food-1w", "framacalc.org"],
+    ["🎨 Creator Studio", "https://business.facebook.com/creatorstudio", "face"],
+    ["💼 Business Suite", "https://business.facebook.com/latest/inbox/messenger", "face"]
+  ];
+  for(l of links) {
+    $("#list").append(
+        "<a href='" + l[1] + "'>" +
+          "<li>" +
+            l[0] +
+            "<br><small>" + l[2] + "</small>" +
+          "</li>" +
+        "</a>");
+  }
+</script>

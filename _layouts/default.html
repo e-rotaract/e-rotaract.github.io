@@ -26,7 +26,7 @@
     <!-- script
     ================================================== -->
     <script src="{{ site.baseurl }}/assets/js/modernizr.js"></script>
-    <!-- <script src="{{ site.baseurl }}/assets/js/pace.min.js"></script> -->
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
     <!-- favicons
     ================================================== -->
@@ -54,14 +54,16 @@
             <a href="{{ site.baseurl }}/">{{ site.name }}</a>
         </div>
 
+        {% if page.hide-menu != true %}
         <a id="header-menu-trigger" href="#0">
             <span class="header-menu-text">MENU</span>
             <span class="header-menu-icon"></span>
         </a>
+        {% endif %}
 
         <nav id="menu-nav-wrap">
 
-            <a href="#0" class="close-button" title="close"><span>Close</span></a>
+            <a href="#0" class="close-button" title="close"><span>Close</span></a><br>
 
             <h3><a href="{{ site.baseurl }}/" title="Homepage">{{ site.name }}</a></h3>
 
@@ -102,7 +104,7 @@
 
     </header> <!-- end header -->
 
-
+    {% if page.hide-home != true %}
     <!-- home
    ================================================== -->
     <section id="home" style="background-image: url('{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/assets/images/default-bg.jpg{% endif %}');">
@@ -166,6 +168,7 @@
         </div> <!-- end home-content-table -->
 
     </section> <!-- end home -->
+    {% endif %}
 
 
     <!-- main
@@ -386,7 +389,6 @@
 
     <!-- Java Script
    ================================================== -->
-    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
     <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
 </body>
