@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: "street-kids-old"
+permalink: "street-kids"
 author: eclub
 
 logo: "assets/images/rotaract-logo-white.png"

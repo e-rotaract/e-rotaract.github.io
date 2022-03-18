@@ -964,6 +964,7 @@ ul.showcase {
     text-align: center;
     margin: 0 -25px;
     padding: 0;
+    width: 100%;
 }
 
 ul.showcase small {

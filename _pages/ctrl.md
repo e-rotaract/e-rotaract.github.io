@@ -10,7 +10,7 @@ title: Make our world a better&nbsp;place!
 description: We are e-Rotaract Beyond Frontiers,<br>And we are here to hear your idea, let's&nbsp;do&nbsp;it!
 
 hide-menu: true
-hide-home: true
+hide-home: false
 
 site-links: true     # show the default site menu
 links:
@@ -61,19 +61,17 @@ morelinks:
 </script>
 
 <ul class="showcase">
-  <a href="https://iago.me">
+  <a onclick="document.location='https://www.timeanddate.com/calendar/custom.html?year='+new Date().getFullYear()+'&amp;country=5&amp;cols=0&amp;fdow=6&amp;wno=6&amp;wncs=2&amp;ctf=2&amp;wdf=1&amp;holmark=2&amp;hod=1&amp;hcl=1&amp;cdt=1&amp;ccg=1&amp;cci=6&amp;ccp=3&amp;ccu=10&amp;ccz=0&amp;cwd=2______2&amp;cwf=______&amp;holm=1&amp;doy=1&amp;dly=1&amp;hid=1&amp;typ=0&amp;display=3&amp;df=1'">
     <li>
       📆 <b id="yeardayspassed">_</b>&nbsp;<i class="fas fa-angle-right"></i>&nbsp;<b id="yeardaystogo">_</b>
       <br>
       📆 <script>document.write(new Date().getWeekNumber());</script><small>w</small>&nbsp;<i class="fas fa-angle-right"></i>&nbsp;<script>document.write(new Date(new Date().getFullYear(), 11, 30).getWeekNumber() - new Date().getWeekNumber());</script><small>w</small>
     </li>
   </a>
-    <a href="https://e-rotaract.me">
-    <li>
-      IΛCO 🌟 <b id="borndayspassed">_</b><br>
-      IΛCO 🌟 <b id="bornweekspassed">_</b>
-    </li>
-  </a>
+  <li>
+    IΛCO 🌟 <b id="borndayspassed">_</b><br>
+    IΛCO 🌟 <b id="bornweekspassed">_</b>
+  </li>
 </ul>
 
 <ul class="showcase">
@@ -132,21 +130,23 @@ morelinks:
   }
 </script>
 
+
+
 <ul class="showcase" id="list"></ul>
 
 <script>
   var links = [
-    ["📨 My E-mails", "https://mail.ovh.net/roundcube/?_task=login", "mail.ovh.net"],
-    ["🥕 iago-food-1w", "https://lite.framacalc.org/iago-food-1w", "framacalc.org"],
-    ["🎨 Creator Studio", "https://business.facebook.com/creatorstudio", "face"],
-    ["💼 Business Suite", "https://business.facebook.com/latest/inbox/messenger", "face"]
+    //["📨 My E-mails", "https://mail.ovh.net/roundcube/?_task=login", ""],
+    //["🥕 iago-food-1w", "https://lite.framacalc.org/iago-food-1w", ""],
+    ["🎨 Creator Studio", "https://business.facebook.com/creatorstudio", ""],
+    ["💼 Business Suite", "https://business.facebook.com/latest/inbox/messenger", ""]
   ];
   for(l of links) {
     $("#list").append(
         "<a href='" + l[1] + "'>" +
           "<li>" +
             l[0] +
-            "<br><small>" + l[2] + "</small>" +
+            (l[2] != "" ? "<br><small>" + l[2] + "</small>" : "") +
           "</li>" +
         "</a>");
   }
