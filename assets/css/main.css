@@ -962,9 +962,8 @@ input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 ul.showcase {
     text-align: center;
-    margin: 0 -25px;
+    margin: 2rem -25px;
     padding: 0;
-    width: 100%;
 }
 
 ul.showcase small {
@@ -989,7 +988,7 @@ ul.showcase li {
     text-align: center;
     border: none;
     transition: all 0.3s ease-in-out;
-    width: 45%;
+    width: 50vw;
     max-width: 45%;
 }
 
@@ -2186,6 +2185,7 @@ header .header-logo a {
 }
 
 #main [class="col-content"] {
+    width: 100%;
     padding-right: 0;
 }
 
@@ -2203,7 +2203,7 @@ header .header-logo a {
  * ------------------------------------------------------------------- */
 @media only screen and (max-width:1024px) {
     #main [class="col-content"] {
-        /* width: 75%; */
+        width: 100%;
     }
 }
 
@@ -2216,12 +2216,14 @@ header .header-logo a {
 
 @media only screen and (max-width:600px) {
     #main [class="col-content"] {
+        width: 100%;
         padding-right: 10px;
     }
 }
 
 @media only screen and (max-width:400px) {
     #main [class="col-content"] {
+        width: 100%;
         padding-right: 0;
     }
 }

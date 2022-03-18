@@ -73,7 +73,6 @@ morelinks:
     IΛCO 🌟 <b id="bornweekspassed">_</b>
   </li>
 </ul>
-
 <ul class="showcase">
   <li>
     💪 <b id="gym">_</b><br>
@@ -130,14 +129,14 @@ morelinks:
   }
 </script>
 
-
+<hr>
 
 <ul class="showcase" id="list"></ul>
 
 <script>
   var links = [
-    //["📨 My E-mails", "https://mail.ovh.net/roundcube/?_task=login", ""],
-    //["🥕 iago-food-1w", "https://lite.framacalc.org/iago-food-1w", ""],
+    ["📨 My E-mails", "https://mail.ovh.net/roundcube/?_task=login", ""],
+    ["🥕 iago-food-1w", "https://lite.framacalc.org/iago-food-1w", ""],
     ["🎨 Creator Studio", "https://business.facebook.com/creatorstudio", ""],
     ["💼 Business Suite", "https://business.facebook.com/latest/inbox/messenger", ""]
   ];
@@ -151,3 +150,4 @@ morelinks:
         "</a>");
   }
 </script>
+
