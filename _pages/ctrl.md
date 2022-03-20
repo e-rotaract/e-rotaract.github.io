@@ -494,7 +494,8 @@ hide-go-top: true
       {number: "311", kinsight: "You must not fool yourself, and you are the easiest person to fool"},
       {number: "312", kinsight: "Strong people stand up for themselves, but stronger people stand up for those who can't"},
       {number: "313", kinsight: "Ser importante: ser 'importado' dentro doutros, levado p dentro do coração deles. Para isso preciso transbordar: me comunicar, me conectar com o outro, para q ele me importe em si."},
-      {number: "314", kinsight: "Faça primeiro (de boa intenção e coração), pergunte depois!"}
+      {number: "314", kinsight: "Faça primeiro (de boa intenção e coração), pergunte depois!"},
+      {number: "315", kinsight: "The Habit: before doing/thinking ask 'Is it good for me, my body and mind ?'"}
   ];
 
   var k_pos = Math.floor(Math.random() * (kinsights.length-1));
