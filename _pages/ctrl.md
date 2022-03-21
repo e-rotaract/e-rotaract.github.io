@@ -495,7 +495,14 @@ hide-go-top: true
       {number: "312", kinsight: "Strong people stand up for themselves, but stronger people stand up for those who can't"},
       {number: "313", kinsight: "Ser importante: ser 'importado' dentro doutros, levado p dentro do coração deles. Para isso preciso transbordar: me comunicar, me conectar com o outro, para q ele me importe em si."},
       {number: "314", kinsight: "Faça primeiro (de boa intenção e coração), pergunte depois!"},
-      {number: "315", kinsight: "The Habit: before doing/thinking ask 'Is it good for me, my body and mind ?'"}
+      {number: "315", kinsight: "The Habit: before doing/thinking ask 'Is it good for me, my body and mind ?'"},
+      {number: "316", kinsight: "Enquanto os outros dormem, aprecie a escuridão! :^) IAGO ^0^"},
+      {number: "317", kinsight: "Quanto mais longa a corrida, mais chances existem de se ultrapassar os outros! :^) IAGO ^0^"},
+      {number: "318", kinsight: "Quanto mais longe você for, mais perto da chegada estará! :^) IAGO ^0^"},
+      {number: "319", kinsight: "À Liberdade, somente a Falta de Informação e Caráter se opõem! :^) IAGO ^0^"},
+      {number: "320", kinsight: "O Silêncio é o Pior Veneno para um Palhaço! :^) IAGO ^0^"},
+      {number: "321", kinsight: "À um Ignorante: minha Ignorância! :^) IAGO ^0^"},
+      {number: "322", kinsight: "Não existem exceções para a existência de exceções; e esta regra não é exceção! :^) IAGO ^0^"}
   ];
 
   var k_pos = Math.floor(Math.random() * (kinsights.length-1));
