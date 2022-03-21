@@ -44,7 +44,7 @@ hide-go-top: true
     💪 <b id="gym">_</b><br>
     🌱 <b id="vegan">_</b><br>
     😴 <b id="sleepmaster">_</b>
-  </li></a><a><li>
+  </li></a></ul><ul class="showcase"><a><li>
     🐢 <b id="iaco2030">_</b><small> 2030</small><br>
     🌲 <b id="vivaci2100">_</b><small> 2100</small><br>
     🔮 <b id="iacovivaci3000">_</b><small> 3000</small>
