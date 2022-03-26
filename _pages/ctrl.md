@@ -502,7 +502,8 @@ hide-go-top: true
       {number: "319", kinsight: "À Liberdade, somente a Falta de Informação e Caráter se opõem! :^) IAGO ^0^"},
       {number: "320", kinsight: "O Silêncio é o Pior Veneno para um Palhaço! :^) IAGO ^0^"},
       {number: "321", kinsight: "À um Ignorante: minha Ignorância! :^) IAGO ^0^"},
-      {number: "322", kinsight: "Não existem exceções para a existência de exceções; e esta regra não é exceção! :^) IAGO ^0^"}
+      {number: "322", kinsight: "Não existem exceções para a existência de exceções; e esta regra não é exceção! :^) IAGO ^0^"},
+      {number: "323", kinsight: "Remember to ask: How does that make you feel?"}
   ];
 
   var k_pos = Math.floor(Math.random() * (kinsights.length-1));
