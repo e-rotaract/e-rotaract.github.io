@@ -11,6 +11,8 @@ pretitle: Help them smile again!
 title: Street Kids
 description: One Meal A Day for a Kenyan Kid
 
+hide-menu: true
+
 site-links: true     # show the default site menu
 links:
     - name: "Street Kids Videocall"
