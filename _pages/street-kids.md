@@ -8,7 +8,7 @@ logo:
   position: "center"
 
 pretitle: Help them smile again!
-title: Streek Kids
+title: Street Kids
 description: One Meal A Day for a Kenyan Kid
 
 site-links: true     # show the default site menu
@@ -25,12 +25,12 @@ links:
       newtab: false
       show-in-intro: true
       show-in-menu: true
-    - name: "WhatsApp Group"
-      icon: "fab fa-whatsapp"
-      url: "#whatsapp"
-      newtab: false
-      show-in-intro: true
-      show-in-menu: true
+    # - name: "WhatsApp Group"
+    #   icon: "fab fa-whatsapp"
+    #   url: "#whatsapp"
+    #   newtab: false
+    #   show-in-intro: true
+    #   show-in-menu: true
 
 morelinks:
   - left:
@@ -70,13 +70,14 @@ We have weekly videocalls, every Sunday:
 - Kenya 🇰🇪: at 18:00
 
 <p style="text-align: center;">
-  <a href="https://univ-grenoble-alpes-fr.zoom.us/j/94889136636?pwd=RFJ5ckdXYmN4RUdsS1REbjgwVlZwZz09" target="_blank" class="button button-primary">
+  <a href="https://teams.microsoft.com/l/meetup-join/19%3Ameeting_NmZhY2IxN2ItMDBmMy00MmJkLTkzMjUtM2ZmZjZiODZhY2Iy%40thread.v2/0?context=%7B%22Tid%22%3A%2210b27fbb-2909-4427-9338-f6028e9ba589%22%2C%22Oid%22%3A%22480d9d5d-32e0-4665-878a-07d3762102cd%22%2C%22MessageId%22%3A%220%22%7D" target="_blank" class="button button-primary">
+  <!-- <a href="https://univ-grenoble-alpes-fr.zoom.us/j/94889136636?pwd=RFJ5ckdXYmN4RUdsS1REbjgwVlZwZz09" target="_blank" class="button button-primary"> -->
     <i class="fa fa-video fa-lg"></i> Street Kids Videocall
   </a>
 </p>
 
-- Meeting ID: 948 8913 6636
-- Meeting password: Project
+<!-- - Meeting ID: 948 8913 6636 -->
+<!-- - Meeting password: Project -->
 
 
 
@@ -103,10 +104,10 @@ function copyEvent(id) {
 
 
 
-# Join our WhatsApp group! {#whatsapp}
+<!-- # Join our WhatsApp group! {#whatsapp}
 
 <p style="text-align: center;">
   <a target="_blank" class="button button-success">
     <i class="fab fa-whatsapp fa-lg"></i> Street Kids WhatsApp
   </a>
-</p>
+</p> -->
