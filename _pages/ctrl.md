@@ -503,7 +503,8 @@ hide-go-top: true
       {number: "320", kinsight: "O Silêncio é o Pior Veneno para um Palhaço! :^) IAGO ^0^"},
       {number: "321", kinsight: "À um Ignorante: minha Ignorância! :^) IAGO ^0^"},
       {number: "322", kinsight: "Não existem exceções para a existência de exceções; e esta regra não é exceção! :^) IAGO ^0^"},
-      {number: "323", kinsight: "Remember to ask: How does that make you feel?"}
+      {number: "323", kinsight: "Remember to ask: How does that make you feel?"},
+      {number: "324", kinsight: "Make life go with a swing and a smile. Laugh at trouble and sing all the while. Now count your achievements and smile!"}
   ];
 
   var k_pos = Math.floor(Math.random() * (kinsights.length-1));
