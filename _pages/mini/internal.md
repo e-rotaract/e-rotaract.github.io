@@ -38,8 +38,7 @@ permalink: "/internal"
                 <p class='title'>
                     Videocall · Visio
                     <span>Sunday · Dimanche · Domingo</span>
-                    <span>19h UTC+1 (CET 🇪🇺)</span>
-                    <span>15h UTC&minus;3 (BRT 🇧🇷)</span>
+                    <span>(see calendar for day & time)</span>
                 </p>
             </a>
         </li>
