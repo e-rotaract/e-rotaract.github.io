@@ -49,7 +49,7 @@ permalink: "/internal"
             <a target="_blank" href="https://forms.gle/8U4qf5KGMozELFnY7">
                 <div class="logo" style="font-family: linja; font-size: 46px; overflow: hidden;">poki-toki</div>
                 <p class="title">
-                    Anonymous Form
+                    poki-toki (anonymous)
                     <span>
                         (poki-toki: communication box)
                     </span>
