@@ -28,14 +28,7 @@ permalink: /speakeat
             {num: "10", sym: "🗝️", date: "2021-11-21", title: "How to live the end of life?"},
             {num: "11", sym: "💗", date: "2021-12-05", title: "Relationships"},
             {num: "12", sym: "🤔", date: "2022-01-16", title: "How to make choices in life? - with DJML"},
-            {num: "13", sym: "", date: "2022-03-20", title: "(soon)"},
-            {num: "14", sym: "", date: "2022-04-17", title: "(soon)"},
-            {num: "15", sym: "", date: "2022-05-15", title: "(soon)"},
-            {num: "16", sym: "", date: "2022-06-19", title: "(soon)"},
-            {num: "17", sym: "", date: "2022-07-17", title: "(soon)"},
-            {num: "18", sym: "", date: "2022-08-21", title: "(soon)"},
-            {num: "19", sym: "", date: "2022-09-18", title: "(soon)"},
-            {num: "20", sym: "", date: "2022-10-16", title: "(soon)"}
+            {num: "13", sym: "", date: "2030-12-31", title: "(soon)"}
         ];
         
         var next_event = list_events[list_events.length-1];
