@@ -83,7 +83,7 @@ And of course, we would love to hear you, so feel free to send us a message!
 
 
 
-# Let's make a partnership! {#partnership}
+# Become partners! {#partnership}
 
 ![]({{site.baseurl}}/assets/images/friends-toast.jpg "Let's make a partnership!")
 
