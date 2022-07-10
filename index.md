@@ -40,11 +40,17 @@ morelinks:
       title: "A moment to share knowledge and experiences!"
       image: "assets/images/speakeat-logo-only.jpg"
     right:
-      url: "#social"
-      newtab: false
-      cta: "We are Rotaract"
-      title: "Join us today!"
-      image: "assets/images/rotaract-logo-pink.png"
+      url: "/street-kids"
+      newtab: true
+      cta: "Street Kids"
+      title: "Help them smile again"
+      image: "assets/images/street-kids/cover.png"
+#    right:
+#      url: "#social"
+#      newtab: false
+#      cta: "We are Rotaract"
+#      title: "Join us today!"
+#      image: "assets/images/rotaract-logo-pink.png"
 
 footer:
   - icon: "<i class='fab fa-instagram'></i>"
