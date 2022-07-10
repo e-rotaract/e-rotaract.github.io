@@ -42,8 +42,8 @@ morelinks:
     right:
       url: "/street-kids"
       newtab: true
-      cta: "Street Kids"
-      title: "Help them smile again"
+      cta: "Street Kids Project"
+      title: "Let's help kids from Kenya"
       image: "assets/images/street-kids/cover.png"
 #    right:
 #      url: "#social"
