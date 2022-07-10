@@ -9,7 +9,7 @@ logo:
 
 pretitle: Join us, together we can
 title: Make our world a better&nbsp;place!
-description: We are e-Rotaract Beyond Frontiers,<br>And we are here to hear your idea, let's&nbsp;do&nbsp;it!
+description: We are e-Rotaract Beyond Frontiers,<br>And we are here to hear you, let's&nbsp;go!
 
 site-links: true     # show the default site menu
 links:
