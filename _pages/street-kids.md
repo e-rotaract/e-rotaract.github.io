@@ -37,7 +37,7 @@ The 'Street Kids' project is a <b>1 year program for 10 kids</b> from Nairobi/Ke
 
 We keep regular contact with the kids through weekly calls, sharing photos, messages, etc.
 
-It is an international partnership among Rotary International Districts [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](http://e-rotaract.com).
+It is an international partnership among clubs and Rotary International Districts [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](http://e-rotaract.com).
 
 
 
@@ -45,7 +45,7 @@ It is an international partnership among Rotary International Districts [9212 (K
 
 We have weekly videocalls of 30 minutes, every Sunday:
 - Kenya 🇰🇪 (UTC+3): at 12:00
-- Central Europe (CH🇨🇭, FR🇫🇷...): at 11:00
+- Central Europe (CH🇨🇭, FR🇫🇷, NO🇳🇴...): at 11:00
 - Western Europe (PT🇵🇹, UK🇬🇧...): at 10:00
 
 <p style="text-align: center;">
