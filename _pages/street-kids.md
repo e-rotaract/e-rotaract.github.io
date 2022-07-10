@@ -62,11 +62,12 @@ With <b>50 euros per month</b>, we can feed one kid for <b>1 full year!</b>
 
 IBAN (bank account for donations):
 
-CH30 8080 8003 8478 5531 6 &nbsp;
 <input id="iban" value="CH30 8080 8003 8478 5531 6" type="text" style="position: fixed; bottom: 0; right: 0; opacity: 0; transform: scale(0);" />
 <a onclick="copyEvent('iban')" class="button">
   <i class="fa fa-copy fa-lg"></i> Copy IBAN
 </a>
+CH30 8080 8003 8478 5531 6 &nbsp;
+
 
 Account holder: District Rotary 1990, Comission Rotaract
 
