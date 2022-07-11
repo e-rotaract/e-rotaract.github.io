@@ -45,6 +45,18 @@ morelinks:
       cta: "Street Kids Project"
       title: "Let's help kids from Kenya"
       image: "assets/images/street-kids/cover.png"
+  - left:
+      url: "https://e-rotaract.com/human-movie"
+      newtab: false
+      cta: "Human Movie"
+      title: "Watch with us!"
+      image: "assets/images/human-movie.png"
+    right:
+      url: "https://instagram.com/rotaract_eclub"
+      newtab: true
+      cta: "Follow us"
+      title: "Get to know us on Instagram!"
+      image: "assets/images/instagram-logo.jpg"
 #    right:
 #      url: "#social"
 #      newtab: false
