@@ -24,7 +24,7 @@ links:
   - id: meeting
     name: "Join our meeting"
     icon: "fa fa-video"
-    url: "https://univ-grenoble-alpes-fr.zoom.us/j/93915103056?pwd=VXl2dEVCd1dNUUhqNFd6Mk9nYmZTQT09"
+    url: "videocall"
     newtab: true
 
 # Authors
