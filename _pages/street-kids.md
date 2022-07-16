@@ -44,9 +44,9 @@ It is an international partnership among differnt clubs, countries and Rotary In
 # Join our videocall {#videocall}
 
 We have weekly videocalls of 30 minutes, every Sunday:
-- Kenya 🇰🇪 (UTC+3): at 12:00
-- Central Europe (CH🇨🇭, FR🇫🇷, NO🇳🇴...): at 11:00
-- Western Europe (PT🇵🇹, UK🇬🇧...): at 10:00
+- 12:00 - Kenya 🇰🇪 (UTC+3)
+- 11:00 - Central Europe: CH🇨🇭, FR🇫🇷, NO🇳🇴...
+- 10:00 - Western Europe: PT🇵🇹, UK🇬🇧...
 
 <p style="text-align: center;">
   <a href="{{site.baseurl}}/street-kids/call" target="_blank" class="button button-primary">
