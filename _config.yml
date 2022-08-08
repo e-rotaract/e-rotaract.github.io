@@ -1,0 +1,94 @@
+# Site
+name: "e‑Rotaract Beyond Frontiers"
+title: "e‑Rotaract Beyond Frontiers"
+description: "e‑rotaract.com"
+logo: 'assets/avatars/eclub.png'
+favicon: 'assets/avatars/eclub.png'
+baseurl: ''
+google_analytics: ''
+mailchimp-list: ''
+include: ["_pages"]
+permalink: /post/:title/
+future: false
+
+links:
+  - name: "Follow us"
+    icon: "fab fa-instagram"
+    url: "https://instagram.com/rotaract_eclub"
+    newtab: true
+  - id: calendar
+    name: "See our calendar"
+    icon: "fa fa-calendar-alt"
+    url: "https://calendar.google.com/calendar/embed?height=600&wkst=7&bgcolor=%23ffffff&ctz=UTC&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=1&showCalendars=1&mode=MONTH&hl=en_GB&src=cm90YXJhY3RiZXlvbmRmcm9udGllcnNAZ21haWwuY29t&src=bGY2b2hrZGNjZ24yY3Q2N2s0amc3MTFlaGMwYTdqOHVAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4tZ2IuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2IuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2Iubm9yd2VnaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=OW9ybDA3NjZ1ZnRpZzZmamFkbnJrazlpZjNldXJnajhAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=cGhsbm5pc3NoMjZlZ25rYWNxdjMxYTU5dDU2NzNmaDJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=b2FxNGx0cHJvaHZwb2w5cDliYjFta3JvZnFpcDRnMmRAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285F4&color=%23F09300&color=%230B8043&color=%233F51B5&color=%23D81B60&color=%23A79B8E&color=%23039BE5&color=%23616161"
+    newtab: true
+  - id: meeting
+    name: "Join our meeting"
+    icon: "fa fa-video"
+    url: "videocall"
+    newtab: true
+
+# Authors
+authors:
+  eclub:
+    name: e-Rotaract Beyond Frontiers
+    display_name: e-Rotaract Beyond Frontiers
+    avatar: 'assets/avatars/eclub.png'
+    email: hi@e-rotaract.com
+    web: https://e-rotaract.com
+    facebook: rotaract.eclub.bf
+    instagram: rotaract_eclub
+    linkedin: company/e-rotaract
+    twitter: rotaract_eclub
+    description: "International e‑Rotaract created on 2021-10-10"
+  iaco:
+    name: Iaco Vivaci
+    display_name: Iaco Vivaci
+    avatar: 'assets/avatars/iaco.jpg'
+    email: hi@iaco.io
+    web: https://iaco.io
+    facebook: iago.profile
+    instagram: iaco.io
+    linkedin: in/iago-me
+    twitter: IACO_io
+    description: "Iaco Vivaci"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-liquify
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination
+paginate: 6
+paginate_path: /post/page/:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: ""
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

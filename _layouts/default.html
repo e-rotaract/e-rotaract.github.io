@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>{{ page.title }} 🌐 {{ site.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <meta name="author" content="{{ site.authors[page.author].name }}">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/base.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/vendor.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="{{ site.baseurl }}/assets/js/modernizr.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png">
+    <link rel="manifest" href="{{ site.baseurl }}/site.webmanifest">
+
+    <meta property="twitter:card" content="summary_large_image">
+ 
+    <!-- statistics
+    ================================================== -->
+    <!-- no trackers -->
+
+    {% seo title=false %}
+</head>
+
+<body id="top" tabIndex=0>
+
+    <!-- header
+   ================================================== -->
+    <header>
+
+        {% if page.logo and page.logo.position == "top" %}
+        <div class="header-logo">
+            <a href="{{ site.baseurl }}/"
+                style="background-image: url('{{ site.baseurl }}/{{ page.logo.url }}');">
+                {{ site.name }}
+            </a>
+        </div>
+        {% endif %}
+
+        {% if page.hide-menu != true %}
+        <a id="header-menu-trigger" href="#0">
+            <span class="header-menu-text">MENU</span>
+            <span class="header-menu-icon"></span>
+        </a>
+        {% endif %}
+
+        <nav id="menu-nav-wrap">
+
+            <a href="#0" class="close-button" title="close"><span>Close</span></a><br>
+
+            <h3><a href="{{ site.baseurl }}/" title="Homepage">{{ site.name }}</a></h3>
+
+            <ul class="nav-list">
+                {% if page.site-links %}
+                    {% for item in site.links %}
+                    <li>
+                        <a href="{{ item.url }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} {% if item.newtab %}target="_blank" {% endif %}>
+                            <i class="{{ item.icon }}"></i> {{ item.name }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                    {% if page.links.size > 0 %}
+                    <li>
+                        <hr>
+                    </li>
+                    {% endif %}
+                {% endif %}
+
+                {% for item in page.links %}
+                    {% if item.show-in-menu %}
+                    <li>
+                        <a href="{{ item.url }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} {% if item.newtab %}target="_blank" {% endif %}>
+                            <i class="{{ item.icon }}"></i> {{ item.name }}
+                        </a>
+                    </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <!-- <ul class="header-social-list">
+                <li>
+                    <a target="_blank" href="https://www.linkedin.com/in/iagofelipetrentin/"><i class="fab fa-linkedin"></i></a>
+                </li>
+            </ul> -->
+
+        </nav> <!-- end #menu-nav-wrap -->
+
+    </header> <!-- end header -->
+
+    {% if page.hide-home != true %}
+    <!-- home
+   ================================================== -->
+    <section id="home" style="background-image: url('{% if page.image %}{{ page.image }}{% else %}{{ site.baseurl }}/assets/images/default-bg.jpg{% endif %}');">
+
+        <div class="overlay"></div>
+        <div class="gradient-overlay"></div>
+
+        <div class="home-content-table">
+            <div class="home-content-tablecell">
+                <div class="row">
+                    <div class="col-twelve">
+                        <div class="home-bottom-text">
+
+                            {% if page.logo and page.logo.position != "top" %}
+                                {% if page.logo.position == "center" %}
+                                <center>
+                                {% endif %}
+
+                                <a href="{{ site.baseurl }}/" title="Homepage">
+                                    <img class="animate-intro" src="{{ site.baseurl }}/{{ page.logo.url }}" width="150px" />
+                                </a>
+                                <br><br>
+
+                                {% if page.logo.position == "center" %}
+                                </center>
+                                {% endif %}
+                            {% endif %}
+
+                            <h3 class="animate-intro">
+                                {{ page.pretitle }}
+                            </h3>
+                            <h1 class="animate-intro">
+                                {{ page.title }}
+                            </h1>
+                            <h2 class="animate-intro">
+                                {{ page.description }}
+                            </h2>
+
+                            <ul class="home-section-links">
+                                {% for item in page.links %}
+                                {% if item.hr %}
+                                {% else %}
+                                    {% if item.show-in-intro %}
+                                    <li class="animate-intro">
+                                        <a href="{{ item.url }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} class="text" {% if item.newtab %}target="_blank" {% endif %}>
+                                            {{ item.name }}
+                                            <span><i class="{{ item.icon }}"></i></span>
+                                        </a>
+                                    </li>
+                                    {% endif %}
+                                {% endif %}
+                                {% endfor %}
+                            </ul>
+                            <!-- <a href="#main" class="scroll-icon smoothscroll">
+                                <span><i class="fa fa-arrow-down"></i></span>
+                            </a> -->
+                        </div> <!-- end home-bottom-text -->
+                    </div> <!-- end col-twelve -->
+                </div> <!-- end row -->
+            </div> <!-- end home-content-tablecell -->
+        </div> <!-- end home-content-table -->
+
+    </section> <!-- end home -->
+    {% endif %}
+
+
+    <!-- main
+   ================================================== -->
+    <section id="main">
+
+        <div class="overlay"></div>
+        <div class="gradient-overlay"></div>
+
+        <div class="row narrow">
+            <div class="col-content">
+
+                {% if page.youtube %}
+                <div class="section-intro">
+                    <div class="video-wrapper">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/{{ page.youtube }}?playsinline=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                {% endif %}
+
+                <div class="section-intro">
+                    {{ content }}
+                </div>
+                <!-- <div class="section-intro">
+                    <h3>
+                        <i class="fa fa-user-tie"></i>
+                    </h3>
+                    <h4>
+                        <em>Author: I&Lambda;CO VIV&Lambda;CI</em>
+                        <br>
+                        <em>Special Guest(s): Katlen Carvalho</em>
+                        <br>
+                        Contributor(s): Aaron @aaron
+                        <br>
+                        Editor: Someone Here
+                    </h4>
+                    <h3>
+                        <i class="fa fa-tags"></i>
+                    </h3>
+                    <h4>
+                        <em>Categories: Category Prime, Second One</em>
+                        <br>
+                        Tags: #abc #tagexample
+                    </h4>
+                </div> -->
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- morelinks
+   ================================================== -->
+    {% for item in page.morelinks %}
+    <section class="morelinks">
+
+        <div class="more-wrap">
+            <a href="{{ site.baseurl }}{{ item.left.url }}" {% assign val = item.left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %} {% if item.left.newtab %}target="_blank"{% endif %}>
+                <div class="more-bg-1" style="background-image: url('{{ item.left.image }}');"></div>
+                <div class="more-1">
+                    <div class="intro">
+                        <h3>{{ item.left.cta }}</h3>
+                        <h4>{{ item.left.title }}</h4>
+                        <!-- <p class="lead">{{ left.description }}</p> -->
+                    </div>
+                </div>
+            </a>
+            <a href="{{ site.baseurl }}{{ item.right.url }}" {% assign val = item.right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %} {% if item.right.newtab %}target="_blank"{% endif %}>
+                <div class="more-bg-2" style="background-image: url('{{ item.right.image }}');"></div>
+                <div class="more-2">
+                    <div class="intro">
+                        <h3>{{ item.right.cta }}</h3>
+                        <h4>{{ item.right.title }}</h4>
+                        <!-- <p class="lead">{{ right.description }}</p> -->
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </section>
+    {% endfor %}
+
+    {% if page.previous or page.next %}
+    <section class="morelinks">
+
+        <div class="more-wrap">
+            {% if page.previous.url %}
+                {% assign left = page.previous %}
+            {% else %}
+                {% assign left = site.posts[0] %}
+            {% endif %}
+            <a href="{{ site.baseurl }}{{ left.url }}" {% assign val = left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
+                <div class="more-bg-1" style="background-image: url('{{ left.image }}');"></div>
+                <div class="more-1">
+                    <div class="intro">
+                        <h3>READ MORE</h3>
+                        <h4>{{ left.title }}</h4>
+                        <!-- <p class="lead">{{ left.description }}</p> -->
+                    </div>
+                </div>
+            </a>
+            {% if page.next.url %}
+                {% assign right = page.next %}
+            {% elsif page.previous.url == site.posts[1].url %}
+                {% assign right = site.posts[2] %}
+            {% else %}
+                {% assign right = site.posts[1] %}
+            {% endif %}
+            <a href="{{ site.baseurl }}{{ right.url }}" {% assign val = right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
+                <div class="more-bg-2" style="background-image: url('{{ right.image }}');"></div>
+                <div class="more-2">
+                    <div class="intro">
+                        <h3>FEATURED</h3>
+                        <h4>{{ right.title }}</h4>
+                        <!-- <p class="lead">{{ right.description }}</p> -->
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </section>
+    {% endif %}
+
+
+    {% if page.hide-footer != true %}
+    <!-- footer
+   ================================================== -->
+    <footer>
+        <div class="row">
+
+            <div class="col-twelve tab-full social">
+                <ul class="footer-social">
+                    {% for item in page.footer %}
+                    <li>
+                        <a {% if item.newtab %}target="_blank"{% endif %} href="{{ item.url }}" title="Instagram">
+                            {{ item.icon }} {{ item.text }}
+                        </a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            </div>
+
+            <div class="col-twelve tab-full">
+                <div class="copyright">
+                    <span>
+                        <script>
+                            document.write(new Date().getFullYear())
+                        </script> &copy; <script>
+                            document.write(document.location.host)
+                        </script>
+                    </span>
+                </div>
+            </div>
+
+        </div> <!-- end row -->
+    </footer>
+    {% endif %}
+
+    {% if page.hide-go-top != true %}
+    <!-- go-top
+   ================================================== -->
+    <div id="go-top">
+        <div id="dark-bg"></div>
+        <script>
+            function compareColors(left, right) {
+                var dummy = $('<div/>');
+
+                $(dummy).css('color', left);
+                var adjustedLeft = $(dummy).css('color');
+
+                $(dummy).css('color', right);
+                var adjustedRight = $(dummy).css('color');
+
+                return adjustedLeft == adjustedRight;
+            }
+
+            function notifRead() {
+                document.cookie = "inotif=" + new Date().getTime() + "; max-age=3000111";
+                $('.pulsating-circle').hide();
+                $('#button-notif').toggleClass("active");
+                $('#button-notif i').toggleClass("far fa-comment-alt");
+                $('#button-notif i').toggleClass("fa fa-times");
+            }
+        </script>
+        <!-- <a id="button-notif" onclick="notifRead(); $('#notif').toggle(); $('#dark-bg').toggle();" title="Notifications">
+            <div class="pulsating-circle"></div><i class="far fa-comment-alt"></i>
+        </a> -->
+        <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-arrow-up fa-sm"></i></a>
+        <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                if (document.cookie.split('; ').find(row => row.startsWith('inotif=')).split('=')[1] > 0) {
+                    $('.pulsating-circle').hide();
+                }
+            }, false);
+        </script>
+        <div id="notif">
+            This is just a message to test how it will display in the corner of the screen of my website and let's see!
+            <br>
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <button>Submit</button>
+            </a>
+            I like to see how it will display if the text is really really big enourmously big hahahah
+            <br>
+            I like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is
+            really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahah
+            <br>
+            I like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is
+            really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see
+            how it will display if the text is really really big enourmously big hahahah
+        </div>
+    </div>
+    {% endif %}
+
+    <script>
+        var i, list = document.querySelectorAll("blockquote, h1, h2, h3, h4, h5, p, a, li, img, hr, .timeline-block, .item-wrap, .form-field, .video-wrapper");
+        for (i = 0; i < list.length; ++i) {
+            list[i].classList.add('animate-this');
+        }
+    </script>
+
+    <!-- Java Script
+   ================================================== -->
+    <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+</body>
+
+</html>
