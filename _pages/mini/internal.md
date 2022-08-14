@@ -174,7 +174,7 @@ permalink: "/internal"
                     <span style="font-family: 'Noto Sans', Tahoma, sans-serif; font-size: 16px;">&nbsp;&nbsp;nimi</span>
                 </div>
                 <p class="title">
-                    💬 One word or sentence to describe this moment
+                    🏷 One word or sentence to describe this moment
                     <span>
                         (nimi: word, name)
                     </span>
@@ -188,7 +188,7 @@ permalink: "/internal"
                     <span style="font-family: 'Noto Sans', Tahoma, sans-serif; font-size: 16px;">&nbsp;&nbsp;pona</span>
                 </div>
                 <p class="title">
-                    👍 Recommend an article, book, movie, video, event, recipe, website, game...
+                    🙂 Recommend an article, book, movie, video, event, recipe, website, game...
                     <span>
                         (pona: good, positive, useful)
                     </span>
@@ -202,7 +202,7 @@ permalink: "/internal"
                     <span style="font-family: 'Noto Sans', Tahoma, sans-serif; font-size: 16px;">&nbsp;&nbsp;pana</span>
                 </div>
                 <p class="title">
-                    📤 Looking for someone to give me a hand or give me some guidance
+                    ⤴️ Looking for someone to give me a hand or give me some guidance
                     <span>
                         (pana: give, provide)
                     </span>
@@ -244,7 +244,7 @@ permalink: "/internal"
                     <span style="font-family: 'Noto Sans', Tahoma, sans-serif; font-size: 16px;">&nbsp;&nbsp;sona</span>
                 </div>
                 <p class="title">
-                    🧠 An interesting idea I want to share with you all
+                    💡 An interesting idea I want to share with you all
                     <span>
                         (sona: idea, insight)
                     </span>
@@ -258,7 +258,7 @@ permalink: "/internal"
                     <span style="font-family: 'Noto Sans', Tahoma, sans-serif; font-size: 16px;">&nbsp;&nbsp;pali</span>
                 </div>
                 <p class="title">
-                    ✊ The progress or result of an action or a project
+                    ⚙️ The progress or result of an action or a project
                     <span>
                         (pali: work, action, project)
                     </span>
@@ -272,7 +272,7 @@ permalink: "/internal"
                     <span style="font-family: 'Noto Sans', Tahoma, sans-serif; font-size: 16px;">&nbsp;&nbsp;tawa</span>
                 </div>
                 <p class="title">
-                    ↪️ What I am going to do these next few days
+                    ➡️ What I am going to do these next few days
                     <span>
                         (tawa: going to, advance)
                     </span>
