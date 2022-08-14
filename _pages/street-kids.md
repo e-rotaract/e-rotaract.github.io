@@ -80,7 +80,7 @@ function copyEvent(id) {
 
 <style>
   img.half {
-    max-width: 50% !important;
+    max-width: 49% !important;
     padding: 10px;
   }
 
