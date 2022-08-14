@@ -1397,6 +1397,12 @@ ul.showcase li:focus {
     padding: 0 10%;
 }
 
+@media only screen and (max-width:600px) {
+    .section-intro img {
+        padding: 0 !important;
+    }
+}
+
 .section-intro.with-bottom-sep {
     padding-bottom: 4.2rem;
     position: relative;
