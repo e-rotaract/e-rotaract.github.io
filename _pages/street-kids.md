@@ -78,7 +78,24 @@ function copyEvent(id) {
 }
 </script>
 
-![]({{site.baseurl}}/assets/images/street-kids/street-kids-packs.png)
+<style>
+  img.half {
+    max-width: 50% !important;
+    padding: 10px;
+  }
+
+  @media only screen and (max-width:768px) {
+    img.half {
+      max-width: 100% !important;
+    }
+  }
+</style>
+
+<img class="half" src="{{site.baseurl}}/assets/images/street-kids/pack-1.png">
+<img class="half" src="{{site.baseurl}}/assets/images/street-kids/pack-2.png">
+<img class="half" src="{{site.baseurl}}/assets/images/street-kids/pack-3.png">
+<img class="half" src="{{site.baseurl}}/assets/images/street-kids/pack-4.png">
+
 
 
 # We are transparent!
