@@ -35,25 +35,25 @@ morelinks:
       newtab: true
       cta: "RID 9212"
       title: "Kenya 🇰🇪"
-      image: "assets/images/speakeat-logo-only.jpg"
+      image: "assets/images/flag-ke.jpg"
     right:
       url: "https://rotary1990.ch"
       newtab: true
       cta: "RID 1990"
       title: "Switzerland 🇨🇭"
-      image: "assets/images/street-kids/cover.png"
+      image: "assets/images/flag-ch.png"
   - left:
       url: "https://www.rotary1960.org"
       newtab: true
       cta: "RID 1960"
       title: "Portugal 🇵🇹"
-      image: "assets/images/human-movie.png"
+      image: "assets/images/flag-pt.png"
     right:
       url: "https://e-rotaract.com"
       newtab: false
       cta: "RID 1780"
       title: "France 🇫🇷"
-      image: "assets/images/instagram-logo.jpg"
+      image: "assets/images/flag-fr.jpg"
 
 ---
 
@@ -152,7 +152,7 @@ Here you can find all the financial receipts of our project. If you have questio
             <i class="fas fa-hand-holding-usd fa-lg"></i>
           </div>
           <h3 class="stat-count">28240</h3>
-          <h5 class="stat-title">in Donations (CHF/EUR)</h5>
+          <h5 class="stat-title">In Donations (CHF/EUR)</h5>
         </div>
 
         <div class="bgrid stat">
@@ -160,7 +160,7 @@ Here you can find all the financial receipts of our project. If you have questio
             <i class="fas fa-child fa-lg"></i>
           </div>
           <h3 class="stat-count">12</h3>
-          <h5 class="stat-title">Donors (clubs and individuals)</h5>
+          <h5 class="stat-title">Donors (Clubs & Individuals)</h5>
         </div>
 
       </div>
