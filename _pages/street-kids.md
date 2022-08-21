@@ -141,7 +141,3 @@ Here you can find all the financial receipts of our project. If you have questio
 
 
 # A huge thanks to each donor!
-
-We appreciate every help, it is thanks to them that these kids can be helped!
-
-
