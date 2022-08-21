@@ -168,14 +168,16 @@ Here you can find all the financial receipts of our project. If you have questio
   </div>
 </section>
 
+<br>
 
-- Rotary Bern-Christoffel
-- Rotary Gstaad-Saanenland
-- Rotary JoratLes Rangiers
-- Rotary Neuchâtel Lac
-- Rotary Nyon-La Côte
-- Rotary Sion
-- Rotary de Romans
+- Rotary Bern Christoffel <a href="https://bern-christoffel.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary Gstaad-Saanenland <a href="https://gstaad-saanenland.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary Jorat <a href="https://jorat.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary Neuchâtel Lac <a href="https://neuchatel-lac.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary Nyon-La Côte <a href="https://nyon-la-cote.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary Les Rangiers <a href="https://les-rangiers.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary de Romans <a href="https://rotaryromans.com" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary Sion <a href="https://sion.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Richter Jean-François
 - Favre Léon Patrick
 - Rosenbauer Oliver
