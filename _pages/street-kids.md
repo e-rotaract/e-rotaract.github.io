@@ -56,6 +56,12 @@ morelinks:
       title: "France 🇫🇷"
       image: "assets/images/flag-fr.png"
 
+footer:
+  - icon: "<i class='fas fa-hand-holding-heart'></i>"
+    text: "Make a Donation"
+    url: "#donation"
+    newtab: false
+
 ---
 
 
@@ -92,7 +98,7 @@ With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day 
 <!--
 <p style="text-align: center;">
   <a href="https://donorbox.org/street-kids-rotaract?default_interval=o" target="_blank" class="button button-primary">
-    <i class="fas fa-hand-holding-usd fa-lg"></i> Donate to Street Kids
+    <i class="fas fa-hand-holding-heart fa-lg"></i> Donate to Street Kids
   </a>
 </p>
 -->
@@ -157,7 +163,7 @@ Here you can find all the financial receipts of our project. If you have questio
 
         <div class="bgrid stat">
           <div class="icon-part">
-            <i class="fas fa-hand-holding-usd fa-lg"></i>
+            <i class="fas fa-hand-holding-heart fa-lg"></i>
           </div>
           <h3 class="stat-count">28240</h3>
           <h5 class="stat-title">In Donations (CHF/EUR)</h5>
