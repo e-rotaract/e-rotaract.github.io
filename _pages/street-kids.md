@@ -31,28 +31,28 @@ links:
 
 morelinks:
   - left:
-      url: "https://e-rotaract.com/speakeat"
-      newtab: false
-      cta: "Come to our SpeakEat"
-      title: "A moment to share knowledge and experiences!"
+      url: "https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346"
+      newtab: true
+      cta: "RID 9212"
+      title: "Kenya 🇰🇪"
       image: "assets/images/speakeat-logo-only.jpg"
     right:
-      url: "/street-kids"
+      url: "https://rotary1990.ch"
       newtab: true
-      cta: "Street Kids Project"
-      title: "Let's help kids from Kenya"
+      cta: "RID 1990"
+      title: "Switzerland 🇨🇭"
       image: "assets/images/street-kids/cover.png"
   - left:
-      url: "https://e-rotaract.com/human-movie"
-      newtab: false
-      cta: "Human Movie"
-      title: "Watch with us!"
+      url: "https://www.rotary1960.org"
+      newtab: true
+      cta: "RID 1960"
+      title: "Portugal 🇵🇹"
       image: "assets/images/human-movie.png"
     right:
-      url: "https://instagram.com/rotaract_eclub"
-      newtab: true
-      cta: "Follow us"
-      title: "Get to know us on Instagram!"
+      url: "https://e-rotaract.com"
+      newtab: false
+      cta: "RID 1780"
+      title: "France 🇫🇷"
       image: "assets/images/instagram-logo.jpg"
 
 ---
@@ -141,3 +141,35 @@ Here you can find all the financial receipts of our project. If you have questio
 
 
 # A huge thanks to each donor!
+
+<section id="stats">
+  <div class="row">
+    <div class="col-twelve">
+      <div class="block-1-4 block-tab-1-2 block-mob-full stats-list">
+
+        <div class="bgrid stat">
+          <div class="icon-part">
+            <i class="icon-Briefcase"></i>
+          </div>
+          <h3 class="stat-count">28240</h3>
+          <h5 class="stat-title">in Donations (CHF/EUR), and counting...</h5>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+- Rotary Bern-Christoffel
+- Rotary Gstaad-Saanenland
+- Rotary JoratLes Rangiers
+- Rotary Neuchâtel Lac
+- Rotary Nyon-La Côte
+- Rotary Sion
+- Rotary de Romans
+- Richter Jean-François
+- Favre Léon Patrick
+- Rosenbauer Oliver
+- Marie-Renée Borburgh
+
+# The Districts of our volunteers: Rotaractors and Rotarians
