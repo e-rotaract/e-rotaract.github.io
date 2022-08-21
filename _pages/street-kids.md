@@ -178,9 +178,11 @@ Here you can find all the financial receipts of our project. If you have questio
 - Rotary Les Rangiers <a href="https://les-rangiers.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Rotary de Romans <a href="https://rotaryromans.com" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Rotary Sion <a href="https://sion.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Richter Jean-François
-- Favre Léon Patrick
-- Rosenbauer Oliver
+- Jean-François Richter
 - Marie-Renée Borburgh
+- Oliver Rosenbauer
+- Patrick Léon Favre
 
-# The Districts of our volunteers: Rotaractors and Rotarians
+
+
+# The Districts of our Volunteers: Rotaractors & Rotarians
