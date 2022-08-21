@@ -89,7 +89,14 @@ We have weekly videocalls of 30 minutes, every Sunday:
 
 With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day and provide them with education: school, supplies, clothes!
 
-IBAN (bank account for donations):
+<a style="background: #d91b5c;color: #fff;text-decoration: none;font-family: Verdana,sans-serif;display: inline-block;font-size: 16px;padding: 17px 60px;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;box-shadow: 0 2px 0 0 #1f5a89;text-shadow: 0 1px rgba(0, 0, 0, 0.3);" href="https://donorbox.org/street-kids-rotaract?default_interval=o">
+  <i class="fas fa-hand-holding-usd"></i>
+  Donate Here
+</a>
+
+If you prefer to donate through a bank transfer, here is our details:
+- Account holder: District Rotary 1990, Comission Rotaract
+- IBAN:
 
 <input id="iban" value="CH30 8080 8003 8478 5531 6" type="text" style="position: fixed; bottom: 0; right: 0; opacity: 0; transform: scale(0);" />
 <a onclick="copyEvent('iban')" class="button">
@@ -98,9 +105,6 @@ IBAN (bank account for donations):
 <script>
   document.write(document.getElementById('iban').value)
 </script>
-
-
-Account holder: District Rotary 1990, Comission Rotaract
 
 <script>
 function copyEvent(id) {
