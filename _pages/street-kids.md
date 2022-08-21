@@ -2,7 +2,7 @@
 layout: default
 permalink: "street-kids"
 author: eclub
-image: {{ site.baseurl }}/assets/images/street-kids/street-kids-foundation.png
+image: "{{ site.baseurl }}/assets/images/street-kids/street-kids-foundation.png"
 
 logo:
   url: "assets/images/rotaract-logo-white.png"
