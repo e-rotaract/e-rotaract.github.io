@@ -58,7 +58,7 @@ We have weekly videocalls of 30 minutes, every Sunday:
 
 
 
-# Make a donation! {#donation}
+# Make a donation {#donation}
 
 With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day and provide them with education: school, supplies, clothes!
 
@@ -71,7 +71,6 @@ IBAN (bank account for donations):
 <script>
   document.write(document.getElementById('iban').value)
 </script>
-CH30 8080 8003 8478 5531 6
 
 
 Account holder: District Rotary 1990, Comission Rotaract
@@ -103,12 +102,12 @@ function copyEvent(id) {
 
 
 
-# We are transparent!
+# We are 100% transparent
 
-Here you can find all the financial receipts of our project. If you have any question, do not hesitate to contact us!
+Here you can find all the financial receipts of our project. If you have questions, do not hesitate to contact us!
 
 <p style="text-align: center;">
   <a href="https://www.dropbox.com/sh/iw2gokqs1dj3cig/AAAv_yq9HUx46d1n5YmXcKbha?dl=0" target="_blank" class="button button-success">
-    <i class="fab fa-dropbox fa-lg"></i> Street Kids Receipts
+    <i class="fab fa-dropbox fa-lg"></i> Street Kids Finances
   </a>
 </p>
