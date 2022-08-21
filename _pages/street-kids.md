@@ -9,7 +9,7 @@ logo:
 
 pretitle: Help them smile again!
 title: Street Kids
-description: One Meal A Day for a Kenyan Kid
+description: Meals and Education for Kenyan Kids
 
 hide-menu: true
 hide-footer: true
@@ -31,17 +31,19 @@ links:
 
 ---
 
+
+
 ![]({{site.baseurl}}/assets/images/street-kids/cover.png)
 
-The 'Street Kids' project is a <b>1 year program for 10 kids</b> from Nairobi/Kenya, in which we provide <b>2 meals</b> a day for each kid.
+The 'Street Kids' project is a <b>continuous program for 10+ kids</b> from Nairobi/Kenya, in which we provide <b>2 meals</b> a day and <b>education</b> for each kid.
 
-We keep regular contact with the kids through weekly calls, sharing photos, messages, etc.
+We keep regular contact with all the kids through weekly calls, sharing photos, messages, etc.
 
-It is an international partnership among different clubs, countries and Rotary International Districts from [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](http://e-rotaract.com).
+It is an international partnership among different clubs, countries and Rotary International Districts, from [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](https://e-rotaract.com).
 
 
 
-# Join our videocall {#videocall}
+# Join us online {#videocall}
 
 We have weekly videocalls of 30 minutes, every Sunday:
 - 12:00 - Kenya 🇰🇪 (UTC+3)
@@ -58,7 +60,7 @@ We have weekly videocalls of 30 minutes, every Sunday:
 
 # Make a donation! {#donation}
 
-With <b>50 euros per month</b>, we can feed one kid for <b>1 full year!</b>
+With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day and provide them with education: school, supplies, clothes!
 
 IBAN (bank account for donations):
 
@@ -66,7 +68,10 @@ IBAN (bank account for donations):
 <a onclick="copyEvent('iban')" class="button">
   <i class="fa fa-copy fa-lg"></i> Copy IBAN
 </a>
-CH30 8080 8003 8478 5531 6 &nbsp;
+<script>
+  document.write(document.getElementById('iban').value)
+</script>
+CH30 8080 8003 8478 5531 6
 
 
 Account holder: District Rotary 1990, Comission Rotaract
