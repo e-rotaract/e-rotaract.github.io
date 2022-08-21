@@ -62,11 +62,11 @@ morelinks:
 
 ![]({{site.baseurl}}/assets/images/street-kids/cover.png)
 
-The 'Street Kids' project is a <b>continuous program for 10+ kids</b> from Nairobi/Kenya, in which we provide <b>2 meals</b> a day and <b>education</b> for each kid.
+The Street Kids is a <b>continuous project for 10+ kids</b> from Nairobi/Kenya, in which we help them by providing <b>2 meals</b> a day and <b>education</b>.
 
 We keep regular contact with all the kids through weekly calls, sharing photos, messages, etc.
 
-It is an international partnership among different clubs, countries and Rotary International Districts, from [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](https://e-rotaract.com).
+It is an international partnership among different clubs and Rotary International Districts, including [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](https://e-rotaract.com).
 
 
 
