@@ -89,14 +89,15 @@ We have weekly videocalls of 30 minutes, every Sunday:
 
 With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day and provide them with education: school, supplies, clothes!
 
+<!--
 <p style="text-align: center;">
   <a href="https://donorbox.org/street-kids-rotaract?default_interval=o" target="_blank" class="button button-primary">
     <i class="fas fa-hand-holding-usd fa-lg"></i> Donate to Street Kids
   </a>
 </p>
+-->
 
-
-If you prefer to donate through a bank transfer, here is our details:
+To donate through a bank transfer, here is our details:
 - Account holder: District Rotary 1990, Comission Rotaract
 - IBAN:
 
