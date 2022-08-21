@@ -29,6 +29,32 @@ links:
       show-in-intro: true
       show-in-menu: true
 
+morelinks:
+  - left:
+      url: "https://e-rotaract.com/speakeat"
+      newtab: false
+      cta: "Come to our SpeakEat"
+      title: "A moment to share knowledge and experiences!"
+      image: "assets/images/speakeat-logo-only.jpg"
+    right:
+      url: "/street-kids"
+      newtab: true
+      cta: "Street Kids Project"
+      title: "Let's help kids from Kenya"
+      image: "assets/images/street-kids/cover.png"
+  - left:
+      url: "https://e-rotaract.com/human-movie"
+      newtab: false
+      cta: "Human Movie"
+      title: "Watch with us!"
+      image: "assets/images/human-movie.png"
+    right:
+      url: "https://instagram.com/rotaract_eclub"
+      newtab: true
+      cta: "Follow us"
+      title: "Get to know us on Instagram!"
+      image: "assets/images/instagram-logo.jpg"
+
 ---
 
 
@@ -111,3 +137,11 @@ Here you can find all the financial receipts of our project. If you have questio
     <i class="fab fa-dropbox fa-lg"></i> Street Kids Finances
   </a>
 </p>
+
+
+
+# A huge thanks to each donor!
+
+We appreciate every help, it is thanks to them that these kids can be helped!
+
+
