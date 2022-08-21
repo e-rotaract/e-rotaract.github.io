@@ -35,7 +35,7 @@ morelinks:
       newtab: true
       cta: "RID 9212"
       title: "Kenya 🇰🇪"
-      image: "assets/images/flag-ke.jpg"
+      image: "assets/images/flag-ke.png"
     right:
       url: "https://rotary1990.ch"
       newtab: true
@@ -53,7 +53,7 @@ morelinks:
       newtab: false
       cta: "RID 1780"
       title: "France 🇫🇷"
-      image: "assets/images/flag-fr.jpg"
+      image: "assets/images/flag-fr.png"
 
 ---
 
