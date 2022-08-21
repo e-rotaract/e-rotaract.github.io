@@ -145,20 +145,29 @@ Here you can find all the financial receipts of our project. If you have questio
 <section id="stats">
   <div class="row">
     <div class="col-twelve">
-      <div class="block-1-4 block-tab-1-2 block-mob-full stats-list">
+      <div class="block-1-2 block-tab-1-2 block-mob-full stats-list">
 
         <div class="bgrid stat">
           <div class="icon-part">
-            <i class="icon-Briefcase"></i>
+            <i class="fas fa-hand-holding-usd fa-lg"></i>
           </div>
           <h3 class="stat-count">28240</h3>
-          <h5 class="stat-title">in Donations (CHF/EUR), and counting...</h5>
+          <h5 class="stat-title">in Donations (CHF/EUR)</h5>
+        </div>
+
+        <div class="bgrid stat">
+          <div class="icon-part">
+            <i class="fas fa-child fa-lg"></i>
+          </div>
+          <h3 class="stat-count">11</h3>
+          <h5 class="stat-title">Donors (clubs and individuals)</h5>
         </div>
 
       </div>
     </div>
   </div>
 </section>
+
 
 - Rotary Bern-Christoffel
 - Rotary Gstaad-Saanenland
