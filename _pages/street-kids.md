@@ -185,4 +185,4 @@ Here you can find all the financial receipts of our project. If you have questio
 
 
 
-# The Districts of our Volunteers: Rotaractors & Rotarians
+# The Districts of our Rotaractors & Rotarians
