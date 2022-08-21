@@ -78,7 +78,7 @@ We have weekly videocalls of 30 minutes, every Sunday:
 - 10:00 - Western Europe: PT🇵🇹, UK🇬🇧...
 
 <p style="text-align: center;">
-  <a href="{{site.baseurl}}/street-kids/call" target="_blank" class="button button-primary">
+  <a href="{{site.baseurl}}/street-kids/call" target="_blank" class="button">
     <i class="fa fa-video fa-lg"></i> Street Kids Videocall
   </a>
 </p>
@@ -89,10 +89,12 @@ We have weekly videocalls of 30 minutes, every Sunday:
 
 With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day and provide them with education: school, supplies, clothes!
 
-<a style="background: #d91b5c;color: #fff;text-decoration: none;font-family: Verdana,sans-serif;display: inline-block;font-size: 16px;padding: 17px 60px;-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;box-shadow: 0 2px 0 0 #1f5a89;text-shadow: 0 1px rgba(0, 0, 0, 0.3);" href="https://donorbox.org/street-kids-rotaract?default_interval=o">
-  <i class="fas fa-hand-holding-usd"></i>
-  Donate Here
-</a>
+<p style="text-align: center;">
+  <a href="https://donorbox.org/street-kids-rotaract?default_interval=o" target="_blank" class="button button-primary">
+    <i class="fas fa-hand-holding-usd fa-lg"></i> Donate to Street Kids
+  </a>
+</p>
+
 
 If you prefer to donate through a bank transfer, here is our details:
 - Account holder: District Rotary 1990, Comission Rotaract
