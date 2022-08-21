@@ -13,7 +13,7 @@ title: Street Kids
 description: Meals and Education for Kenyan Kids
 
 hide-menu: true
-hide-footer: true
+hide-footer: false
 
 site-links: true     # show the default site menu
 links:
