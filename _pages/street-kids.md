@@ -159,7 +159,7 @@ Here you can find all the financial receipts of our project. If you have questio
           <div class="icon-part">
             <i class="fas fa-child fa-lg"></i>
           </div>
-          <h3 class="stat-count">11</h3>
+          <h3 class="stat-count">12</h3>
           <h5 class="stat-title">Donors (clubs and individuals)</h5>
         </div>
 
@@ -170,18 +170,18 @@ Here you can find all the financial receipts of our project. If you have questio
 
 <br>
 
-- Rotary Bern Christoffel <a href="https://bern-christoffel.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Rotary Gstaad-Saanenland <a href="https://gstaad-saanenland.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Rotary Jorat <a href="https://jorat.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary de Romans <a href="https://rotaryromans.com" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Rotary Neuchâtel Lac <a href="https://neuchatel-lac.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Rotary Nyon-La Côte <a href="https://nyon-la-cote.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Rotary Les Rangiers <a href="https://les-rangiers.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Rotary de Romans <a href="https://rotaryromans.com" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Rotary Sion <a href="https://sion.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Jean-François Richter
-- Marie-Renée Borburgh
-- Oliver Rosenbauer
+- Rotary Bern Christoffel <a href="https://bern-christoffel.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary Gstaad-Saanenland <a href="https://gstaad-saanenland.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary Les Rangiers <a href="https://les-rangiers.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Patrick Léon Favre
+- Jean-François Richter
+- Oliver Rosenbauer
+- Marie-Renée Borburgh
 
 
 
