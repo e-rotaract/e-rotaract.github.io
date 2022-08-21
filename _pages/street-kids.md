@@ -69,7 +69,7 @@ It is an international partnership among different clubs, countries and Rotary I
 
 
 
-# Join us online {#videocall}
+# Join Us every Sunday {#videocall}
 
 We have weekly videocalls of 30 minutes, every Sunday:
 - 12:00 - Kenya 🇰🇪 (UTC+3)
@@ -84,7 +84,7 @@ We have weekly videocalls of 30 minutes, every Sunday:
 
 
 
-# Make a donation {#donation}
+# Make a Donation {#donation}
 
 With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day and provide them with education: school, supplies, clothes!
 
@@ -128,7 +128,7 @@ function copyEvent(id) {
 
 
 
-# We are 100% transparent
+# We are 100% Transparent
 
 Here you can find all the financial receipts of our project. If you have questions, do not hesitate to contact us!
 
@@ -140,7 +140,7 @@ Here you can find all the financial receipts of our project. If you have questio
 
 
 
-# A huge thanks to each donor!
+# A Huge Thanks to Our Donors!
 
 <section id="stats">
   <div class="row">
@@ -185,4 +185,4 @@ Here you can find all the financial receipts of our project. If you have questio
 
 
 
-# The Districts of our Rotaractors & Rotarians
+# The Districts of Our Rotaractors & Rotarians
