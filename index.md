@@ -76,7 +76,10 @@ We are an international group of friends, and we share one goal: do our best to 
 
 Our club is part of the global network of volunteering associations from Rotary International, and everyone is more than welcome to join.
 
-We have members in many countries and Rotary International Discricts: Brasil 🇧🇷 ([4700](https://www.rotary4700.org.br/home)), France 🇫🇷 ([1710](https://rotary1710.org), [1730](https://www.rotary1730.org), [1780](https://www.rotary1780.org)), and Norge 🇳🇴 ([2310](https://d2310.rotary.no)).
+We have members in many countries and Rotary International Discricts:
+Brasil 🇧🇷 (<a target="_blank" href="https://www.rotary4700.org.br/home">4700</a>),
+France 🇫🇷 (<a target="_blank" href="https://rotary1710.org">1710</a>, <a target="_blank" href="https://www.rotary1730.org">1730</a>, <a target="_blank" href="https://www.rotary1780.org">1780</a>),
+and Norge 🇳🇴 (<a target="_blank" href="https://d2310.rotary.no">2310</a>).
 
 
 
