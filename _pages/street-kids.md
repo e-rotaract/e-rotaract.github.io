@@ -192,7 +192,7 @@ Here you can find all the financial receipts of our project. If you have questio
 - Rotary Bern Christoffel <a href="https://bern-christoffel.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Rotary Gstaad-Saanenland <a href="https://gstaad-saanenland.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Rotary Les Rangiers <a href="https://les-rangiers.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- The 20 Rotaract Clubs of RID 1960 <a href="https://www.rotaract1960.org/clubes-rtc" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- The 15+ Rotaract Clubs of RID 1960 <a href="https://www.rotaract1960.org/clubes-rtc" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Patrick Léon Favre
 - Jean-François Richter
 - Oliver Rosenbauer
