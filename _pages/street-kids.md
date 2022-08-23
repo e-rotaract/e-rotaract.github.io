@@ -68,7 +68,7 @@ footer:
 
 ![]({{site.baseurl}}/assets/images/street-kids/cover.png)
 
-The Street Kids is a <b>continuous project for 10+ kids</b> from Nairobi/Kenya, in which we help them by providing <b>2 meals</b> a day and <b>education</b>.
+The Street Kids is a <b>continuous project for 11+ kids</b> from Nairobi/Kenya, in which we help them by providing <b>2 meals</b> a day, shelter and <b>education</b>.
 
 We keep regular contact with all the kids through weekly calls, sharing photos, messages, etc.
 
@@ -93,7 +93,7 @@ We have weekly videocalls of 30 minutes, every Sunday:
 
 # Make a Donation {#donation}
 
-With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day and provide them with education: school, supplies, clothes!
+With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day and provide them with shelter and education: school, supplies, clothes!
 
 <!--
 <p style="text-align: center;">
@@ -192,6 +192,7 @@ Here you can find all the financial receipts of our project. If you have questio
 - Rotary Bern Christoffel <a href="https://bern-christoffel.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Rotary Gstaad-Saanenland <a href="https://gstaad-saanenland.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Rotary Les Rangiers <a href="https://les-rangiers.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- The 20 Rotaract Clubs of RID 1960 <a href="https://www.rotaract1960.org/clubes-rtc" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
 - Patrick Léon Favre
 - Jean-François Richter
 - Oliver Rosenbauer
