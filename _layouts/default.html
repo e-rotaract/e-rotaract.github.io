@@ -227,8 +227,8 @@
     <section class="morelinks">
 
         <div class="more-wrap">
-            <a href="{{ site.baseurl }}{{ item.left.url }}" {% assign val = item.left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %} {% if item.left.newtab %}target="_blank"{% endif %}>
-                <div class="more-bg-1" style="background-image: url('{{ item.left.image }}');"></div>
+            <a href="{{ site.baseurl }}/{{ item.left.url }}" {% assign val = item.left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %} {% if item.left.newtab %}target="_blank"{% endif %}>
+                <div class="more-bg-1" style="background-image: url('{{ site.baseurl }}/{{ item.left.image }}');"></div>
                 <div class="more-1">
                     <div class="intro">
                         <h3>{{ item.left.cta }}</h3>
@@ -237,8 +237,8 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ site.baseurl }}{{ item.right.url }}" {% assign val = item.right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %} {% if item.right.newtab %}target="_blank"{% endif %}>
-                <div class="more-bg-2" style="background-image: url('{{ item.right.image }}');"></div>
+            <a href="{{ site.baseurl }}/{{ item.right.url }}" {% assign val = item.right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %} {% if item.right.newtab %}target="_blank"{% endif %}>
+                <div class="more-bg-2" style="background-image: url('{{ site.baseurl }}/{{ item.right.image }}');"></div>
                 <div class="more-2">
                     <div class="intro">
                         <h3>{{ item.right.cta }}</h3>
@@ -261,8 +261,8 @@
             {% else %}
                 {% assign left = site.posts[0] %}
             {% endif %}
-            <a href="{{ site.baseurl }}{{ left.url }}" {% assign val = left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
-                <div class="more-bg-1" style="background-image: url('{{ left.image }}');"></div>
+            <a href="{{ site.baseurl }}/{{ left.url }}" {% assign val = left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
+                <div class="more-bg-1" style="background-image: url('{{ site.baseurl }}/{{ left.image }}');"></div>
                 <div class="more-1">
                     <div class="intro">
                         <h3>READ MORE</h3>
@@ -278,8 +278,8 @@
             {% else %}
                 {% assign right = site.posts[1] %}
             {% endif %}
-            <a href="{{ site.baseurl }}{{ right.url }}" {% assign val = right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
-                <div class="more-bg-2" style="background-image: url('{{ right.image }}');"></div>
+            <a href="{{ site.baseurl }}/{{ right.url }}" {% assign val = right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
+                <div class="more-bg-2" style="background-image: url('{{ site.baseurl }}/{{ right.image }}');"></div>
                 <div class="more-2">
                     <div class="intro">
                         <h3>FEATURED</h3>
