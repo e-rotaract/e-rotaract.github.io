@@ -10,16 +10,17 @@ source "https://rubygems.org"
 # If you have any plugins, put them here!
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 group :jekyll_plugins do
-    gem 'jekyll-feed'
-    gem 'jekyll-sitemap'
-    gem 'jekyll-paginate'
-    gem 'jekyll-seo-tag'
-    gem 'jekyll-archives'
-    gem 'github-pages'
+    gem "jekyll-feed"
+    gem "jekyll-sitemap"
+    gem "jekyll-paginate"
+    gem "jekyll-seo-tag"
+    gem "jekyll-archives"
+    gem "github-pages"
     gem "addressable", ">= 2.8.0"
     gem "rexml", ">= 3.2.5"
     gem "nokogiri", ">= 1.11.4"
     gem "kramdown", ">= 2.3.1"
-    gem 'rouge'
-    gem 'jekyll-liquify'
+    gem "rouge"
+    gem "jekyll-liquify"
+    gem "webrick"
 end
