@@ -140,16 +140,23 @@ Some of the actions we worked and helped on are:
 
 # Come and join us! {#a}
 
-![]({{site.baseurl}}/assets/images/hands-heart.jpg "Join us!")
+![]({{site.baseurl}}/assets/images/hands-heart.jpg)
 
-You and your friends are more than welcome!
-<br>
-We meet online at least once per month, and we can also meet face-to-face if our members live close by!
-<br>
-If you are interested in joining us, the best is to send us a message:
-
-<p style="text-align: center;">
-  <a href="#social" class="button">
-    <i class="fa fa-user-friends fa-lg"></i> Send us a message!
-  </a>
-</p>
+<a target="_blank" href="/">
+  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/alex.png">
+</a>
+<a target="_blank" href="/">
+  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/debora.png">
+</a>
+<a target="_blank" href="/">
+  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/emiline.png">
+</a>
+<a target="_blank" href="/">
+  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/iaco.png">
+</a>
+<a target="_blank" href="/">
+  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/leo.png">
+</a>
+<a target="_blank" href="/">
+  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/magali.png">
+</a>
