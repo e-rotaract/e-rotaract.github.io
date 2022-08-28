@@ -140,7 +140,7 @@ Some of the actions we worked and helped on are:
 
 ![]({{site.baseurl}}/assets/images/hands-heart.jpg)
 
-Our volunteers are all around the world, in different countries and Rotary International Discricts, including:
+Our past and current volunteers are from all around the world, from different countries and Rotary International Discricts, including:
 Brasil 🇧🇷 (<a target="_blank" href="https://www.rotary4700.org.br/home">4700</a>),
 France 🇫🇷 (<a target="_blank" href="https://rotary1710.org">1710</a>, <a target="_blank" href="https://www.rotary1730.org">1730</a>, <a target="_blank" href="https://www.rotary1780.org">1780</a>),
 and Norge 🇳🇴 (<a target="_blank" href="https://d2310.rotary.no">2310</a>).
