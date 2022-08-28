@@ -247,21 +247,21 @@ p img {
 
 img.half {
     max-width: 49% !important;
-    padding: 0px !important;
+    padding: 0 3px !important;
 }
 
 img.half2 {
-    max-width: 23% !important;
-    padding: 0px !important;
+    max-width: 24% !important;
+    padding: 0 3px !important;
 }
 
 @media only screen and (max-width:768px) {
     img.half {
-        max-width: 100% !important;
+        max-width: calc(100% - 6px) !important;
     }
 
     img.half2 {
-        max-width: 50% !important;
+        max-width: calc(50% - 6px) !important;
     }
 }
 
@@ -1419,7 +1419,7 @@ ul.showcase li:focus {
 
 @media only screen and (max-width:768px) {
     .section-intro img {
-        padding: 0 !important;
+        padding: 0;
     }
 }
 

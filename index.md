@@ -76,11 +76,6 @@ We are an international group of friends sharing one goal: do our best to help t
 
 Our e-club is part of the global network of volunteers in Rotary International, and everyone is welcome to join our virtual meetings!
 
-We have members in many countries and Rotary International Discricts:
-Brasil 🇧🇷 (<a target="_blank" href="https://www.rotary4700.org.br/home">4700</a>),
-France 🇫🇷 (<a target="_blank" href="https://rotary1710.org">1710</a>, <a target="_blank" href="https://www.rotary1730.org">1730</a>, <a target="_blank" href="https://www.rotary1780.org">1780</a>),
-and Norge 🇳🇴 (<a target="_blank" href="https://d2310.rotary.no">2310</a>).
-
 
 
 # Can I join? {#join}
@@ -123,40 +118,49 @@ If you have an idea, send us a message, we can surely work together!
 Some of the actions we worked and helped on are:
 
 <script>
-  var actions = ["/street-kids", "/speakeat", "/human-movie"]
+  var actions = [
+    { url: "/street-kids", img: "/assets/images/actions/street-kids.png" },
+    { url: "/speakeat", img: "/assets/images/actions/speakeat.png" },
+    { url: "/human-movie", img: "/assets/images/actions/human-movie.png" }
+  ];
+
+  shuffle(actions)
+
+  for (it in actions) {
+    document.write('<a target="_blank" href="' + actions[it].url  + '">' +
+      '<img class="half" src="' + actions[it].img + '">' +
+      '</a>'
+      )
+  }
 </script>
 
-<a target="_blank" href="/street-kids">
-  <img class="half" src="{{ site.baseurl }}/assets/images/actions/street-kids.png">
-</a>
-<a target="_blank" href="/speakeat">
-  <img class="half" src="{{ site.baseurl }}/assets/images/actions/speakeat.png">
-</a>
-<a target="_blank" href="/human-movie">
-  <img class="half" src="{{ site.baseurl }}/assets/images/actions/human-movie.png">
-</a>
 
 
-
-# Come and join us! {#a}
+# Who are we? {#a}
 
 ![]({{site.baseurl}}/assets/images/hands-heart.jpg)
 
-<a target="_blank" href="/">
-  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/alex.png">
-</a>
-<a target="_blank" href="/">
-  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/debora.png">
-</a>
-<a target="_blank" href="/">
-  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/emiline.png">
-</a>
-<a target="_blank" href="/">
-  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/iaco.png">
-</a>
-<a target="_blank" href="/">
-  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/leo.png">
-</a>
-<a target="_blank" href="/">
-  <img class="half2" src="{{ site.baseurl }}/assets/images/participants/magali.png">
-</a>
+Our volunteers are all around the world, in different countries and Rotary International Discricts, including:
+Brasil 🇧🇷 (<a target="_blank" href="https://www.rotary4700.org.br/home">4700</a>),
+France 🇫🇷 (<a target="_blank" href="https://rotary1710.org">1710</a>, <a target="_blank" href="https://www.rotary1730.org">1730</a>, <a target="_blank" href="https://www.rotary1780.org">1780</a>),
+and Norge 🇳🇴 (<a target="_blank" href="https://d2310.rotary.no">2310</a>).
+Come and join us!
+
+<script>
+  var participants = [
+    { img: "/assets/images/participants/alex.png" },
+    { img: "/assets/images/participants/debora.png" },
+    { img: "/assets/images/participants/emiline.png" },
+    { img: "/assets/images/participants/iaco.png" },
+    { img: "/assets/images/participants/leo.png" },
+    { img: "/assets/images/participants/magali.png" }
+  ];
+
+  shuffle(participants)
+
+  for (it in participants) {
+    document.write('<img class="half2" src="' + participants[it].img + '">')
+  }
+
+  document.write('<a href="#join"><img class="half2" src="/assets/images/participants/you.gif"></a>')
+</script>
