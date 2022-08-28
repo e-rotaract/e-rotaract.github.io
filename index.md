@@ -115,7 +115,7 @@ We work on a variety of social projects and causes! When an action is beneficial
 If you have an idea, send us a message, we can surely work together!
 
 <p style="text-align: center;">
-  <a href="#join" class="button smoothscroll">
+  <a href="#join" class="button">
     <i class="fa fa-lightbulb fa-lg"></i> Tell us your idea!
   </a>
 </p>
@@ -149,7 +149,7 @@ We meet online at least once per month, and we can also meet face-to-face if our
 If you are interested in joining us, the best is to send us a message:
 
 <p style="text-align: center;">
-  <a href="#social" class="button smoothscroll">
+  <a href="#social" class="button">
     <i class="fa fa-user-friends fa-lg"></i> Send us a message!
   </a>
 </p>

@@ -72,7 +72,7 @@
                 {% if page.site-links %}
                     {% for item in site.links %}
                     <li>
-                        <a href="{{ item.url }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} {% if item.newtab %}target="_blank" {% endif %}>
+                        <a href="{{ item.url }}" title="{{ item.name }}" {% if item.newtab %}target="_blank" {% endif %}>
                             <i class="{{ item.icon }}"></i> {{ item.name }}
                         </a>
                     </li>
@@ -87,7 +87,7 @@
                 {% for item in page.links %}
                     {% if item.show-in-menu %}
                     <li>
-                        <a href="{{ item.url }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} {% if item.newtab %}target="_blank" {% endif %}>
+                        <a href="{{ item.url }}" title="{{ item.name }}" {% if item.newtab %}target="_blank" {% endif %}>
                             <i class="{{ item.icon }}"></i> {{ item.name }}
                         </a>
                     </li>
@@ -150,7 +150,7 @@
                                 {% else %}
                                     {% if item.show-in-intro %}
                                     <li class="animate-intro">
-                                        <a href="{{ item.url }}" title="{{ item.name }}" {% assign val = item.url | slice: 0 %}{% if val == "#" %}class="smoothscroll" {% endif %} class="text" {% if item.newtab %}target="_blank" {% endif %}>
+                                        <a href="{{ item.url }}" title="{{ item.name }}" class="text" {% if item.newtab %}target="_blank" {% endif %}>
                                             {{ item.name }}
                                             <span><i class="{{ item.icon }}"></i></span>
                                         </a>
@@ -159,7 +159,7 @@
                                 {% endif %}
                                 {% endfor %}
                             </ul>
-                            <!-- <a href="#main" class="scroll-icon smoothscroll">
+                            <!-- <a href="#main" class="scroll-icon">
                                 <span><i class="fa fa-arrow-down"></i></span>
                             </a> -->
                         </div> <!-- end home-bottom-text -->
@@ -227,7 +227,7 @@
     <section class="morelinks">
 
         <div class="more-wrap">
-            <a href="{{ site.baseurl }}{{ item.left.url }}" {% assign val = item.left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %} {% if item.left.newtab %}target="_blank"{% endif %}>
+            <a href="{{ site.baseurl }}{{ item.left.url }}" {% if item.left.newtab %}target="_blank"{% endif %}>
                 <div class="more-bg-1" style="background-image: url('{{ site.baseurl }}{{ item.left.image }}');"></div>
                 <div class="more-1">
                     <div class="intro">
@@ -237,7 +237,7 @@
                     </div>
                 </div>
             </a>
-            <a href="{{ site.baseurl }}{{ item.right.url }}" {% assign val = item.right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %} {% if item.right.newtab %}target="_blank"{% endif %}>
+            <a href="{{ site.baseurl }}{{ item.right.url }}" {% if item.right.newtab %}target="_blank"{% endif %}>
                 <div class="more-bg-2" style="background-image: url('{{ site.baseurl }}{{ item.right.image }}');"></div>
                 <div class="more-2">
                     <div class="intro">
@@ -261,7 +261,7 @@
             {% else %}
                 {% assign left = site.posts[0] %}
             {% endif %}
-            <a href="{{ site.baseurl }}{{ left.url }}" {% assign val = left.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
+            <a href="{{ site.baseurl }}{{ left.url }}">
                 <div class="more-bg-1" style="background-image: url('{{ site.baseurl }}{{ left.image }}');"></div>
                 <div class="more-1">
                     <div class="intro">
@@ -278,7 +278,7 @@
             {% else %}
                 {% assign right = site.posts[1] %}
             {% endif %}
-            <a href="{{ site.baseurl }}{{ right.url }}" {% assign val = right.url | slice: 0 %}{% if val == "#" %}class="smoothscroll"{% endif %}>
+            <a href="{{ site.baseurl }}{{ right.url }}">
                 <div class="more-bg-2" style="background-image: url('{{ site.baseurl }}{{ right.image }}');"></div>
                 <div class="more-2">
                     <div class="intro">
@@ -357,7 +357,7 @@
         <!-- <a id="button-notif" onclick="notifRead(); $('#notif').toggle(); $('#dark-bg').toggle();" title="Notifications">
             <div class="pulsating-circle"></div><i class="far fa-comment-alt"></i>
         </a> -->
-        <a class="smoothscroll" title="Back to Top" href="#top"><i class="fa fa-arrow-up fa-sm"></i></a>
+        <a title="Back to Top" href="#top"><i class="fa fa-arrow-up fa-sm"></i></a>
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 if (document.cookie.split('; ').find(row => row.startsWith('inotif=')).split('=')[1] > 0) {
@@ -368,7 +368,7 @@
         <div id="notif">
             This is just a message to test how it will display in the corner of the screen of my website and let's see!
             <br>
-            <a class="smoothscroll" title="Back to Top" href="#top">
+            <a title="Back to Top" href="#top">
                 <button>Submit</button>
             </a>
             I like to see how it will display if the text is really really big enourmously big hahahah

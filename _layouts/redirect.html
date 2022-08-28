@@ -1,5 +1,5 @@
 ---
-title: "Redirect"
+title: "You are being redirected..."
 layout: redirect
 permalink: "/redirect.html"
 ---
@@ -9,7 +9,7 @@ permalink: "/redirect.html"
 {% if page.redirect %}
 <html>
     <head>
-        <title>IΛCO VIVΛCI</title>
+        <title>{{ page.title }}</title>
         <meta http-equiv="refresh" content="0; url={{ page.redirect }}">
         <script type="text/javascript"> window.location.href = "{{ page.redirect }}" </script>
     </head>
@@ -22,25 +22,13 @@ permalink: "/redirect.html"
 
 <html>
     <head>
-        <title>IΛCO VIVΛCI</title>
+        <title>{{ page.title }}</title>
         <meta http-equiv="refresh" content="0; url=https://iaco.me">
         <script type="text/javascript"> window.location.href = "https://iaco.me" </script>
     </head>
     <body>
-        If you are not redirected automatically, click this <a href="https://iaco.me">link</a>.
+        If you are not redirected automatically, click on <a href="https://iaco.io">this link</a>.
     </body>
 </html>
 
 {% endif %}
-
-
-
-
-
-
-
-
-
-
-
-

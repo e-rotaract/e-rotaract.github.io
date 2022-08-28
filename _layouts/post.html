@@ -102,7 +102,7 @@ post_class: post-template
                 {% endif %}
                 {% if page.igtv %}
                     <div class="col-6">
-                        <a class="smoothscroll" target="_blank" href="https://www.instagram.com/tv/{{ page.igtv }}">
+                        <a target="_blank" href="https://www.instagram.com/tv/{{ page.igtv }}">
                             <input type="text" class="form-control text-small bg-dark" placeholder="&#xf16d; Instagram" style="font-family: Segoe UI, Arial, 'Font Awesome 5 Brands'; color: #ffffff; cursor: pointer;" disabled>
                         </a>
                     </div>
@@ -138,7 +138,7 @@ post_class: post-template
                     {% assign sortedCategories = page.categories | sort %}
                     {% for category in sortedCategories %}
                     <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
+                        <a href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>
                     </li>
                     {% endfor %}
                 </ul>
@@ -157,7 +157,7 @@ post_class: post-template
                     {% assign sortedTags = page.tags | sort %}
                     {% for tag in sortedTags %}
                     <li>
-                        <a class="smoothscroll" href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">#{{ tag }}</a>
+                        <a href="{{site.baseurl}}/tags#{{ tag | replace: " ","-" }}">#{{ tag }}</a>
                     </li>
                     {% endfor %}
                 </ul>

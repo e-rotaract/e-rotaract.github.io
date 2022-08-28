@@ -124,7 +124,7 @@
 	* ------------------------------------------------------ */
 	var ssSmoothScroll = function() {
 
-		$('.smoothscroll').on('click', function (e) {
+		$("a[href^='#']").on('click', function (e) {
 			var target = this.hash,
 			$target    = $(target);
 
