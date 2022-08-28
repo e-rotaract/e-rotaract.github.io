@@ -25,9 +25,9 @@ links:
       newtab: false
       show-in-intro: true
       show-in-menu: true
-    - name: "Leadership skills"
+    - name: "Our volunteers"
       icon: "fa fa-seedling"
-      url: "#skills"
+      url: "#volunteers"
       newtab: false
       show-in-intro: true
       show-in-menu: true
@@ -136,7 +136,7 @@ Some of the actions we worked and helped on are:
 
 
 
-# Who are we? {#a}
+# Who are we? {#volunteers}
 
 ![]({{site.baseurl}}/assets/images/hands-heart.jpg)
 
