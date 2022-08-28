@@ -7,9 +7,9 @@ logo:
   url: "assets/images/rotaract-logo-white.png"
   position: "center"
 
-pretitle: Join us, together we can
-title: Make our world a better&nbsp;place!
-description: We are e-Rotaract Beyond Frontiers,<br>And we are here to hear you, let's&nbsp;go!
+pretitle: Hi, welcome to
+title: e-Rotaract Beyond Frontiers
+description: Together we can make our world a better place!
 
 site-links: true     # show the default site menu
 links:
@@ -19,50 +19,50 @@ links:
       newtab: false
       show-in-intro: true
       show-in-menu: true
-    - name: "Let's be social"
-      icon: "fa fa-user-friends"
-      url: "#social"
+    - name: "Our actions" 
+      icon: "fa fa-hand-holding-heart"
+      url: "#actions"
       newtab: false
       show-in-intro: true
       show-in-menu: true
-    - name: "Propose partnership"
-      icon: "fa fa-hand-holding-heart"
-      url: "#partnership"
+    - name: "Leadership skills"
+      icon: "fa fa-seedling"
+      url: "#skills"
       newtab: false
       show-in-intro: true
       show-in-menu: true
 
 morelinks:
   - left:
-      url: "https://e-rotaract.com/speakeat"
-      newtab: false
+      url: "/speakeat"
+      newtab: true
       cta: "Come to our SpeakEat"
       title: "A moment to share knowledge and experiences!"
-      image: "assets/images/speakeat-logo-only.jpg"
+      image: "/assets/images/speakeat-logo-only.jpg"
     right:
       url: "/street-kids"
       newtab: true
       cta: "Street Kids Project"
       title: "Let's help kids from Kenya"
-      image: "assets/images/street-kids/cover.png"
+      image: "/assets/images/street-kids/cover.png"
   - left:
-      url: "https://e-rotaract.com/human-movie"
+      url: "/human-movie"
       newtab: false
       cta: "Human Movie"
       title: "Watch with us!"
-      image: "assets/images/human-movie.png"
+      image: "/assets/images/human-movie.png"
     right:
-      url: "https://instagram.com/rotaract_eclub"
+      url: "/instagram"
       newtab: true
       cta: "Follow us"
       title: "Get to know us on Instagram!"
-      image: "assets/images/instagram-logo.jpg"
+      image: "/assets/images/instagram-logo.jpg"
 #    right:
 #      url: "#social"
 #      newtab: false
 #      cta: "We are Rotaract"
 #      title: "Join us today!"
-#      image: "assets/images/rotaract-logo-pink.png"
+#      image: "/assets/images/rotaract-logo-pink.png"
 
 footer:
   - icon: "<i class='fab fa-instagram'></i>"
@@ -72,9 +72,9 @@ footer:
 
 ---
 
-We are an international group of friends, and we share one goal: do our best to help the world, because we believe together we can go further.
+We are an international group of friends sharing one goal: do our best to help the world, because together we can make it a better place.
 
-Our club is part of the global network of volunteering associations from Rotary International, and everyone is more than welcome to join.
+Our e-club is part of the global network of volunteers in Rotary International, and everyone is welcome to join our virtual meetings!
 
 We have members in many countries and Rotary International Discricts:
 Brasil 🇧🇷 (<a target="_blank" href="https://www.rotary4700.org.br/home">4700</a>),
@@ -83,46 +83,62 @@ and Norge 🇳🇴 (<a target="_blank" href="https://d2310.rotary.no">2310</a>).
 
 
 
-# Let's connect! {#social}
+# Can I join? {#join}
 
-![]({{site.baseurl}}/assets/images/friends-camping.jpg "Let's connect!")
+![]({{site.baseurl}}/assets/images/friends-toast.jpg)
 
-Let's be social, find us online and connect with us!
-And of course, we would love to hear you, so feel free to send us a message!
+Everyone is welcome! We have monthly meetings on **Sundays**.
+
+You can help as a volunteer in social actions when you have the time, and if interested you can become a member of our e-club!
+
+Members also help in social projects, as well as develop their professional and personal skills in our e-club.
+
+To know more you can contact us!
 
 <p style="text-align: center;">
-  <a href="https://instagram.com/rotaract_eclub" target="_blank" class="button button-primary">
+  <a href="/instagram" target="_blank" class="button button-primary">
     <i class="fab fa-instagram fa-lg"></i> Follow us and<br> send a message @rotaract_eclub
   </a>
 </p>
 <p style="text-align: center;">
   <a href="mailto:hi@e-rotaract.com" target="_blank" class="button">
-    <i class="fa fa-envelope fa-lg"></i> E-mail us hi@e-rotaract.com
+    <i class="fa fa-envelope fa-lg"></i> E-mail us: hi@e-rotaract.com
   </a>
-  <!-- <a href="https://chat.whatsapp.com/INkMh1VrXbr3H77piY4Lrh" target="_blank" class="button button-success">
-    <i class="fab fa-whatsapp fa-lg"></i> Join our WhatsApp
-  </a> -->
 </p>
 
 
 
-# Become partners! {#partnership}
+# What do we do? {#actions}
 
-![]({{site.baseurl}}/assets/images/friends-toast.jpg "Let's make a partnership!")
+We work on a variety of social projects and causes! When an action is beneficial to all concerned, we will support and help as much we can!
 
-We work on a variety of projects and causes!
-<br>
-If you have an idea, we can work together: send us a message, we are here to help make our world a better place for everyone.
+If you have an idea, send us a message, we can surely work together!
 
 <p style="text-align: center;">
-  <a href="#social" class="button smoothscroll">
+  <a href="#join" class="button smoothscroll">
     <i class="fa fa-lightbulb fa-lg"></i> Tell us your idea!
   </a>
 </p>
 
+Some of the actions we worked and helped on are:
+
+<script>
+  var actions = ["/street-kids", "/speakeat", "/human-movie"]
+</script>
+
+<a target="_blank" href="/street-kids">
+  <img class="half" src="{{ site.baseurl }}/assets/images/actions/street-kids.png">
+</a>
+<a target="_blank" href="/speakeat">
+  <img class="half" src="{{ site.baseurl }}/assets/images/actions/speakeat.png">
+</a>
+<a target="_blank" href="/human-movie">
+  <img class="half" src="{{ site.baseurl }}/assets/images/actions/human-movie.png">
+</a>
 
 
-# Come and join us! {#join}
+
+# Come and join us! {#a}
 
 ![]({{site.baseurl}}/assets/images/hands-heart.jpg "Join us!")
 

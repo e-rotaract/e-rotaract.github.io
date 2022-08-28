@@ -10,7 +10,7 @@ logo:
 
 pretitle: Help them smile again!
 title: Street Kids
-description: Meals and Education for Kenyan Kids
+description: Meals, Shelter and Education for Kenyan Kids
 
 hide-menu: true
 hide-footer: false
@@ -36,25 +36,25 @@ morelinks:
       newtab: true
       cta: "RID 9212"
       title: "Kenya 🇰🇪"
-      image: "assets/images/flag-ke.png"
+      image: "/assets/images/flag-ke.png"
     right:
       url: "https://rotary1990.ch"
       newtab: true
       cta: "RID 1990"
       title: "Switzerland 🇨🇭"
-      image: "assets/images/flag-ch.png"
+      image: "/assets/images/flag-ch.png"
   - left:
       url: "https://www.rotary1960.org"
       newtab: true
       cta: "RID 1960"
       title: "Portugal 🇵🇹"
-      image: "assets/images/flag-pt.png"
+      image: "/assets/images/flag-pt.png"
     right:
       url: "https://e-rotaract.com"
       newtab: false
       cta: "RID 1780"
       title: "France 🇫🇷"
-      image: "assets/images/flag-fr.png"
+      image: "/assets/images/flag-fr.png"
 
 footer:
   - icon: "<i class='fas fa-hand-holding-heart'></i>"
@@ -68,11 +68,11 @@ footer:
 
 ![]({{site.baseurl}}/assets/images/street-kids/cover.png)
 
-The Street Kids is a <b>continuous project for 11+ kids</b> from Nairobi/Kenya, in which we help them by providing <b>2 meals</b> a day, shelter and <b>education</b>.
+The Street Kids is a **continuous project for 11+ kids** from Nairobi, Kenya. We help them by providing **2 meals** a day, **shelter** & **education**.
 
-We keep regular contact with all the kids through weekly calls, sharing photos, messages, etc.
+We know each kid, and we keep regular contact with them all through weekly calls, sharing photos, messages, and more.
 
-It is an international partnership among different clubs and Rotary International Districts, including [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](https://e-rotaract.com).
+It is an international partnership among different clubs and Rotary International Districts, including clubs from [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](https://e-rotaract.com).
 
 
 
@@ -84,7 +84,7 @@ We have weekly videocalls of 30 minutes, every Sunday:
 - 10:00 - Western Europe: PT🇵🇹, UK🇬🇧...
 
 <p style="text-align: center;">
-  <a href="{{site.baseurl}}/street-kids/call" target="_blank" class="button">
+  <a href="{{site.baseurl}}/street-kids/call" target="_blank" class="button button-primary">
     <i class="fa fa-video fa-lg"></i> Street Kids Videocall
   </a>
 </p>
@@ -122,23 +122,10 @@ function copyEvent(id) {
 }
 </script>
 
-<style>
-  img.half {
-    max-width: 49% !important;
-    padding: 10px;
-  }
-
-  @media only screen and (max-width:768px) {
-    img.half {
-      max-width: 100% !important;
-    }
-  }
-</style>
-
-<img class="half" src="{{site.baseurl}}/assets/images/street-kids/pack-1.png">
-<img class="half" src="{{site.baseurl}}/assets/images/street-kids/pack-2.png">
-<img class="half" src="{{site.baseurl}}/assets/images/street-kids/pack-3.png">
-<img class="half" src="{{site.baseurl}}/assets/images/street-kids/pack-4.png">
+<img class="half" src="{{ site.baseurl }}/assets/images/street-kids/pack-1.png">
+<img class="half" src="{{ site.baseurl }}/assets/images/street-kids/pack-2.png">
+<img class="half" src="{{ site.baseurl }}/assets/images/street-kids/pack-3.png">
+<img class="half" src="{{ site.baseurl }}/assets/images/street-kids/pack-4.png">
 
 
 

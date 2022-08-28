@@ -36,22 +36,22 @@ links:
 
 morelinks:
   - left:
-      url: "https://e-rotaract.com/#social"
+      url: "/"
       newtab: false
       cta: "e-Rotaract Beyond Frontiers"
       title: "We are Rotaract – Join us today!"
-      image: "assets/images/rotaract-logo-pink.png"
+      image: "/assets/images/rotaract-logo-pink.png"
     right:
-      url: "https://instagram.com/rotaract_eclub"
+      url: "/instagram"
       newtab: true
       cta: "Follow us"
       title: "Get to know us on Instagram!"
-      image: "assets/images/instagram-logo.jpg"
+      image: "/assets/images/instagram-logo.jpg"
 
 footer:
   - icon: "<i class='fab fa-instagram'></i>"
     text: "rotaract_eclub"
-    url: "https://instagram.com/rotaract_eclub"
+    url: "/instagram"
     newtab: true
 
 ---
