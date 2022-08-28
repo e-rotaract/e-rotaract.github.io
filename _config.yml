@@ -1,9 +1,9 @@
 # Site
-name: "e‑Rotaract Beyond Frontiers"
-title: "e‑Rotaract Beyond Frontiers"
+name: "e‑Rotaract"
+title: "e‑Rotaract"
 description: "e‑rotaract.com"
-logo: 'assets/avatars/eclub.png'
-favicon: 'assets/avatars/eclub.png'
+logo: '/assets/avatars/eclub.png'
+favicon: '/assets/avatars/eclub.png'
 baseurl: ''
 google_analytics: ''
 mailchimp-list: ''
@@ -14,7 +14,7 @@ future: false
 links:
   - name: "Follow us"
     icon: "fab fa-instagram"
-    url: "https://instagram.com/rotaract_eclub"
+    url: "/instagram"
     newtab: true
   - id: calendar
     name: "See our calendar"
@@ -24,7 +24,7 @@ links:
   - id: meeting
     name: "Join our meeting"
     icon: "fa fa-video"
-    url: "videocall"
+    url: "/videocall"
     newtab: true
 
 # Authors
@@ -32,7 +32,7 @@ authors:
   eclub:
     name: e-Rotaract Beyond Frontiers
     display_name: e-Rotaract Beyond Frontiers
-    avatar: 'assets/avatars/eclub.png'
+    avatar: '/assets/avatars/eclub.png'
     email: hi@e-rotaract.com
     web: https://e-rotaract.com
     facebook: rotaract.eclub.bf
