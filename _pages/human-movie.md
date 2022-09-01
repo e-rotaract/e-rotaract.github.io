@@ -11,25 +11,23 @@ pretitle: Watch with us
 title: HUMAN
 description: A film to help you let go, take a step back, or simply feel connected to all of humanity.
 
-youtube: vdb4XGVTHkE
-
 site-links: true     # show the default site menu
 links:
     - name: "Volume 1"
       icon: "fa fa-user"
-      url: "#main"
+      url: "#vol1"
       newtab: false
       show-in-intro: true
       show-in-menu: true
     - name: "Volume 2"
       icon: "fa fa-user-friends"
-      url: "#other"
+      url: "#vol2"
       newtab: false
       show-in-intro: true
       show-in-menu: true
     - name: "Volume 3"
       icon: "fa fa-users"
-      url: "#other"
+      url: "#vol3"
       newtab: false
       show-in-intro: true
       show-in-menu: true
@@ -57,18 +55,19 @@ footer:
 ---
 
 
-# Watch all volumes! {#other}
+Spanning multiple countries and languages, **Human** is a mission to explore our humanity. The three-year project interviewed some 2 000 people and got them to tell their own personal, emotional stories about things most significant in their lives — love, war, poverty, happiness—things to which we all can relate.
 
-Spanning dozens and dozens of countries and languages, Human is a mission to explore our humanity. The three-year project interviewed some 2 000 people and got them to tell their own personal, emotional stories about things most significant in their lives — love, war, poverty, happiness—things to which we all can relate.
 
-<p style="text-align: center;">
-  <a href="https://www.youtube.com/watch?v=vdb4XGVTHkE&list=PLEgA6bEeal3yh19xRhfVt5q5xBohcPYz7&index=2" target="_blank" class="button button-primary">
-    <i class="fa fa-user fa-lg"></i> Vol. 1
-  </a>
-  <a href="https://www.youtube.com/watch?v=ShttAt5xtto&list=PLEgA6bEeal3yh19xRhfVt5q5xBohcPYz7&index=3" target="_blank" class="button">
-    <i class="fa fa-user-friends fa-lg"></i> Vol. 2
-  </a>
-  <a href="https://www.youtube.com/watch?v=w0653vsLSqE&list=PLEgA6bEeal3yh19xRhfVt5q5xBohcPYz7&index=4" target="_blank" class="button button-success">
-    <i class="fa fa-users fa-lg"></i> Vol. 3
-  </a>
-</p>
+# Volume 1 {#vol1}
+
+{% include yt id="vdb4XGVTHkE" %}
+
+
+# Volume 2 {#vol2}
+
+{% include yt id="ShttAt5xtto" %}
+
+
+# Volume 3 {#vol3}
+
+{% include yt id="w0653vsLSqE" %}
