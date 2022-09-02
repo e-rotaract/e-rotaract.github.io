@@ -1,0 +1,44 @@
+<script>
+  function shuffle(array) {
+    let currentIndex = array.length, randomIndex;
+
+    // While there remain elements to shuffle.
+    while (currentIndex != 0) {
+      // Pick a remaining element.
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex--;
+
+      // And swap it with the current element.
+      [array[currentIndex], array[randomIndex]] =
+          [array[randomIndex], array[currentIndex]];
+    }
+
+    return array;
+  }
+
+  function printItem(it, index, arr) {
+    document.write('<a "style="float: left;" ' +
+      (it.newtab ? 'target="_blank" ' : '') +
+      'href="' + (it.url ? it.url : '#') + '">' +
+        '<img ' +
+        ({{ include.grid }} == 4 ? 'class="half2" ' : {{ include.grid }} == 2 ? 'class="half" ' : '') +
+        'src="{{ site.baseurl }}/assets/images/' + it.img + '" />' +
+      '</a>'
+      )
+  }
+
+  {% if include.pre %}
+    var pre = {{ include.pre }};
+    pre.forEach(printItem);
+  {% endif %}
+
+  var items = {{ include.items }};
+  {% if include.shuffle %} shuffle(items) {% endif %}
+  items.forEach(printItem);
+
+  {% if include.post %}
+    var post = {{ include.post }};
+    post.forEach(printItem);
+  {% endif %}
+
+</script>

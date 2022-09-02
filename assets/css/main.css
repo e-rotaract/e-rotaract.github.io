@@ -199,16 +199,22 @@ h5, .h05, h6, .h06 {
     margin-bottom: 1.2rem;
 }
 
+section#home h1 {
+    text-align: left !important;
+}
+
 h1, .h01 {
     font-size: 3.1rem;
     line-height: 1.35;
     letter-spacing: -.1rem;
+    text-align: center;
 }
 
 @media only screen and (max-width:600px) {
     h1, .h01 {
         font-size: 2.6rem;
         letter-spacing: -.07rem;
+        text-align: center;
     }
 }
 

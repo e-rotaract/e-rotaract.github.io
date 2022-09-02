@@ -1,0 +1,5 @@
+<p style="text-align: center;">
+  <a href="{{ include.url }}" {% if include.newtab %}target="_blank"{% endif %} class="button {{ include.class }}">
+    {% if include.icon %}<i class="{{ include.icon }}"></i> {% endif %}{{ include.text }}
+  </a>
+</p>

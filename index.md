@@ -80,7 +80,7 @@ Our e-club is part of the global network of volunteers in Rotary International, 
 
 # Can I join? {#join}
 
-![]({{site.baseurl}}/assets/images/friends-toast.jpg)
+{% include img src="friends-toast.jpg" %}
 
 Everyone is welcome! We have monthly meetings on **Sundays**.
 
@@ -90,17 +90,19 @@ Members also help in social projects, as well as develop their professional and 
 
 To know more you can contact us!
 
-<p style="text-align: center;">
-  <a href="/instagram" target="_blank" class="button button-primary">
-    <i class="fab fa-instagram fa-lg"></i> Follow us and<br> send a message @rotaract_eclub
-  </a>
-</p>
-<p style="text-align: center;">
-  <a href="mailto:hi@e-rotaract.com" target="_blank" class="button">
-    <i class="fa fa-envelope fa-lg"></i> E-mail us: hi@e-rotaract.com
-  </a>
-</p>
+{% include btn
+  url="/instagram"
+  newtab=true
+  class="button-primary"
+  icon="fab fa-instagram fa-lg"
+  text="Follow us and<br> send a message @rotaract_eclub"
+%}
 
+{% include btn
+  url="mailto:hi@e-rotaract.com"
+  icon="fa fa-envelope fa-lg"
+  text="E-mail us: hi@e-rotaract.com"
+%}
 
 
 # What do we do? {#actions}
@@ -109,36 +111,24 @@ We work on a variety of social projects and causes! When an action is beneficial
 
 If you have an idea, send us a message, we can surely work together!
 
-<p style="text-align: center;">
-  <a href="#join" class="button">
-    <i class="fa fa-lightbulb fa-lg"></i> Tell us your idea!
-  </a>
-</p>
+{% include btn url="#join" icon="fa fa-lightbulb fa-lg" text="Tell us your idea!" %}
 
 Some of the actions we worked and helped on are:
 
-<script>
-  var actions = [
-    { url: "/street-kids", img: "/assets/images/actions/street-kids.png" },
-    { url: "/speakeat", img: "/assets/images/actions/speakeat.png" },
-    { url: "/human-movie", img: "/assets/images/actions/human-movie.png" }
-  ];
-
-  shuffle(actions)
-
-  for (it in actions) {
-    document.write('<a target="_blank" href="' + actions[it].url  + '">' +
-      '<img class="half" src="' + actions[it].img + '">' +
-      '</a>'
-      )
-  }
-</script>
-
+{% include gallery
+  shuffle=true
+  grid=2
+  items='[
+    { url: "/street-kids", img: "actions/street-kids.png", newtab: true },
+    { url: "/speakeat", img: "actions/speakeat.png", newtab: true },
+    { url: "/human-movie", img: "actions/human-movie.png", newtab: true }
+  ]'
+%}
 
 
 # Who are we? {#volunteers}
 
-![]({{site.baseurl}}/assets/images/hands-heart.jpg)
+{% include img src="hands-heart.jpg" %}
 
 Our past and current volunteers are from all around the world, from different countries and Rotary International Discricts, including:
 Brasil 🇧🇷 (<a target="_blank" href="https://www.rotary4700.org.br/home">4700</a>),
@@ -146,21 +136,16 @@ France 🇫🇷 (<a target="_blank" href="https://rotary1710.org">1710</a>, <a t
 and Norge 🇳🇴 (<a target="_blank" href="https://d2310.rotary.no">2310</a>).
 Join us!
 
-<script>
-  var participants = [
-    { img: "/assets/images/participants/alex.png" },
-    { img: "/assets/images/participants/debora.png" },
-    { img: "/assets/images/participants/emiline.png" },
-    { img: "/assets/images/participants/iaco.png" },
-    { img: "/assets/images/participants/leo.png" },
-    { img: "/assets/images/participants/magali.png" }
-  ];
-
-  shuffle(participants)
-
-  for (it in participants) {
-    document.write('<img class="half2" src="' + participants[it].img + '">')
-  }
-
-  document.write('<a href="#join"><img class="half2" src="/assets/images/participants/you.gif"></a>')
-</script>
+{% include gallery
+  shuffle=true
+  grid=4
+  items='[
+    { img: "participants/alex.png" },
+    { img: "participants/debora.png" },
+    { img: "participants/emiline.png" },
+    { img: "participants/iaco.png" },
+    { img: "participants/leo.png" },
+    { img: "participants/magali.png" }
+  ]'
+  post='[ { url: "#join", img: "participants/you.gif" } ]'
+%}

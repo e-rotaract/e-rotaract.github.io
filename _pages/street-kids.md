@@ -64,16 +64,13 @@ footer:
 
 ---
 
-
-
-![]({{site.baseurl}}/assets/images/street-kids/cover.png)
+{% include img src="street-kids/cover.png" %}
 
 The Street Kids is a **continuous project for 11+ kids** from Nairobi, Kenya. We help them by providing **2 meals** a day, **shelter** & **education**.
 
 We know each kid, and we keep regular contact with them all through weekly calls, sharing photos, messages, and more.
 
 It is an international partnership among different clubs and Rotary International Districts, including clubs from [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](https://e-rotaract.com).
-
 
 
 # Join Us every Sunday {#videocall}
@@ -83,12 +80,13 @@ We have weekly videocalls of 30 minutes, every Sunday:
 - 11:00 - Central Europe: CH🇨🇭, FR🇫🇷, NO🇳🇴...
 - 10:00 - Western Europe: PT🇵🇹, UK🇬🇧...
 
-<p style="text-align: center;">
-  <a href="{{site.baseurl}}/street-kids/call" target="_blank" class="button button-primary">
-    <i class="fa fa-video fa-lg"></i> Street Kids Videocall
-  </a>
-</p>
-
+{% include btn
+  url="/street-kids/call"
+  newtab=true
+  class="button-primary"
+  icon="fa fa-video fa-lg"
+  text="Street Kids Videocall"
+%}
 
 
 # Make a Donation {#donation}
@@ -122,23 +120,29 @@ function copyEvent(id) {
 }
 </script>
 
-<img class="half" src="{{ site.baseurl }}/assets/images/street-kids/pack-1.png">
-<img class="half" src="{{ site.baseurl }}/assets/images/street-kids/pack-2.png">
-<img class="half" src="{{ site.baseurl }}/assets/images/street-kids/pack-3.png">
-<img class="half" src="{{ site.baseurl }}/assets/images/street-kids/pack-4.png">
-
+{% include gallery
+  shuffle=false
+  grid=2
+  items='[
+    { img: "street-kids/pack-1.png", url: "#donation" },
+    { img: "street-kids/pack-2.png", url: "#donation" },
+    { img: "street-kids/pack-3.png", url: "#donation" },
+    { img: "street-kids/pack-4.png", url: "#donation" }
+  ]'
+%}
 
 
 # We are 100% Transparent
 
 Here you can find all the financial receipts of our project. If you have questions, do not hesitate to contact us!
 
-<p style="text-align: center;">
-  <a href="https://www.dropbox.com/sh/iw2gokqs1dj3cig/AAAv_yq9HUx46d1n5YmXcKbha?dl=0" target="_blank" class="button button-success">
-    <i class="fab fa-dropbox fa-lg"></i> Street Kids Finances
-  </a>
-</p>
-
+{% include btn
+  url="https://www.dropbox.com/sh/iw2gokqs1dj3cig/AAAv_yq9HUx46d1n5YmXcKbha?dl=0"
+  newtab=true
+  class="button-success"
+  icon="fab fa-dropbox fa-lg"
+  text="Street Kids Finances"
+%}
 
 
 # A Huge Thanks to Our Donors!
