@@ -62,7 +62,7 @@ links-footer:
 
 show-corner: true
 
-show-notif: true
+show-notif: false
 
 ---
 

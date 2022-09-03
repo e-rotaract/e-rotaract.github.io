@@ -42,10 +42,9 @@ links-footer:
     url: /instagram
     newtab: true
 
-
 show-corner: true
 
-show-notif: true
+show-notif: false
 
 ---
 
