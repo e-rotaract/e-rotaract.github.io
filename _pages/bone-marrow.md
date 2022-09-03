@@ -46,7 +46,8 @@ links-footer:
 
 Thanks to the University of Grenoble-Alpes we were able to create and buy these tables and roll-ups!
 
-> Photos
+{% include img src="actions/bone-marrow/img-1.jpg" %}
+{% include img src="actions/bone-marrow/img-2.jpg" %}
 
 The association Pep's (student project for solidarity), the JCE (Young Economic Chamber), FME (France Moelle Espoir) and the 'Blood Donors Association of Apprieu and Isère' have been amazing partners.
 
@@ -54,13 +55,13 @@ We were able to promote Bone Marrow donation in Grenoble, especially among stude
 
 The French Blood Establishment (EFS) in collaboration with the Biomedicine Agency in France allowed us to act on blood collection centers/drives.
 
-> Photo of the EFS
+{% include img src="actions/bone-marrow/img-4.jpg" %}
 
 We invite everyone to get closer to these and other associations!
 
 You can also make the world a better place by being a volunteer, there are many simple ways to help: blood donation, hair donation, awareness campaigns, etc.
 
-> Photos of the student poster
+{% include img src="actions/bone-marrow/img-3.jpg" %}
 
 Bone Marrow donation saves many lives, but often we lack donors worldwide!
 
