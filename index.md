@@ -7,8 +7,9 @@ permalink: /
 author: eclub
 image: default-bg.jpg
 logo:
-  url: logo/rotaract-alpha.png
+  url: logo/rotaract.svg
   position: center
+  width: 300px
 
 pretitle: Hi, welcome to
 title: e-Rotaract Beyond Frontiers

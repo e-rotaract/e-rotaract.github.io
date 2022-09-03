@@ -95,7 +95,7 @@
                             {% if page.logo and page.logo.position != "top" %}
                                 <div style="text-align: {{ page.logo.position}};">
                                     <a href="{{ site.baseurl }}/" title="Homepage">
-                                        <img src="{{ site.baseurl }}/assets/images/{{ page.logo.url }}" width="150px" />
+                                        <img src="{{ site.baseurl }}/assets/images/{{ page.logo.url }}" width="{% if page.logo.width %}{{ page.logo.width }}{% else %}150px{% endif %}" />
                                     </a>
                                     <br>
                                     <br>

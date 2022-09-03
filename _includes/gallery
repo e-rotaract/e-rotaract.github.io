@@ -6,16 +6,16 @@ Format:
   shuffle_post=false
   grid=2
   pre='[
-    { url: '', img: '', newtab: true },
-    { url: '', img: '', newtab: true }
+    { url: '', img: '', grid: 2, newtab: true },
+    { url: '', img: '', grid: 2, newtab: true }
   ]'
   items='[
-    { url: '', img: '', newtab: true },
-    { url: '', img: '', newtab: true }
+    { url: '', img: '', grid: 4, newtab: true },
+    { url: '', img: '', grid: 4, newtab: true }
   ]'
   post='[
-    { url: '', img: '', newtab: true },
-    { url: '', img: '', newtab: true }
+    { url: '', img: '', grid: 2, newtab: true },
+    { url: '', img: '', grid: 2, newtab: true }
   ]'
 % }
 {%- endcomment -%}
@@ -39,15 +39,27 @@ Format:
   }
 
   function printItem(it, index, arr) {
-    document.write('<a "style="float: left;" ' +
-      (it.newtab ? 'target="_blank" ' : '') +
-      'href="' + (it.url ? it.url : '#') + '">' +
-        '<img ' +
-        ({{ include.grid }} == 4 ? 'class="gallery4" ' : {{ include.grid }} == 2 ? 'class="gallery2" ' : '') +
-        'src="{{ site.baseurl }}/assets/images/' + it.img + '" />' +
-      '</a>'
+    var chosen_grid = 2
+
+    if (it.grid) {
+      chosen_grid = it.grid
+    }
+    {% if include.grid %}
+      else if ({{ include.grid }}) {
+        chosen_grid = {{ include.grid }}
+      }
+    {% endif %}
+
+    document.write(
+        (it.url ? ('<a ' + (it.newtab ? 'target="_blank" ' : '') + 'href="' + it.url + '">') : '') +
+          '<img style="vertical-align: middle; padding-bottom: 5px !important;" ' +
+          (chosen_grid == 4 ? 'class="gallery4" ' : chosen_grid == 2 ? 'class="gallery2" ' : '') +
+          'src="{{ site.baseurl }}/assets/images/' + it.img + '" />' +
+        (it.url ? '</a>' : '')
       )
   }
+
+  document.write('<div style="text-align:center;">')
 
   {% if include.pre %}
     var pre = {{ include.pre }};
@@ -64,5 +76,7 @@ Format:
     {% if include.shuffle_post %} shuffle(post) {% endif %}
     post.forEach(printItem);
   {% endif %}
+
+  document.write('</div>')
 
 </script>

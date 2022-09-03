@@ -1,14 +1,15 @@
 ---
 layout: default
-permalink: bone-marrow
+permalink: /bone-marrow
 # featured: true
 # hidden: true
 
 author: eclub
 image: default-bg.jpg
 logo:
-  url: logo/rotaract-alpha.png
+  url: logo/rotaract.svg
   position: center
+  width: 300px
 
 pretitle: Be solidary
 title: Bone Marrow Donation

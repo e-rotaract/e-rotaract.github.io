@@ -1,14 +1,15 @@
 ---
 layout: default
-permalink: human-movie
+permalink: /human-movie
 # featured: true
 # hidden: true
 
 author: eclub
 image: default-bg.jpg
 logo:
-  url: logo/rotaract-alpha.png
+  url: logo/rotaract.svg
   position: center
+  width: 300px
 
 pretitle: Watch with us
 title: HUMAN
