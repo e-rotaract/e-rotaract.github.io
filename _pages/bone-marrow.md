@@ -47,6 +47,7 @@ links-footer:
 Thanks to the University of Grenoble-Alpes we were able to create and buy these tables and roll-ups!
 
 {% include img src="actions/bone-marrow/img-1.jpg" %}
+
 {% include img src="actions/bone-marrow/img-2.jpg" %}
 
 The association Pep's (student project for solidarity), the JCE (Young Economic Chamber), FME (France Moelle Espoir) and the 'Blood Donors Association of Apprieu and Isère' have been amazing partners.
