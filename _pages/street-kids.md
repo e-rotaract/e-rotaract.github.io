@@ -1,70 +1,68 @@
 ---
 layout: default
-permalink: "street-kids"
+permalink: /street-kids
 author: eclub
-#image: "{{ site.baseurl }}/assets/images/street-kids/street-kids-foundation.png"
-
+image: default-bg.jpg
 logo:
-  url: "assets/images/rotaract-logo-white.png"
-  position: "center"
+  url: logo/rotaract-alpha.png
+  position: center
 
 pretitle: Help them smile again!
 title: Street Kids
 description: Meals, Shelter and Education for Kenyan Kids
 
-hide-menu: true
-hide-footer: false
+show-home: true
+links-side: false
 
-site-links: true     # show the default site menu
-links:
-    - name: "Make a Donation"
-      icon: "fa fa-hand-holding-heart"
+links-home:
+    - name: Make a Donation
+      icon: fa fa-hand-holding-heart
       url: "#donation"
       newtab: false
-      show-in-intro: true
-      show-in-menu: true
-    - name: "Street Kids Videocall"
-      icon: "fa fa-video"
+      show-home: true
+      show-side: false
+    - name: Street Kids Videocall
+      icon: fa fa-video
       url: "#videocall"
       newtab: false
-      show-in-intro: true
-      show-in-menu: true
+      show-home: true
+      show-side: false
 
-morelinks:
+links-gallery:
   - left:
-      url: "https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346"
+      url: https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346
       newtab: true
-      cta: "RID 9212"
-      title: "Kenya 🇰🇪"
-      image: "/assets/images/flag-ke.png"
+      title: RID 9212
+      description: Kenya 🇰🇪
+      image: flags/ke.png
     right:
-      url: "https://rotary1990.ch"
+      url: https://rotary1990.ch
       newtab: true
-      cta: "RID 1990"
-      title: "Switzerland 🇨🇭"
-      image: "/assets/images/flag-ch.png"
+      title: RID 1990
+      description: Switzerland 🇨🇭
+      image: flags/ch.png
   - left:
-      url: "https://www.rotary1960.org"
+      url: https://www.rotary1960.org
       newtab: true
-      cta: "RID 1960"
-      title: "Portugal 🇵🇹"
-      image: "/assets/images/flag-pt.png"
+      title: RID 1960
+      description: Portugal 🇵🇹
+      image: flags/pt.png
     right:
-      url: "https://e-rotaract.com"
+      url: https://e-rotaract.com
       newtab: false
-      cta: "RID 1780"
-      title: "France 🇫🇷"
-      image: "/assets/images/flag-fr.png"
+      title: RID 1780
+      description: France 🇫🇷
+      image: flags/fr.png
 
-footer:
-  - icon: "<i class='fas fa-hand-holding-heart'></i>"
-    text: "Make a Donation"
+links-footer:
+  - icon: fas fa-hand-holding-heart
+    name: Make a Donation
     url: "#donation"
     newtab: false
 
 ---
 
-{% include img src="street-kids/cover.png" %}
+{% include img src="actions/street-kids/cover.png" %}
 
 The Street Kids is a **continuous project for 11+ kids** from Nairobi, Kenya. We help them by providing **2 meals** a day, **shelter** & **education**.
 
@@ -72,10 +70,10 @@ We know each kid, and we keep regular contact with them all through weekly calls
 
 It is an international partnership among different clubs and Rotary International Districts, including clubs from [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](https://e-rotaract.com).
 
-
 # Join Us every Sunday {#videocall}
 
 We have weekly videocalls of 30 minutes, every Sunday:
+
 - 12:00 - Kenya 🇰🇪 (UTC+3)
 - 11:00 - Central Europe: CH🇨🇭, FR🇫🇷, NO🇳🇴...
 - 10:00 - Western Europe: PT🇵🇹, UK🇬🇧...
@@ -88,10 +86,9 @@ We have weekly videocalls of 30 minutes, every Sunday:
   text="Street Kids Videocall"
 %}
 
-
 # Make a Donation {#donation}
 
-With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day and provide them with shelter and education: school, supplies, clothes!
+With **150 euros/swiss francs per month**, we can feed a kid two meals a day and provide them with shelter and education: school, supplies, clothes!
 
 <!--
 <p style="text-align: center;">
@@ -102,6 +99,7 @@ With <b>150 euros/swiss francs per month</b>, we can feed a kid two meals a day 
 -->
 
 To donate through a bank transfer, here is our details:
+
 - Account holder: District Rotary 1990, Comission Rotaract
 - IBAN:
 
@@ -124,13 +122,12 @@ function copyEvent(id) {
   shuffle=false
   grid=2
   items='[
-    { img: "street-kids/pack-1.png", url: "#donation" },
-    { img: "street-kids/pack-2.png", url: "#donation" },
-    { img: "street-kids/pack-3.png", url: "#donation" },
-    { img: "street-kids/pack-4.png", url: "#donation" }
+    { img: "actions/street-kids/pack-1.png", url: "#donation" },
+    { img: "actions/street-kids/pack-2.png", url: "#donation" },
+    { img: "actions/street-kids/pack-3.png", url: "#donation" },
+    { img: "actions/street-kids/pack-4.png", url: "#donation" }
   ]'
 %}
-
 
 # We are 100% Transparent
 
@@ -144,30 +141,28 @@ Here you can find all the financial receipts of our project. If you have questio
   text="Street Kids Finances"
 %}
 
+# A Huge Thanks to Our Donors
 
-# A Huge Thanks to Our Donors!
-
-<section id="stats">
+<section id="stats" class="animate-this">
   <div class="row">
     <div class="col-twelve">
       <div class="block-1-2 block-tab-1-2 block-mob-full stats-list">
-
         <div class="bgrid stat">
           <div class="icon-part">
             <i class="fas fa-hand-holding-heart fa-lg"></i>
           </div>
           <h3 class="stat-count">28240</h3>
-          <h5 class="stat-title">In Donations (CHF/EUR)</h5>
+          <br>
+          <p>In Donations (CHF/EUR)</p>
         </div>
-
         <div class="bgrid stat">
           <div class="icon-part">
             <i class="fas fa-child fa-lg"></i>
           </div>
           <h3 class="stat-count">12</h3>
-          <h5 class="stat-title">Donors (Clubs & Individuals)</h5>
+          <br>
+          <p>Donors (Clubs & Individuals)</p>
         </div>
-
       </div>
     </div>
   </div>
@@ -175,20 +170,18 @@ Here you can find all the financial receipts of our project. If you have questio
 
 <br>
 
-- Rotary Jorat <a href="https://jorat.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Rotary de Romans <a href="https://rotaryromans.com" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Rotary Neuchâtel Lac <a href="https://neuchatel-lac.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Rotary Nyon-La Côte <a href="https://nyon-la-cote.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Rotary Sion <a href="https://sion.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Rotary Bern Christoffel <a href="https://bern-christoffel.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Rotary Gstaad-Saanenland <a href="https://gstaad-saanenland.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- Rotary Les Rangiers <a href="https://les-rangiers.rotary1990.ch/fr" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
-- The 15+ Rotaract Clubs of RID 1960 <a href="https://www.rotaract1960.org/clubes-rtc" target="_blank"><i class="fas fa-external-link-alt fa-xs"></i></a>
+- Rotary Jorat [<a-out/>](https://jorat.rotary1990.ch/fr)
+- Rotary de Romans [<a-out/>](https://rotaryromans.com)
+- Rotary Neuchâtel Lac [<a-out/>](https://neuchatel-lac.rotary1990.ch/fr)
+- Rotary Nyon-La Côte [<a-out/>](https://nyon-la-cote.rotary1990.ch/fr)
+- Rotary Sion [<a-out/>](https://sion.rotary1990.ch/fr)
+- Rotary Bern Christoffel [<a-out/>](https://bern-christoffel.rotary1990.ch/fr)
+- Rotary Gstaad-Saanenland [<a-out/>](https://gstaad-saanenland.rotary1990.ch/fr)
+- Rotary Les Rangiers [<a-out/>](https://les-rangiers.rotary1990.ch/fr)
+- The 15+ Rotaract Clubs of RID 1960 [<a-out/>](https://www.rotaract1960.org/clubes-rtc)
 - Patrick Léon Favre
 - Jean-François Richter
 - Oliver Rosenbauer
 - Marie-Renée Borburgh
-
-
 
 # The Districts of Our Rotaractors & Rotarians

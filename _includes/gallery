@@ -1,3 +1,25 @@
+{%- comment -%}
+Format:
+{ % include gallery
+  shuffle_pre=false
+  shuffle=true
+  shuffle_post=false
+  grid=2
+  pre='[
+    { url: '', img: '', newtab: true },
+    { url: '', img: '', newtab: true }
+  ]'
+  items='[
+    { url: '', img: '', newtab: true },
+    { url: '', img: '', newtab: true }
+  ]'
+  post='[
+    { url: '', img: '', newtab: true },
+    { url: '', img: '', newtab: true }
+  ]'
+% }
+{%- endcomment -%}
+
 <script>
   function shuffle(array) {
     let currentIndex = array.length, randomIndex;
@@ -21,7 +43,7 @@
       (it.newtab ? 'target="_blank" ' : '') +
       'href="' + (it.url ? it.url : '#') + '">' +
         '<img ' +
-        ({{ include.grid }} == 4 ? 'class="half2" ' : {{ include.grid }} == 2 ? 'class="half" ' : '') +
+        ({{ include.grid }} == 4 ? 'class="gallery4" ' : {{ include.grid }} == 2 ? 'class="gallery2" ' : '') +
         'src="{{ site.baseurl }}/assets/images/' + it.img + '" />' +
       '</a>'
       )
@@ -29,6 +51,7 @@
 
   {% if include.pre %}
     var pre = {{ include.pre }};
+    {% if include.shuffle_pre %} shuffle(pre) {% endif %}
     pre.forEach(printItem);
   {% endif %}
 
@@ -38,6 +61,7 @@
 
   {% if include.post %}
     var post = {{ include.post }};
+    {% if include.shuffle_post %} shuffle(post) {% endif %}
     post.forEach(printItem);
   {% endif %}
 
