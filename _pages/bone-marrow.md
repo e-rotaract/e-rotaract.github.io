@@ -10,9 +10,9 @@ logo:
   url: logo/rotaract-alpha.png
   position: center
 
-pretitle: You can save a life too
-title: Bone Marrow Donation Campaign
-description: A film to help you let go, take a step back, or simply feel connected to all of humanity.
+pretitle: Be solidary
+title: Bone Marrow Donation
+description: You can save a life too, it is easy!
 
 # categories: [ a, b ]
 # tags: [ c, d, e ]
