@@ -60,6 +60,10 @@ links-footer:
     url: "#donation"
     newtab: false
 
+show-corner: true
+
+show-notif: true
+
 ---
 
 {% include img src="actions/street-kids/cover.png" %}

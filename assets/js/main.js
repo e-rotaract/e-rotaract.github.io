@@ -255,7 +255,7 @@
 			fadeInTime = 400,     // how slow/fast you want the button to show
 			fadeOutTime = 400,    // how slow/fast you want the button to hide
 			scrollSpeed = 300,    // how slow/fast you want the button to scroll to top. can be a value, 'slow', 'normal' or 'fast'
-			goTopButton = $("#go-top")
+			goTopButton = $("#corner")
 
 		// Show or hide the sticky footer button
 		$(window).on('scroll', function () {

@@ -60,6 +60,10 @@ links-footer:
     url: /instagram
     newtab: true
 
+show-corner: true
+
+show-notif: true
+
 ---
 
 Spanning multiple countries and languages, **Human** is a mission to explore our humanity. The three-year project interviewed some 2 000 people and got them to tell their own personal, emotional stories about things most significant in their lives — love, war, poverty, happiness—things to which we all can relate.

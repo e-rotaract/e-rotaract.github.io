@@ -72,6 +72,10 @@ links-footer:
     url: /instagram
     newtab: true
 
+show-corner: true
+
+show-notif: true
+
 ---
 
 We are an international group of friends sharing one goal: do our best to help the world, because together we can make it a better place.

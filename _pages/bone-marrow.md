@@ -42,6 +42,11 @@ links-footer:
     url: /instagram
     newtab: true
 
+
+show-corner: true
+
+show-notif: true
+
 ---
 
 Thanks to the University of Grenoble-Alpes we were able to create and buy these tables and roll-ups!

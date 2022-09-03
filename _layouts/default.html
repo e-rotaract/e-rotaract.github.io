@@ -228,10 +228,10 @@
 
     <!-- FOOTER -->
 
+    {% if page.links-footer != false %}
     <footer>
         <div class="row">
             <div class="col-twelve tab-full">
-                {% if page.links-footer != false %}
                 <ul class="footer-social">
                     {% for item in page.links-footer %}
                     <li>
@@ -242,7 +242,6 @@
                     </li>
                     {% endfor %}
                 </ul>
-                {% endif %}
             </div>
             <div class="col-twelve tab-full">
                 <div>
@@ -259,11 +258,13 @@
             </div>
         </div>
     </footer>
+    {% endif %}
 
     <!-- GO TOP -->
 
-    {% if page.hide-go-top != true %}
-    <div id="go-top">
+    {% if page.show-corner != false %}
+    <div id="corner">
+        {% if page.show-notif != false %}
         <div id="dark-bg"></div>
         <script>
             function compareColors(left, right) {
@@ -286,10 +287,11 @@
                 $('#button-notif i').toggleClass("fa fa-times");
             }
         </script>
-        <!-- <a id="button-notif" onclick="notifRead(); $('#notif').toggle(); $('#dark-bg').toggle();" title="Notifications">
+        <a id="button-notif" onclick="notifRead(); $('#notif').toggle(); $('#go-top').toggle(); $('#dark-bg').toggle(); $('body').css({ overflow: ($('body').css('overflow') == 'hidden' ? 'auto' : 'hidden') });" title="Notifications">
             <div class="pulsating-circle"></div><i class="far fa-comment-alt"></i>
-        </a> -->
-        <a title="Back to Top" href="#top"><i class="fa fa-arrow-up fa-sm"></i></a>
+        </a>
+        {% endif %}
+        <a id="go-top" title="Back to Top" href="#top"><i class="fa fa-arrow-up fa-sm"></i></a>
         <!-- <script>
             document.addEventListener('DOMContentLoaded', function() {
                 if (document.cookie.split('; ').find(row => row.startsWith('inotif=')).split('=')[1] > 0) {
@@ -300,9 +302,13 @@
         <div id="notif">
             This is just a message to test how it will display in the corner of the screen of my website and let's see!
             <br>
-            <a title="Back to Top" href="#top">
-                <button>Submit</button>
-            </a>
+            {% include btn
+                url="/instagram"
+                newtab=true
+                class="button-primary"
+                icon="fab fa-instagram fa-lg"
+                text="Follow @rotaract_eclub"
+            %}
             I like to see how it will display if the text is really really big enourmously big hahahah
             <br>
             I like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is really really big enourmously big hahahahI like to see how it will display if the text is

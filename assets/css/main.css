@@ -1757,7 +1757,7 @@ footer .footer-social li:last-child {
 
 /***/
 
-#go-top {
+#corner {
     position: fixed;
     bottom: 42px;
     right: 30px;
@@ -1765,7 +1765,7 @@ footer .footer-social li:last-child {
     display: none;
 }
 
-#go-top a {
+#corner a {
     cursor: pointer;
     text-decoration: none;
     border: solid #FFFFFF22 1px;
@@ -1776,37 +1776,21 @@ footer .footer-social li:last-child {
     text-align: center;
     background-color: var(--iblackalpha);
     color: var(--iwhite);
-    text-align: center;
     text-transform: uppercase;
-    -moz-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     margin-bottom: 5px;
 }
 
-#go-top a i {
-    font-size: 21px;
-    line-height: inherit;
+#corner .button {
+    line-height: 0px !important;
+    background-color: inherit;
 }
 
-#go-top a:visited {
-    background: var(--iblackalpha);
-    color: var(--iwhite);
-}
-
-#go-top a:hover,
-#go-top a:focus {
-    background: var(--iblackalpha);
-    color: var(--iwhite);
-}
-
-#go-top .active {
+#corner .active {
     background-color: var(--igray) !important;
 }
 
-#go-top #dark-bg {
+#corner #dark-bg {
     display: none;
     position: fixed;
     z-index: -1;
@@ -1817,7 +1801,7 @@ footer .footer-social li:last-child {
     background: #000000BB;
 }
 
-#go-top #notif {
+#corner #notif {
     display: none;
     position: fixed;
     bottom: 47px;
@@ -1834,21 +1818,21 @@ footer .footer-social li:last-child {
     margin-left: 20px;
 }
 
-#go-top #notif a {
+#corner #notif a {
     width: 100% !important;
 }
 
-#go-top #notif a button {
+#corner #notif button {
     width: 100%;
 }
 
 @media only screen and (max-width:768px) {
-    #go-top {
+    #corner {
         bottom: 20px;
         right: 20px;
     }
 
-    #go-top #notif {
+    #corner #notif {
         bottom: 25px;
         right: 75px;
     }
