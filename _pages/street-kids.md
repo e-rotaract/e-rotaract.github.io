@@ -97,23 +97,20 @@ With **150 euros/swiss francs per month**, we can feed a kid two meals a day and
 
 To donate through a bank transfer, here is our details:
 
-- Account holder: District Rotary 1990, Comission Rotaract
-- IBAN:
+- Account holder: <code id="holder">District Rotary 1990, Comission Rotaract</code>
+- IBAN: <code id="iban">CH30 8080 8003 8478 5531 6</code>
 
-<input id="iban" value="CH30 8080 8003 8478 5531 6" type="text" style="position: fixed; bottom: 0; right: 0; opacity: 0; transform: scale(0);" />
-<a onclick="copyEvent('iban')" class="button">
-  <i class="fa fa-copy fa-lg"></i> Copy IBAN
-</a>
-<script>
-  document.write(document.getElementById('iban').value)
-</script>
+{% include btn
+  url="javascript:navigator.clipboard.writeText($('#holder').text())"
+  icon="fas fa-copy fa-lg"
+  text="Copy Account Holder"
+%}
 
-<script>
-function copyEvent(id) {
-  $("#"+id).select();
-  document.execCommand("copy");
-}
-</script>
+{% include btn
+  url="javascript:navigator.clipboard.writeText($('#iban').text())"
+  icon="fas fa-copy fa-lg"
+  text="Copy IBAN"
+%}
 
 {% include gallery
   shuffle=false
