@@ -22,6 +22,5 @@ group :jekyll_plugins do
     gem "kramdown", ">= 2.3.1"
     gem "rouge"
     gem "jekyll-liquify"
-    gem 'jekyll-target-blank'
     gem "webrick"
 end

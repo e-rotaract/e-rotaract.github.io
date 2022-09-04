@@ -349,6 +349,9 @@
         for (i = 0; i < list.length; ++i) {
             list[i].classList.add('animate-this');
         }
+
+        $.expr[':'].external = function(obj){ return (obj.hostname != location.hostname) && obj.href.startsWith("http"); };
+        $('a:external').attr('target', '_blank');
     </script>
     <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
