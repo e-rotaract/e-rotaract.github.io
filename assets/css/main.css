@@ -233,13 +233,15 @@ section#main h3 {
     color: var(--iredlight);
 }
 
-p img {
+p img,
+div > img {
     margin: 0;
     padding: 0 10%;
 }
 
 @media only screen and (max-width:768px) {
-    p img {
+    p img,
+    div > img {
         padding: 0;
     }
 }
