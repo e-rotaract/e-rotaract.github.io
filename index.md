@@ -5,11 +5,11 @@ permalink: /
 # hidden: true
 
 author: eclub
-image: default-bg.jpg
-logo:
-  url: logo/rotaract.svg
-  position: center
-  width: 300px
+# image: default-bg.jpg
+# logo:
+#   url: logo/rotaract.svg
+#   position: center
+#   width: 300px
 
 pretitle: Hi, welcome to
 title: e-Rotaract Beyond Frontiers
@@ -18,8 +18,8 @@ description: Together we can make our world a better place!
 # categories: [ a, b ]
 # tags: [ c, d, e ]
 
-show-home: true
-links-side: true
+# show-home: false
+# links-side: false
 
 links-home:
     - name: Join us!
@@ -43,38 +43,23 @@ links-home:
 
 links-gallery:
   - left:
-      url: /speakeat
-      newtab: true
-      title: COME TO OUR SPEAKEAT
-      description: A moment to share knowledge and experiences!
-      image: speakeat-logo-only.jpg
-    right:
-      url: /street-kids
-      newtab: true
-      title: STREET KIDS PROJECT
-      description: Let's help kids from Kenya
-      image: actions/street-kids/cover.png
-  - left:
-      url: /human-movie
-      newtab: false
-      title: HUMAN MOVIE
-      description: Watch with us!
-      image: human-movie.png
-    right:
+      name: FOLLOW US<br>Get to know us on Instagram!
+      image: instagram-logo.jpg
       url: /instagram
       newtab: true
-      title: FOLLOW US
-      description: Get to know us on Instagram!
-      image: instagram-logo.jpg
+    right:
+      name: STREET KIDS PROJECT<br>Let's help kids from Kenya
+      image: actions/street-kids/cover.png
+      url: /street-kids
+      newtab: true
 
 links-footer:
-  - icon: fab fa-instagram
-    name: rotaract_eclub
+  - name: rotaract_eclub
+    icon: fab fa-instagram
     url: /instagram
     newtab: true
 
-show-corner: true
-
+# show-corner: true
 show-notif: false
 
 ---

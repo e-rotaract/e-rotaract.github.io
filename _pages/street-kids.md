@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /street-kids
+
 author: eclub
-image: default-bg.jpg
 logo:
   url: logo/rotaract-alpha.png
   position: center
@@ -11,7 +11,6 @@ pretitle: Help them smile again!
 title: Street Kids
 description: Meals, Shelter and Education for Kenyan Kids
 
-show-home: true
 links-side: false
 
 links-home:
@@ -30,37 +29,31 @@ links-home:
 
 links-gallery:
   - left:
+      name: RID 9212<br>Kenya 🇰🇪
+      image: flags/ke.png
       url: https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346
       newtab: true
-      title: RID 9212
-      description: Kenya 🇰🇪
-      image: flags/ke.png
     right:
+      name: RID 1990<br>Switzerland 🇨🇭
+      image: flags/ch.png
       url: https://rotary1990.ch
       newtab: true
-      title: RID 1990
-      description: Switzerland 🇨🇭
-      image: flags/ch.png
   - left:
+      name: RID 1960<br>Portugal 🇵🇹
+      image: flags/pt.png
       url: https://www.rotary1960.org
       newtab: true
-      title: RID 1960
-      description: Portugal 🇵🇹
-      image: flags/pt.png
     right:
+      name: RID 1780<br>France 🇫🇷
+      image: flags/fr.png
       url: https://e-rotaract.com
       newtab: false
-      title: RID 1780
-      description: France 🇫🇷
-      image: flags/fr.png
 
 links-footer:
-  - icon: fas fa-hand-holding-heart
-    name: Make a Donation
+  - name: Make a Donation
+    icon: fas fa-hand-holding-heart
     url: "#donation"
     newtab: false
-
-show-corner: true
 
 show-notif: false
 

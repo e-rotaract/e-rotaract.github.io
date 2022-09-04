@@ -2,8 +2,13 @@
 title: e-Rotaract.com
 description: Together we can make our world a better place, join us!
 
-logo: logo/rotaract-pink.png
-favicon: logo/rotaract-pink.png
+logoo:
+  url: logo/rotaract.svg
+  position: center
+  width: 300px
+favicon:
+  png: logo/rotaract-pink.png
+  ico: logo/rotaract-pink.ico
 
 baseurl:
 include: ["_pages"]

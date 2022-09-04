@@ -1,49 +1,32 @@
 ---
 layout: default
 permalink: /bone-marrow
-# featured: true
-# hidden: true
 
 author: eclub
-image: default-bg.jpg
-logo:
-  url: logo/rotaract.svg
-  position: center
-  width: 300px
 
 pretitle: Be solidary
 title: Bone Marrow Donation
 description: You can save a life too, it is easy!
 
-# categories: [ a, b ]
-# tags: [ c, d, e ]
-
-show-home: true
-links-side: true
-
 links-home: false
 
 links-gallery:
   - left:
+      name: E-ROTARACT BEYOND FRONTIERS<br>We are Rotaract – Join us today!
+      image: logo/rotaract-pink.png
       url: /
       newtab: false
-      title: E-ROTARACT BEYOND FRONTIERS
-      description: We are Rotaract – Join us today!
-      image: logo/rotaract-pink.png
     right:
+      name: FOLLOW US<br>Get to know us on Instagram!
+      image: instagram-logo.jpg
       url: /instagram
       newtab: true
-      title: FOLLOW US
-      description: Get to know us on Instagram!
-      image: instagram-logo.jpg
 
 links-footer:
-  - icon: fab fa-instagram
-    name: rotaract_eclub
+  - name: rotaract_eclub
+    icon: fab fa-instagram
     url: /instagram
     newtab: true
-
-show-corner: true
 
 show-notif: false
 

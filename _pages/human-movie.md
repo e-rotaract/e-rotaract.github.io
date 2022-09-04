@@ -1,25 +1,12 @@
 ---
 layout: default
 permalink: /human-movie
-# featured: true
-# hidden: true
 
 author: eclub
-image: default-bg.jpg
-logo:
-  url: logo/rotaract.svg
-  position: center
-  width: 300px
 
 pretitle: Watch with us
 title: HUMAN
 description: A film to help you let go, take a step back, or simply feel connected to all of humanity.
-
-# categories: [ a, b ]
-# tags: [ c, d, e ]
-
-show-home: true
-links-side: true
 
 links-home:
     - name: Volume 1
@@ -43,25 +30,21 @@ links-home:
 
 links-gallery:
   - left:
+      name: E-ROTARACT BEYOND FRONTIERS<br>We are Rotaract – Join us today!
+      image: logo/rotaract-pink.png
       url: /
       newtab: false
-      title: E-ROTARACT BEYOND FRONTIERS
-      description: We are Rotaract – Join us today!
-      image: logo/rotaract-pink.png
     right:
+      name: FOLLOW US<br>Get to know us on Instagram!
+      image: instagram-logo.jpg
       url: /instagram
       newtab: true
-      title: FOLLOW US
-      description: Get to know us on Instagram!
-      image: instagram-logo.jpg
 
 links-footer:
-  - icon: fab fa-instagram
-    name: rotaract_eclub
+  - name: rotaract_eclub
+    icon: fab fa-instagram
     url: /instagram
     newtab: true
-
-show-corner: true
 
 show-notif: false
 

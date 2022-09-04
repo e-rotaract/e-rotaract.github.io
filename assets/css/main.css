@@ -575,7 +575,6 @@ select {
     padding: 1.5rem 0;
     border: 0;
     outline: none;
-    vertical-align: middle;
     color: #313131;
     font-family: "noto", sans-serif;
     font-size: 1.5rem;
@@ -1518,18 +1517,13 @@ header .header-logo a {
     height: 28.125vw;
 }
 
-.links-gallery h4,
-.links-gallery h5 {
+.links-gallery h4 {
+    font-family: "noto", sans-serif;
     color: white;
     font-size: 1.6rem;
     margin: 0 0 0 0;
     font-weight: bold;
     line-height: normal;
-}
-
-.links-gallery h4 {
-    font-family: "noto", sans-serif;
-    line-height: 3rem;
 }
 
 .links-gallery-bg-1,

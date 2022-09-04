@@ -17,13 +17,15 @@
     <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
     <!-- FAVICON -->
-    <link rel="icon" type="image/png" href="{{ site.baseurl }}/assets/images/logo/rotaract-pink.png">
-    <link rel="icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/logo/rotaract-pink.ico">
-    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/logo/rotaract-pink.png">
+    <link rel="shortcut icon" type="image/png" href="{{ site.baseurl }}/assets/images/{{ site.favicon.png }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ site.baseurl }}/assets/images/{{ site.favicon.ico }}">
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/images/{{ site.favicon.png }}">
 
     <!-- MORE -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta property="twitter:card" content="summary_large_image">
+    <meta property="og:image" itemprop="image" content="{{ site.baseurl }}/assets/images/{{ site.favicon.png }}">
+    <meta property="og:type" content="website">
 
     <!-- STATISTICS -->
 
@@ -38,10 +40,21 @@
         {% if page.logo and page.logo.position == "top" %}
         <div class="header-logo">
             <a href="{{ site.baseurl }}/"
-                style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.logo.url }}');">
+                style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.logo.url }}'); {% if page.logo.width %}width: {{ page.logo.width }}; height: {{ page.logo.width }}; background-size: {{ page.logo.width }} {{ page.logo.width }};{% endif %}">
                 {{ site.title }}
             </a>
         </div>
+        {% else %}
+            {% unless page.logo %}
+                {% if site.logoo and site.logoo.position == "top" %}
+                <div class="header-logo">
+                    <a href="{{ site.baseurl }}/"
+                        style="background-image: url('{{ site.baseurl }}/assets/images/{{ site.logoo.url }}'); {% if site.logoo.width %}width: {{ site.logoo.width }}; height: {{ site.logoo.width }}; background-size: {{ site.logoo.width }} {{ site.logoo.width }};{% endif %}">
+                        {{ site.title }}
+                    </a>
+                </div>
+                {% endif %}
+            {% endunless %}
         {% endif %}
 
         {% if page.links-side != false %}
@@ -93,13 +106,25 @@
                         <div class="home-bottom-text">
 
                             {% if page.logo and page.logo.position != "top" %}
-                                <div style="text-align: {{ page.logo.position}};">
+                                <div style="text-align: {{ page.logo.position }};">
                                     <a href="{{ site.baseurl }}/" title="Homepage">
                                         <img src="{{ site.baseurl }}/assets/images/{{ page.logo.url }}" width="{% if page.logo.width %}{{ page.logo.width }}{% else %}150px{% endif %}" />
                                     </a>
                                     <br>
                                     <br>
                                 </div>
+                            {% else %}
+                                {% unless page.logo %}
+                                    {% if site.logoo and site.logoo.position != "top" %}
+                                        <div style="text-align: {{ site.logoo.position }};">
+                                            <a href="{{ site.baseurl }}/" title="Homepage">
+                                                <img src="{{ site.baseurl }}/assets/images/{{ site.logoo.url }}" width="{% if site.logoo.width %}{{ site.logoo.width }}{% else %}150px{% endif %}" />
+                                            </a>
+                                            <br>
+                                            <br>
+                                        </div>
+                                    {% endif %}
+                                {% endunless %}
                             {% endif %}
 
                             <h3>{{ page.pretitle }}</h3>
@@ -171,8 +196,7 @@
                 <div class="links-gallery-bg-1" style="background-image: url('{{ site.baseurl }}/assets/images/{{ item.left.image }}');"></div>
                 <div class="links-gallery-1">
                     <div class="intro">
-                        <h4>{{ item.left.title }}</h4>
-                        <h5>{{ item.left.description }}</h5>
+                        <h4>{{ item.left.name }}</h4>
                     </div>
                 </div>
             </a>
@@ -180,8 +204,7 @@
                 <div class="links-gallery-bg-2" style="background-image: url('{{ site.baseurl }}/assets/images/{{ item.right.image }}');"></div>
                 <div class="links-gallery-2">
                     <div class="intro">
-                        <h4>{{ item.right.title }}</h4>
-                        <h5>{{ item.right.description }}</h5>
+                        <h4>{{ item.right.name }}</h4>
                     </div>
                 </div>
             </a>
@@ -201,8 +224,7 @@
                 <div class="links-gallery-bg-1" style="background-image: url('{{ site.baseurl }}/assets/images/{{ left.image }}');"></div>
                 <div class="links-gallery-1">
                     <div class="intro">
-                        <h4>READ MORE</h4>
-                        <h5>{{ left.title }}</h5>
+                        <h4>{{ left.title }}</h4>
                     </div>
                 </div>
             </a>
@@ -217,8 +239,7 @@
                 <div class="links-gallery-bg-2" style="background-image: url('{{ site.baseurl }}/assets/images/{{ right.image }}');"></div>
                 <div class="links-gallery-2">
                     <div class="intro">
-                        <h4>FEATURED</h4>
-                        <h5>{{ right.title }}</h5>
+                        <h4>{{ right.title }}</h4>
                     </div>
                 </div>
             </a>
@@ -324,7 +345,7 @@
     <!-- JS -->
 
     <script>
-        var i, list = document.querySelectorAll("blockquote, h1, h2, h3, h4, h5, h6, p, a, li, img, hr, .timeline-block, .item-wrap, .form-field, .video-wrapper");
+        var i, list = document.querySelectorAll("blockquote, h1, h2, h3, h4, h5, h6, p, a, li, img, hr, pre, code, .timeline-block, .item-wrap, .form-field, .video-wrapper");
         for (i = 0; i < list.length; ++i) {
             list[i].classList.add('animate-this');
         }
