@@ -50,7 +50,11 @@ We were able to promote Bone Marrow donation in Grenoble and online, especially 
 
 The French Blood Establishment (EFS) in collaboration with the Biomedicine Agency in France allowed us to act on blood collection centers/drives.
 
-{% include img src="actions/bone-marrow/img-4.jpg" %}
+{% include gallery
+  items='[
+    { img: "actions/bone-marrow/img-4.jpg" }
+  ]'
+%}
 
 We invite everyone to get closer to these and other associations!
 
@@ -65,6 +69,12 @@ It is yet not very well known, but ou will be surprised - it is a very simple ac
 **Register yourself as a donor today!**
 
 In France you can do it all online, simply register from home here: [dondemoelleosseuse.fr](https://www.dondemoelleosseuse.fr)
+
+{% include gallery
+  items='[
+    { img: "actions/bone-marrow/img-7.jpg" }
+  ]'
+%}
 
 {% include gallery
   shuffle=true
