@@ -165,7 +165,7 @@ Here you can find all the financial receipts of our project. If you have questio
 <br>
 
 - Rotary Jorat [<a-out/>](https://jorat.rotary1990.ch/fr)
-- Rotary de Romans [<a-out/>](https://rotaryromans.com)
+- Rotary de Romans (D1780) [<a-out/>](https://rotaryromans.com)
 - Rotary Neuchâtel Lac [<a-out/>](https://neuchatel-lac.rotary1990.ch/fr)
 - Rotary Nyon-La Côte [<a-out/>](https://nyon-la-cote.rotary1990.ch/fr)
 - Rotary Sion [<a-out/>](https://sion.rotary1990.ch/fr)
