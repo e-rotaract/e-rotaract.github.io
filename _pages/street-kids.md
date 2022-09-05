@@ -164,7 +164,7 @@ Here you can find all the financial receipts of our project. If you have questio
 
 <br>
 
-- Diamond Circle Foundation [<a-out/>](https://jorat.rotary1990.ch/fr)
+- Diamond Circle Foundation
 - Rotary de Romans (D1780) [<a-out/>](https://rotaryromans.com)
 - Rotary Neuchâtel Lac [<a-out/>](https://neuchatel-lac.rotary1990.ch/fr)
 - Rotary Nyon-La Côte [<a-out/>](https://nyon-la-cote.rotary1990.ch/fr)
@@ -173,6 +173,7 @@ Here you can find all the financial receipts of our project. If you have questio
 - Rotary Gstaad-Saanenland [<a-out/>](https://gstaad-saanenland.rotary1990.ch/fr)
 - Rotary Les Rangiers [<a-out/>](https://les-rangiers.rotary1990.ch/fr)
 - The 15+ Rotaract Clubs of RID 1960 [<a-out/>](https://www.rotaract1960.org/clubes-rtc)
+- Rotary Jorat [<a-out/>](https://jorat.rotary1990.ch/fr)
 - Patrick Léon Favre
 - Jean-François Richter
 - Oliver Rosenbauer
