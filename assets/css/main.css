@@ -1258,7 +1258,7 @@ header .header-logo a {
 
 .home-content-tablecell {
     display: table-cell;
-    vertical-align: bottom;
+    vertical-align: middle;
     z-index: 500;
 }
 
