@@ -41,6 +41,8 @@ links-home:
       show-home: true
       show-side: true
 
+# show-main: true
+
 links-gallery:
   - left:
       name: FOLLOW US<br>Get to know us on Instagram!
