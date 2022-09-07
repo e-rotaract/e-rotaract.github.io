@@ -37,7 +37,7 @@
     <!-- HEADER -->
 
     <header>
-        {% if page.logo and page.logo.position == "top" %}
+        {% if page.show-logo != false and page.logo and page.logo.position == "top" %}
         <div class="header-logo">
             <a href="{{ site.baseurl }}/"
                 style="background-image: url('{{ site.baseurl }}/assets/images/{{ page.logo.url }}'); {% if page.logo.width %}width: {{ page.logo.width }}; height: {{ page.logo.width }}; background-size: {{ page.logo.width }} {{ page.logo.width }};{% endif %}">
@@ -46,7 +46,7 @@
         </div>
         {% else %}
             {% unless page.logo %}
-                {% if site.logoo and site.logoo.position == "top" %}
+                {% if page.show-logo != false and site.logoo and site.logoo.position == "top" %}
                 <div class="header-logo">
                     <a href="{{ site.baseurl }}/"
                         style="background-image: url('{{ site.baseurl }}/assets/images/{{ site.logoo.url }}'); {% if site.logoo.width %}width: {{ site.logoo.width }}; height: {{ site.logoo.width }}; background-size: {{ site.logoo.width }} {{ site.logoo.width }};{% endif %}">
@@ -105,7 +105,7 @@
                     <div class="col-twelve">
                         <div class="home-bottom-text">
 
-                            {% if page.logo and page.logo.position != "top" %}
+                            {% if page.show-logo != false and page.logo and page.logo.position != "top" %}
                                 <div style="text-align: {{ page.logo.position }}; height: 30vh; display: grid; align-content: center;">
                                     <a href="{{ site.baseurl }}/" title="Homepage">
                                         <img src="{{ site.baseurl }}/assets/images/{{ page.logo.url }}" width="{% if page.logo.width %}{{ page.logo.width }}{% else %}150px{% endif %}" />
@@ -115,7 +115,7 @@
                                 </div>
                             {% else %}
                                 {% unless page.logo %}
-                                    {% if site.logoo and site.logoo.position != "top" %}
+                                    {% if page.show-logo != false and site.logoo and site.logoo.position != "top" %}
                                         <div style="text-align: {{ site.logoo.position }};">
                                             <a href="{{ site.baseurl }}/" title="Homepage">
                                                 <img src="{{ site.baseurl }}/assets/images/{{ site.logoo.url }}" width="{% if site.logoo.width %}{{ site.logoo.width }}{% else %}150px{% endif %}" />
