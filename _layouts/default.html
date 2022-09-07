@@ -123,7 +123,7 @@
                                             <br>
                                             <br>
                                         </div>
-                                    {% else %}
+                                    {% elsif page.show-logo != false %}
                                         <div style="height: 30vh; display: grid; align-content: center;"></div>
                                     {% endif %}
                                 {% endunless %}
@@ -155,8 +155,7 @@
 
     <!-- MAIN -->
 
-    {% if page.show-main != false %}
-    <section id="main">
+    <section id="main" {% if page.show-main == false %}style="display: none;"{% endif %}>
         <div class="overlay"></div>
         <div class="gradient-overlay"></div>
         <div class="row narrow">
@@ -189,7 +188,6 @@
             </div>
         </div>
     </section>
-    {% endif %}
 
     <!-- LINKS GALLERY -->
 
