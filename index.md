@@ -18,6 +18,7 @@ description: Together we can make our world a better place!
 # categories: [ a, b ]
 # tags: [ c, d, e ]
 
+# show-logo: true
 # show-home: false
 # links-side: false
 
