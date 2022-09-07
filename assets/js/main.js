@@ -263,6 +263,7 @@
 				goTopButton.fadeIn(fadeInTime);
 			} else {
 				goTopButton.fadeOut(fadeOutTime);
+				if ($('#button-notif').hasClass( "active" )) $('#button-notif').click();
 			}
 		});
 	};
