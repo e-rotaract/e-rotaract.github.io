@@ -63,7 +63,7 @@ show-notif: false
 
 {% include gallery
   items='[
-    { url: "/assets/images/logo/e-rotaract_pink-text.png", newtab:true, img: "logo/rotaract-text.svg", grid: 2 },
-    { url: "/assets/images/logo/e-rotaract_pink.png", newtab:true, img: "logo/rotaract.svg", grid: 2 }
+    { url: "/assets/images/logo/rotaract-text.svg", newtab:true, img: "logo/rotaract-text.svg", grid: 2 },
+    { url: "/assets/images/logo/rotaract.svg", newtab:true, img: "logo/rotaract.svg", grid: 2 }
   ]'
 %}
