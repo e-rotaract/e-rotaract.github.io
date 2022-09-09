@@ -1,0 +1,64 @@
+---
+layout: default
+permalink: /brand-kit
+# featured: true
+# hidden: true
+
+author: eclub
+image: default-bg.jpg
+logo:
+  url: logo/rotaract.svg
+  position: center
+  width: 300px
+
+pretitle: Hi, here is our
+title: Our Brand New Kit
+description: Contact us anytime for a partnership!
+
+show-home: true
+links-side: true
+
+links-home:
+    - name: How to become a Member?
+      icon: fab fa-slideshare
+      url: "#q1"
+      newtab: false
+      show-home: true
+      show-side: true
+
+links-gallery:
+  - left:
+      url: /
+      newtab: false
+      title: DO YOU FOLLOW THE E-CLUB ALREADY?
+      description: Click here to check our page!
+      image: instagram-logo.jpg
+    right:
+      url: /instagram
+      newtab: true
+      title: CLICK HERE TO REQUEST MEMBERSHIP
+      description: We will get in touch with you soon ;)
+      image: logo/rotaract-pink.png
+
+links-footer:
+  - icon: fab fa-instagram
+    name: rotaract_eclub
+    url: /instagram
+    newtab: true
+
+show-corner: true
+
+show-notif: false
+
+---
+
+{% include gallery
+  items='[
+    { img: "logo/e-rotaract_pink-text.png", grid: 2 },
+    { img: "logo/e-rotaract_black-text.png", grid: 2 },
+    { img: "logo/e-rotaract_white-text.png", grid: 2 },
+    { img: "logo/e-rotaract_pink.png", grid: 2 },
+    { img: "logo/e-rotaract_black.png", grid: 2 },
+    { img: "logo/e-rotaract_white.png", grid: 2 }
+  ]'
+%}
