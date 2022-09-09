@@ -31,7 +31,7 @@ links-side:
   - name: Brand Kit
     icon: fas fa-briefcase
     url: /brand-kit
-    newtab: true
+    newtab: false
 
 # Authors
 authors:
