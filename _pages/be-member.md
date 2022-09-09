@@ -31,17 +31,15 @@ links-home:
 
 links-gallery:
   - left:
+      name: E-ROTARACT BEYOND FRONTIERS<br>We are Rotaract – Join us today!
+      image: logo/rotaract-pink.png
       url: /
       newtab: false
-      title: DO YOU FOLLOW THE E-CLUB ALREADY?
-      description: Click here to check our page!
-      image: instagram-logo.jpg
     right:
+      name: FOLLOW US<br>Get to know us on Instagram!
+      image: instagram-logo.jpg
       url: /instagram
       newtab: true
-      title: CLICK HERE TO REQUEST MEMBERSHIP
-      description: We will get in touch with you soon ;)
-      image: logo/rotaract-pink.png
 
 links-footer:
   - icon: fab fa-instagram
