@@ -12,7 +12,7 @@ logo:
   width: 300px
 
 pretitle: Hi, here is our
-title: Our Brand New Kit
+title: Brand Kit
 description: Contact us anytime for a partnership!
 
 show-home: true
