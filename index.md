@@ -28,19 +28,19 @@ links-home:
       url: "#join"
       newtab: false
       show-home: true
-      show-side: true
+      show-side: false
     - name: Our actions
       icon: fas fa-hand-holding-heart
       url: "#actions"
       newtab: false
       show-home: true
-      show-side: true
+      show-side: false
     - name: Our volunteers
       icon: fas fa-seedling
       url: "#volunteers"
       newtab: false
       show-home: true
-      show-side: true
+      show-side: false
 
 # show-main: true
 
