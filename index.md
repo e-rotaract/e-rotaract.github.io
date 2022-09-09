@@ -116,9 +116,9 @@ Some of the actions we worked and helped on are:
     { url: "https://www.worldcleanupday.fr", img: "actions/world-clean-up-day-fr.png", grid: 4, newtab: true }
   ]'
   items='[
-    { url: "#join", img: "actions/awareness.png", newtab: false },
-    { url: "#join", img: "actions/world-clean-up-day.png", newtab: false },
-    { url: "#join", img: "actions/online-crime.png", newtab: false },
+    { url: "https://www.instagram.com/rotaract_eclub/guide/awareness-campaigns-and-celebrations/17985110881583214", img: "actions/awareness.png", newtab: false },
+    { url: "https://www.worldcleanupday.org", img: "actions/world-clean-up-day.png", newtab: false },
+    { url: "#join", img: "actions/safe-web.png", newtab: false },
     { url: "#join", img: "actions/meeting-people.png", newtab: false },
     { url: "/street-kids", img: "actions/street-kids.png", newtab: true }
   ]'
