@@ -46,6 +46,8 @@ show-notif: false
 
 ---
 
+# PNG images
+
 {% include gallery
   items='[
     { url: "/assets/images/logo/e-rotaract_pink-text.png", newtab:true, img: "logo/e-rotaract_pink-text.png", grid: 2 },
@@ -54,5 +56,14 @@ show-notif: false
     { url: "/assets/images/logo/e-rotaract_white.png", newtab:true, img: "logo/e-rotaract_white.png", grid: 2 },
     { url: "/assets/images/logo/e-rotaract_black-text.png", newtab:true, img: "logo/e-rotaract_black-text.png", grid: 2 },
     { url: "/assets/images/logo/e-rotaract_black.png", newtab:true, img: "logo/e-rotaract_black.png", grid: 2 }
+  ]'
+%}
+
+# SVG images
+
+{% include gallery
+  items='[
+    { url: "/assets/images/logo/e-rotaract_pink-text.png", newtab:true, img: "logo/rotaract-text.svg", grid: 2 },
+    { url: "/assets/images/logo/e-rotaract_pink.png", newtab:true, img: "logo/rotaract.svg", grid: 2 }
   ]'
 %}
