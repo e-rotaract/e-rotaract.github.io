@@ -18,13 +18,7 @@ description: Contact us anytime for a partnership!
 show-home: true
 links-side: true
 
-links-home:
-    - name: How to become a Member?
-      icon: fab fa-slideshare
-      url: "#q1"
-      newtab: false
-      show-home: true
-      show-side: true
+links-home: false
 
 links-gallery:
   - left:
