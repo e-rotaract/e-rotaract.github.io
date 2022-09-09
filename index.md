@@ -108,16 +108,21 @@ If you have an idea, send us a message, we can surely work together!
 Some of the actions we worked and helped on are:
 
 {% include gallery
-  shuffle_pre=true
   shuffle=true
+  shuffle_post=true
   grid=2
   pre='[
+    { url: "https://www.worldcleanupday.org", img: "actions/world-clean-up-day-en.png", grid: 4, newtab: true },
+    { url: "https://www.worldcleanupday.fr", img: "actions/world-clean-up-day-fr.png", grid: 4, newtab: true }
+  ]'
+  items='[
     { url: "#join", img: "actions/awareness.png", newtab: false },
+    { url: "#join", img: "actions/world-clean-up-day.png", newtab: false },
     { url: "#join", img: "actions/online-crime.png", newtab: false },
     { url: "#join", img: "actions/meeting-people.png", newtab: false },
     { url: "/street-kids", img: "actions/street-kids.png", newtab: true }
   ]'
-  items='[
+  post='[
     { url: "/bone-marrow", img: "actions/bone-marrow-donation.png", newtab: false },
     { url: "/speakeat", img: "actions/speakeat.png", newtab: true },
     { url: "/human-movie", img: "actions/human-movie.png", newtab: true }
