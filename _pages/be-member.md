@@ -6,10 +6,10 @@ permalink: /be-member
 
 author: eclub
 image: default-bg.jpg
-logo:
-  url: logo/rotaract.svg
-  position: center
-  width: 300px
+#logo:
+#  url: logo/rotaract.svg
+#  position: top
+#  width: 150px
 
 pretitle: Here you can
 title: Become a Member!
@@ -55,15 +55,40 @@ show-notif: false
 
 # Question 1 {#q1}
 
+## Considering only the last 4 official e-club meetings: have you been with us on at least 3 of these meetings?
+
 {% include gallery
   items='[
-    { img: "be-member/q1.png", grid: 2 },
-    { url: "#q2", img: "be-member/yes.gif", grid: 4, newtab: false },
-    { img: "be-member/no.gif", grid: 4 }
+    //{ img: "be-member/q1.png", grid: 2 },
+    //{ url: "#q2", img: "be-member/yes.gif", grid: 4, newtab: false },
+    //{ img: "be-member/no.gif", grid: 4 }
   ]'
 %}
 
-<br><br><br>
+{% include gallery
+  items='[
+    //{ img: "be-member/q1.png", grid: 2 },
+    //{ url: "#q2", img: "be-member/yes.gif", grid: 4, newtab: false },
+    //{ img: "be-member/no.gif", grid: 4 }
+  ]'
+%}
+
+{% include gallery-btn
+  large=true
+  items='[
+    //{ name: "Considering only the last 4 official e-club meetings: have you been with us on at least 3 of these meetings?" }
+  ]'
+%}
+
+{% include gallery-btn
+  large=false
+  items='[
+    { name: "YES", url: "#q2" },
+    { name: "NO" }
+  ]'
+%}
+
+<br><br><br><br><br><br>
 
 # Question 2 {#q2}
 
@@ -75,7 +100,7 @@ show-notif: false
   ]'
 %}
 
-<br><br><br>
+<br><br><br><br><br><br>
 
 # Question 3 {#q3}
 
@@ -87,7 +112,7 @@ show-notif: false
   ]'
 %}
 
-<br><br><br>
+<br><br><br><br><br><br>
 
 # Question 4 {#q4}
 

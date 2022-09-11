@@ -117,13 +117,13 @@ Some of the actions we worked and helped on are:
   ]'
   items='[
     { url: "https://www.instagram.com/rotaract_eclub/guide/awareness-campaigns-and-celebrations/17985110881583214", img: "actions/awareness.png", newtab: false },
-    { url: "https://www.worldcleanupday.org", img: "actions/world-clean-up-day.png", newtab: false },
-    { url: "#join", img: "actions/safe-web.png", newtab: false },
-    { url: "#join", img: "actions/meeting-people.png", newtab: false },
+    //{ url: "https://www.worldcleanupday.org", img: "actions/world-clean-up-day.png", newtab: true },
+    { url: "/safe-web", img: "actions/safe-web.png" },
+    { url: "#join", img: "actions/meeting-people.png" },
     { url: "/street-kids", img: "actions/street-kids.png", newtab: true }
   ]'
   post='[
-    { url: "/bone-marrow", img: "actions/bone-marrow-donation.png", newtab: false },
+    { url: "/bone-marrow", img: "actions/bone-marrow-donation.png" },
     { url: "/speakeat", img: "actions/speakeat.png", newtab: true },
     { url: "/human-movie", img: "actions/human-movie.png", newtab: true }
   ]'
