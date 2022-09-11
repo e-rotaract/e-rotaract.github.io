@@ -31,7 +31,7 @@ permalink: "/internal"
     <br>
     <ul>
         <li class="i-s shake">
-            <a target="_blank" href='{%for i in site.links%}{%if i.id=="meeting"%}{{i.url}}{%break%}{%endif%}{%endfor%}'>
+            <a target="_blank" href='/videocall'>
                 <div class='logo'>
                     <i class='fas fa-laptop fa-2x'></i>
                 </div>
