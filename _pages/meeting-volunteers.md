@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /meeting-others
+permalink: /meeting-volunteers
 
 author: eclub
 
