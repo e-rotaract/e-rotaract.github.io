@@ -172,7 +172,7 @@ Here you can find all the financial receipts of our project. If you have questio
 - Rotary Bern Christoffel [<a-out/>](https://bern-christoffel.rotary1990.ch/fr)
 - Rotary Gstaad-Saanenland [<a-out/>](https://gstaad-saanenland.rotary1990.ch/fr)
 - Rotary Les Rangiers [<a-out/>](https://les-rangiers.rotary1990.ch/fr)
-- The 15+ Rotaract Clubs of RID 1960 [<a-out/>](https://www.rotaract1960.org/clubes-rtc)
+- The 15+ Rotaracts of RID 1960 [<a-out/>](https://www.rotaract1960.org/clubes-rtc)
 - Rotary Jorat [<a-out/>](https://jorat.rotary1990.ch/fr)
 - Patrick Léon Favre
 - Jean-François Richter
