@@ -111,18 +111,14 @@ Some of the actions we worked and helped on are:
   shuffle=true
   shuffle_post=true
   grid=2
-  pre='[
-    { url: "https://www.worldcleanupday.org", img: "actions/world-clean-up-day-en.png", grid: 4, newtab: true },
-    { url: "https://www.worldcleanupday.fr", img: "actions/world-clean-up-day-fr.png", grid: 4, newtab: true }
-  ]'
   items='[
     { url: "/instagram", img: "actions/awareness.png", newtab: true },
-    //{ url: "https://www.worldcleanupday.org", img: "actions/world-clean-up-day.png", newtab: true },
     { url: "/safe-web", img: "actions/safe-web.png" },
     { url: "/meeting-volunteers", img: "actions/meeting-people.png" },
     { url: "/street-kids", img: "actions/street-kids.png", newtab: true }
   ]'
   post='[
+    { url: "https://www.worldcleanupday.org", img: "actions/world-clean-up-day.png" },
     { url: "/bone-marrow", img: "actions/bone-marrow-donation.png" },
     { url: "/speakeat", img: "actions/speakeat.png", newtab: true },
     { url: "/human-movie", img: "actions/human-movie.png", newtab: true }
