@@ -32,6 +32,20 @@ show-notif: false
 
 ---
 
-This project is development, but if you want to give a helping hand you are more than welcome to contact us!
+This project is under development, but if you want to give a helping hand you are more than welcome to contact us!
 
-Send us a message on instagram or an e-mail.
+Send us a message on instagram or an e-mail!
+
+{% include btn
+  url="/instagram"
+  newtab=true
+  class="button-primary"
+  icon="fab fa-instagram fa-lg"
+  text="Follow us and<br>send a message @rotaract_eclub"
+%}
+
+{% include btn
+  url="mailto:hi@e-rotaract.com"
+  icon="fa fa-envelope fa-lg"
+  text="E-mail us: hi@e-rotaract.com"
+%}
