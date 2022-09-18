@@ -1,15 +1,15 @@
 ---
 layout: default
-permalink: /street-kids
+permalink: /templates
 
 author: eclub
 logo:
   url: logo/rotaract-alpha.png
   position: center
 
-pretitle: Help them smile again!
-title: Street Kids
-description: Meals, Shelter and Education for Kenyan Kids
+pretitle: Pre-title
+title: Title
+description: Description
 
 links-side: false
 
@@ -59,28 +59,35 @@ show-notif: false
 
 ---
 
-{% include img src="actions/street-kids/cover.png" %}
+# Title 1
 
-The Street Kids is a **continuous project for 11+ kids** from Nairobi, Kenya. We help them by providing **2 meals** a day, **shelter** & **education**.
+## Title 2
 
-We know each kid, and we keep regular contact with them all through weekly calls, sharing photos, messages, and more.
+### Title 3
 
-It is an international partnership among different clubs and Rotary International Districts, including clubs from [9212 (Kenya)](https://fb.com/Rotaract-Club-of-Eco-Warriors-106271138555346), [1990 (Switzerland)](https://rotary1990.ch), [1960 (Portugal)](https://www.rotary1960.org), and [1780 (France)](https://e-rotaract.com).
+text *text* **text** ***text*** ~text~ ~~text~~
 
-# Join Us every Sunday {#videocall}
+[internal link](/) [external link <a-out/>](https://iaco.io)
 
-We have weekly videocalls of 30 minutes, every Sunday:
-
-- 12:00 - Kenya 🇰🇪 (UTC+3)
-- 11:00 - Central Europe: CH🇨🇭, FR🇫🇷, NO🇳🇴...
-- 10:00 - Western Europe: PT🇵🇹, UK🇬🇧...
+<code id="text">code</code>
 
 {% include btn
-  url="/street-kids/call"
+  url="javascript:navigator.clipboard.writeText($('#text').text())"
+  icon="fas fa-copy fa-lg"
+  text="Copy Text"
+%}
+
+{% include img src="default-bg.jpg" %}
+
+- list item
+- list item
+
+{% include btn
+  url="/"
   newtab=true
   class="button-primary"
   icon="fa fa-video fa-lg"
-  text="Street Kids Videocall"
+  text="Button"
 %}
 
 # Make a Donation {#donation}
@@ -99,6 +106,18 @@ To donate through a bank transfer, here is our details:
 
 - Account holder: <code id="holder">District Rotary 1990, Comission Rotaract</code>
 - IBAN: <code id="iban">CH30 8080 8003 8478 5531 6</code>
+
+{% include btn
+  url="javascript:navigator.clipboard.writeText($('#holder').text())"
+  icon="fas fa-copy fa-lg"
+  text="Copy Account Holder"
+%}
+
+{% include btn
+  url="javascript:navigator.clipboard.writeText($('#iban').text())"
+  icon="fas fa-copy fa-lg"
+  text="Copy IBAN"
+%}
 
 {% include gallery-btn
   large=false

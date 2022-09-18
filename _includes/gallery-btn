@@ -42,6 +42,7 @@ Format:
     document.write(
         (it.url ? ('<a ' + (it.newtab ? 'target="_blank" ' : '') + 'href="' + it.url + '">') : '') +
           '<li>' +
+          (it.icon ? '<i class="' + it.icon + '"></i> ' : '') +
           it.name +
           '</li>' +
         (it.url ? '</a>' : '')
