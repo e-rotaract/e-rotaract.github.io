@@ -103,8 +103,8 @@ To donate through a bank transfer, here is our details:
 {% include gallery-btn
   large=false
   items='[
-    { name: "Copy Account Holder", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($('#holder').text())" },
-    { name: "Copy IBAN", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($('#iban').text())" }
+    { name: "Copy Account Holder", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#holder\').text())" },
+    { name: "Copy IBAN Code", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#iban\').text())" }
   ]'
 %}
 
