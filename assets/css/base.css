@@ -18,7 +18,7 @@
  *  01. reset - normalize.css v3.0.2 | MIT License | git.io/normalize
  *
  * ------------------------------------------------------------------- */
-html {
+ html {
 	font-family: sans-serif;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -142,6 +142,12 @@ pre,
 samp {
 	font-family: monospace, monospace;
 	font-size: 1em;
+}
+
+tok {
+	font-family: "linja";
+	text-transform: none !important;
+	letter-spacing: normal !important;
 }
 
 button,
