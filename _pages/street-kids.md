@@ -156,7 +156,7 @@ Here you can find all the financial receipts of our project. If you have questio
           <div class="icon-part">
             <i class="fas fa-child fa-lg"></i>
           </div>
-          <h3 class="stat-count">12</h3>
+          <h3 class="stat-count">28</h3>
           <br>
           <p>Donors (Clubs & Individuals)</p>
         </div>
