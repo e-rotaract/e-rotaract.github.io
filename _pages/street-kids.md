@@ -99,12 +99,19 @@ To donate through a bank transfer, here is our details:
 
 - Account holder: <code id="holder">District Rotary 1990, Comission Rotaract</code>
 - IBAN: <code id="iban">CH30 8080 8003 8478 5531 6</code>
+- BIC/SWIFT: <code id="bic">RAIF CH22 XXX</code>
 
 {% include gallery-btn
   large=false
   items='[
-    { name: "Copy Account Holder", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#holder\').text())" },
-    { name: "Copy IBAN Code", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#iban\').text())" }
+    { name: "Copy IBAN Code", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#iban\').text())" },
+    { name: "Copy BIC/SWIFT", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#bic\').text())" }
+  ]'
+%}
+{% include gallery-btn
+  large=true
+  items='[
+    { name: "Copy Account Holder", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#holder\').text())" }
   ]'
 %}
 
