@@ -65,3 +65,11 @@ show-notif: false
     { url: "/assets/images/logo/rotaract.svg", newtab:true, img: "logo/rotaract.svg", grid: 2 }
   ]'
 %}
+
+# Our first logo
+
+{% include gallery
+  items='[
+    { url: "/assets/images/logo/2021_e-rotaract_logo.png", newtab:true, img: "logo/2021_e-rotaract_logo.png", grid: 2 }
+  ]'
+%}
