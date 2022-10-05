@@ -44,6 +44,16 @@ show-notif: false
 
 ---
 
+# The meaning of our logo
+
+We put a lot of thoght in designing our logo. Together, we wanted an image to represent us and our core values, and we loved the result:
+
+- The planet in the centre represents our planet Earth, and all forms of life it harbours;
+- The “e” around the planet represents our digital identity, as well as its wish to be all around the world;
+- The people hugging in the middle represent our care for each other and all life on Earth, as well as our wish to support people in their lives and actions;
+- If you pay attention, you will notice the planet has Antartica on the top and Arctic on the bottom, which some would call "upside down", but we know for a planet in space "up" and "down" has no meaning - and in our logo it represents the fact that in many situations there is no up/down, or right/wrong, but simply different points of view, all valid and correct, and it also shows the e-club wish to view and do things differently when necessary;
+- The Rotary logo, followed by a star tail that surrounds the world, symbolises a shooting star, where Rotary and our values guide our ideas and actions.
+
 # PNG images
 
 {% include gallery
@@ -66,7 +76,9 @@ show-notif: false
   ]'
 %}
 
-# Our first logo
+# Our first historical logo
+
+This logo was designed in the very beginning of our e-club, and presented in our Inauguration Ceremony of 2021-11-28.
 
 {% include gallery
   items='[
