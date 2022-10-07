@@ -150,6 +150,23 @@ tok {
 	letter-spacing: normal !important;
 }
 
+tok:hover > tok-reveal {
+    display: inline;
+}
+
+tok-reveal {
+	font-family: 'notos';
+	background-color: #0c1b35;
+	color: gray;
+    display: none;
+    text-transform: none;
+    z-index: 10;
+    position: absolute;
+	font-size: 1.5rem;
+    border: 1px solid gray;
+    padding: 3px;
+}
+
 button,
 input,
 optgroup,

@@ -357,6 +357,10 @@
 
         $.expr[':'].external = function(obj){ return (obj.hostname != location.hostname) && obj.href.startsWith("http"); };
         $('a:external').attr('target', '_blank');
+
+        $('tok').each(function(index) {
+	        $(this).append('<tok-reveal>'+$(this).text()+'<tok-reveal>')
+        });
     </script>
     <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
