@@ -358,8 +358,13 @@
         $.expr[':'].external = function(obj){ return (obj.hostname != location.hostname) && obj.href.startsWith("http"); };
         $('a:external').attr('target', '_blank');
 
-        $('tok').each(function(index) {
-	        $(this).append('<tok-reveal>'+$(this).text()+'<tok-reveal>')
+        $('tok').each(function(index, value) {
+            let textOriginal = $(this).text()
+            var textWithReveal = ''
+            $.each(textOriginal.split(' '), function(index, value) {
+                textWithReveal += '<tok>' + value + '<tok-reveal>' + value + '</tok-reveal></tok> '
+            })
+            $(this).html(textWithReveal)
         });
     </script>
     <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
