@@ -136,7 +136,7 @@ and Norge 🇳🇴 ([2310](https://d2310.rotary.no)).
 Join us!
 
 {% include gallery
-  shuffle=true
+  shuffle_pre=true
   grid=4
   pre='[
     { img: "participants/alex.png" },
