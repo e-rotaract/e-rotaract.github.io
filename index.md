@@ -143,8 +143,7 @@ Join us!
     { img: "participants/debora.png" },
     { img: "participants/emiline.png" },
     { img: "participants/iaco.png" },
-    { img: "participants/leo.png" },
-    { img: "participants/magali.png" }
+    { img: "participants/leo.png" }
   ]'
   post='[ { url: "#join", img: "participants/you.gif" } ]'
 %}
