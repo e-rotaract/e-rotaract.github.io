@@ -138,12 +138,13 @@ Join us!
 {% include gallery
   shuffle=true
   grid=4
-  items='[
+  pre='[
     { img: "participants/alex.png" },
     { img: "participants/debora.png" },
     { img: "participants/emiline.png" },
     { img: "participants/iaco.png" },
     { img: "participants/leo.png" }
   ]'
+  items='[ { img: "participants/magali.png" } ]'
   post='[ { url: "#join", img: "participants/you.gif" } ]'
 %}
