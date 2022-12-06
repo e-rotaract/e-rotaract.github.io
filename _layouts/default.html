@@ -74,7 +74,7 @@
             <ul class="nav-list">
                 {% for item in site.links-side %}
                 <li>
-                    {% if item.url %}<a href="{{ item.url }}" title="{{ item.name }}" {% if item.newtab %}target="_blank"{% endif %}>{% endif %}
+                    {% if item.url %}<a href="{{ item.url }}" title="{{ item.name }}" {% if item.newtab %}target="_blank"{% endif %} {% if item.rel %}rel="me"{% endif %}>{% endif %}
                         {% if item.icon %}<i class="{{ item.icon }}"></i>{% endif %}
                         {{ item.name }}
                     {% if item.url %}</a>{% endif %}
