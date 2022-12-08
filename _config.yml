@@ -20,9 +20,8 @@ statistics: '<script src="https://cdn.counter.dev/script.js" data-id="76980790-d
 links-side:
   - name: Follow our masto
     icon: fab fa-mastodon
-    url: https://masto.ai/@rotaract
+    url: /masto
     newtab: true
-    rel: true
   - name: Check our insta
     icon: fab fa-instagram
     url: /instagram
@@ -39,6 +38,8 @@ links-side:
     icon: fas fa-briefcase
     url: /brand-kit
     newtab: false
+
+verification: "<a rel='me' href='https://masto.ai/@rotaract'></a>"
 
 # Authors
 authors:
