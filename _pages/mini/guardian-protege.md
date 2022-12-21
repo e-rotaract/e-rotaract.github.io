@@ -17,7 +17,7 @@ permalink: "/guardian-protege"
 <body class="en" tabIndex=0>
     <div class="author-photo">
         <a class="js-scroll-trigger" href="https://www.instagram.com/rotaract_eclub">
-            <img src="assets/images/rotaract-logo-pink.png">
+            <img src="assets/images/logo/rotaract-logo-pink.png">
             <br>
             e-Rotaract Beyond Frontiers
             <br>
