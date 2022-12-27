@@ -206,7 +206,7 @@ permalink: /speakeat
     </ul>
     <ul>
         <li class="i-s" title="Why plant-based food for SpeakEat? In order to join a SpeakEat, it is important that participants are open-minded. Socially, it is still not common to eat plant-based, although it can have a positive impact on our environment and overall health. SpeakEat asks, for those who want to eat, to choose a plant-based snack or meal. Such an aspect of SpeakEat is an invitation to open-mindedly try something new.">
-            <a lang="en">
+            <span lang="en">
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
                     Hello 😉
                     <br><br>
@@ -232,7 +232,7 @@ permalink: /speakeat
                     <br><br>
                     ⁉️ If you have any questions or suggestions, please contact us at <a href="https://e-rotaract.com">www.e-rotaract.com</a>.
                 </p>
-            </a>
+            </span>
             <a lang="fr">
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
                     Salut 😉
