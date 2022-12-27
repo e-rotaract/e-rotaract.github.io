@@ -28,7 +28,8 @@ permalink: /speakeat
             {num: "10", sym: "🗝️", date: "2021-11-21", title: "How to live the end of life?"},
             {num: "11", sym: "💗", date: "2021-12-05", title: "Relationships"},
             {num: "12", sym: "🤔", date: "2022-01-16", title: "How to make choices in life? - with DJML"},
-            {num: "13", sym: "", date: "2030-12-31", title: "(summer break now, stay tuned)"}
+            {num: "13", sym:"🍸", date: "2023-01-15", title: "Alcohol"}
+            //{num: "14", sym: "", date: "2030-12-31", title: "(summer break now, stay tuned)"}
         ];
         
         var next_event = list_events[list_events.length-1];
