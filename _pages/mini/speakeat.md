@@ -230,7 +230,7 @@ permalink: /speakeat
                     <br><br>
                     🌐 Share the event with your friends and family! Everyone is welcome!
                     <br><br>
-                    ⁉️ If you have any questions or suggestions, please contact: Iago Felipe Trentin, Emiline Rioux, or Eleonora Patinot.
+                    ⁉️ If you have any questions or suggestions, please contact us at <a href="https://e-rotaract.com">www.e-rotaract.com</a>.
                 </p>
             </a>
             <a lang="fr">
@@ -257,7 +257,7 @@ permalink: /speakeat
                     <br><br>
                     🌐 Partagez l'événement à vos proches ! Toustes sont les bienvenu·e·s !
                     <br><br>
-                    ⁉️ Si vous avez des questions ou suggestions, contactez les responsables du SpeakEat :  Iago Felipe Trentin, Emiline Rioux, ou Eleonora Patinot.
+                    ⁉️ Si vous avez des questions ou suggestions, contactez nous sur <a href="https://e-rotaract.com">www.e-rotaract.com</a>.
                 </p>
             </a>
             <a lang="pt">
@@ -284,7 +284,7 @@ permalink: /speakeat
                     <br><br>
                     🌐 Compartilhe o evento com seus amigos e familiares! Todes são bem-vindes!
                     <br><br>
-                    ⁉️ Se você tiver alguma dúvida ou sugestão, pode entrar em contato com: Iago Felipe Trentin, Emiline Rioux, ou Eleonora Patinot.
+                    ⁉️ Se você tiver alguma dúvida ou sugestão, pode entrar em contato conosco em <a href="https://e-rotaract.com">www.e-rotaract.com</a>.
                 </p>
             </a>
         </li>
