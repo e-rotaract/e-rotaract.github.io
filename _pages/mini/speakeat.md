@@ -233,7 +233,7 @@ permalink: /speakeat
                     ⁉️ If you have any questions or suggestions, please contact us at <a href="https://e-rotaract.com">www.e-rotaract.com</a>.
                 </p>
             </span>
-            <a lang="fr">
+            <span lang="fr">
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
                     Salut 😉
                     <br><br>
@@ -259,8 +259,8 @@ permalink: /speakeat
                     <br><br>
                     ⁉️ Si vous avez des questions ou suggestions, contactez nous sur <a href="https://e-rotaract.com">www.e-rotaract.com</a>.
                 </p>
-            </a>
-            <a lang="pt">
+            </span>
+            <span lang="pt">
                 <p class='title' id="info" style="font-weight: normal; margin: 20px;">
                     Olá 😉
                     <br><br>
@@ -286,7 +286,7 @@ permalink: /speakeat
                     <br><br>
                     ⁉️ Se você tiver alguma dúvida ou sugestão, pode entrar em contato conosco em <a href="https://e-rotaract.com">www.e-rotaract.com</a>.
                 </p>
-            </a>
+            </span>
         </li>
     </ul>
     <hr style="width: 100px;" id="topics">
