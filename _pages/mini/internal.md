@@ -58,7 +58,7 @@ permalink: "/internal"
     </ul>
     <ul>
         <li class="i-s">
-            <a href="https://chat.whatsapp.com/INkMh1VrXbr3H77piY4Lrh" target="_blank">
+            <a href="" target="_blank">
                 <div class='logo'>
                     <i class='far fa-comment fa-2x'></i>
                 </div>
@@ -71,7 +71,7 @@ permalink: "/internal"
             </a>
         </li>
         <li class="i-s">
-            <a href="https://drive.google.com/drive/folders/1-61TDAwYQemlLU2fu3vOkEn6Wax-iLYB?usp=sharing" target="_blank">
+            <a href="" target="_blank">
                 <div class='logo'>
                     <i class='fas fa-cloud fa-2x'></i>
                 </div>
