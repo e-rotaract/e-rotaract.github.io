@@ -93,8 +93,8 @@ permalink: /speakeat
                 <p class='title'>
                     Videocall · Visio
                     <span>Sunday · Dimanche · Domingo</span>
-                    <span>18:30 UTC+1 (Central EU 🇪🇺)</span>
-                    <span>14:30 UTC&minus;3 (BR 🇧🇷)</span>
+                    <span>14:00 UTC+1 (Central EU 🇪🇺)</span>
+                    <span>10:00 UTC&minus;3 (BR 🇧🇷)</span>
                 </p>
             </a>
         </li>
@@ -214,7 +214,7 @@ permalink: /speakeat
                     <br><br>
                     👥 We will have a time together, to get to know each other and exchange around the main topic.
                     <br><br>
-                    🍓 If you will eat, you can share your plant-based recipe with us all when you present yourself.
+                    🍓 If you would like to eat a plant-based snack, you can share your recipe with us when you present yourself.
                     <br><br>
                     —
                     <br><br>
@@ -241,7 +241,7 @@ permalink: /speakeat
                     <br><br>
                     👥 Nous aurons un moment ensemble, pour apprendre à nous connaître et échanger autour du thème principal.
                     <br><br>
-                    🍓 Si vous voulez manger, vous pouvez partager votre recette plant-based avec nous tous lorsque vous vous présenterez.
+                    🍓 Si vous voulez manger un petit goûter plant-based, vous pouvez partager votre recette avec nous tous lorsque vous vous présenterez.
                     <br><br>
                     —
                     <br><br>
@@ -268,7 +268,7 @@ permalink: /speakeat
                     <br><br>
                     👥 Nós teremos um momento juntos, para nos conhecer e conversar sobre o tema principal.
                     <br><br>
-                    🍓 Se você comer conosco, poderá compartilhar a sua receita plant-based no momento em que se apresentar.
+                    🍓 Se você quiser comer um lanche plant-based, você pode compartilhar sua receita conosco quando se apresentar.
                     <br><br>
                     —
                     <br><br>
