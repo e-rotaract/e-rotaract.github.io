@@ -29,7 +29,7 @@ permalink: /speakeat
             {num: "11", sym: "💗", date: "2021-12-05", title: "Relationships"},
             {num: "12", sym: "🤔", date: "2022-01-16", title: "How to make choices in life? - with DJML"},
             {num: "13", sym:"🍸", date: "2023-01-15", title: "Alcohol"}
-            //{num: "14", sym: "", date: "2030-12-31", title: "(summer break now, stay tuned)"}
+            //{num: "14", sym: "", date: "2030-12-31", title: "(coming soon, stay tuned)"}
         ];
         
         var next_event = list_events[list_events.length-1];
@@ -212,7 +212,7 @@ permalink: /speakeat
                     <br><br>
                     ❇️ Welcome to SpeakEat, a Rotaract project aiming to promote the exchange of knowledge and experiences!
                     <br><br>
-                    👥 We will have 2 hours together to get to know each other and exchange around the main topic.
+                    👥 We will have a time together, to get to know each other and exchange around the main topic.
                     <br><br>
                     🍓 If you will eat, you can share your plant-based recipe with us all when you present yourself.
                     <br><br>
@@ -230,7 +230,7 @@ permalink: /speakeat
                     <br><br>
                     🌐 Share the event with your friends and family! Everyone is welcome!
                     <br><br>
-                    ⁉️ If you have any questions or suggestions, please contact us at <a href="https://e-rotaract.com">www.e-rotaract.com</a>.
+                    ⁉️ If you have any questions or suggestions, please contact us at <a href="https://e-rotaract.com">www.e-rotaract.com</a>
                 </p>
             </span>
             <span lang="fr">
@@ -239,7 +239,7 @@ permalink: /speakeat
                     <br><br>
                     ❇️ Bienvenue au SpeakEat, un projet Rotaract visant à promouvoir l'échange de connaissances et d'expériences !
                     <br><br>
-                    👥 Nous aurons 2 heures ensemble pour apprendre à nous connaître et échanger autour du thème principal.
+                    👥 Nous aurons un moment ensemble, pour apprendre à nous connaître et échanger autour du thème principal.
                     <br><br>
                     🍓 Si vous voulez manger, vous pouvez partager votre recette plant-based avec nous tous lorsque vous vous présenterez.
                     <br><br>
@@ -257,7 +257,7 @@ permalink: /speakeat
                     <br><br>
                     🌐 Partagez l'événement à vos proches ! Toustes sont les bienvenu·e·s !
                     <br><br>
-                    ⁉️ Si vous avez des questions ou suggestions, contactez nous sur <a href="https://e-rotaract.com">www.e-rotaract.com</a>.
+                    ⁉️ Si vous avez des questions ou suggestions, contactez nous sur <a href="https://e-rotaract.com">www.e-rotaract.com</a>
                 </p>
             </span>
             <span lang="pt">
@@ -266,7 +266,7 @@ permalink: /speakeat
                     <br><br>
                     ❇️ Bem-vinde ao SpeakEat, projeto do Rotaract que visa promover a troca de conhecimentos e experiências!
                     <br><br>
-                    👥 Nós teremos 2 horas juntos para nos conhecer e conversar sobre o tema principal.
+                    👥 Nós teremos um momento juntos, para nos conhecer e conversar sobre o tema principal.
                     <br><br>
                     🍓 Se você comer conosco, poderá compartilhar a sua receita plant-based no momento em que se apresentar.
                     <br><br>
@@ -284,7 +284,7 @@ permalink: /speakeat
                     <br><br>
                     🌐 Compartilhe o evento com seus amigos e familiares! Todes são bem-vindes!
                     <br><br>
-                    ⁉️ Se você tiver alguma dúvida ou sugestão, pode entrar em contato conosco em <a href="https://e-rotaract.com">www.e-rotaract.com</a>.
+                    ⁉️ Se você tiver alguma dúvida ou sugestão, pode entrar em contato conosco em <a href="https://e-rotaract.com">www.e-rotaract.com</a>
                 </p>
             </span>
         </li>
