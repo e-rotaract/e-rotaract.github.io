@@ -86,7 +86,7 @@ permalink: /speakeat
 
     <ul>
         <li class="i-s shake">
-            <a href="https://univ-grenoble-alpes-fr.zoom.us/j/91040901669?pwd=UHNKVkNUMDl3VkFhU3FwRHQ0U1ZRZz09"><!--https://meet.google.com/vue-vhfn-tec-->
+            <a href="https://e-rotaract.com/videocall"><!--https://univ-grenoble-alpes-fr.zoom.us/j/91040901669?pwd=UHNKVkNUMDl3VkFhU3FwRHQ0U1ZRZz09 https://meet.google.com/vue-vhfn-tec-->
                 <div class='logo'>
                     <i class='fas fa-laptop fa-2x'></i>
                 </div>
