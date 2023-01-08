@@ -1,7 +1,7 @@
 ---
 layout: blank
 title: SpeakEat Rotaract
-permalink: /speakeat
+permalink: /speakeat-old
 ---
 
 <html>
