@@ -23,8 +23,8 @@ description: A moment to exchange knowledge and experiences, promoting understan
 # links-side: false
 
 links-home:
-    - name: Join us!
-      icon: fas fa-hands-helping
+    - name: Join Videocall
+      icon: fas fa-video
       url: "#join"
       newtab: false
       show-home: true
