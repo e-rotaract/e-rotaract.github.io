@@ -67,6 +67,32 @@ show-notif: false
 
 ---
 
+<script>
+  var list_events = [
+    {num: "01", sym: "🏳️‍🌈", date: "2020-12-13", title: "LGBT+"},
+    {num: "02", sym: "👥", date: "2021-01-03", title: "Discrimination"},
+    {num: "03", sym: "🧠", date: "2021-01-31", title: "Cognitive Bias (Biais Cognitif)"},
+    {num: "04", sym: "❤️", date: "2021-02-14", title: "Self-Love"},
+    {num: "05", sym: "💼", date: "2021-03-21", title: "Wellbeing at Work"},
+    {num: "06", sym: "🌐", date: "2021-04-25", title: "Climate Change"},
+    {num: "07", sym: "⛱️", date: "2021-07-04", title: "Summer Body"},
+    {num: "08", sym: "😲", date: "2021-09-26", title: "Taboos at Work (Les Tabous au Travail) - <span style='font-size: small !important;'>with DJML</span>"},
+    {num: "09", sym: "⚙️", date: "2021-11-06", title: "How to integrate differences and plurality in our Rotary Family? - <span style='font-size: small !important;'>with Uni Rotary D1990</span>"}, // https://rotary1990.ch/en/agenda/show/134393
+    {num: "10", sym: "🗝️", date: "2021-11-21", title: "How to live the end of life?"},
+    {num: "11", sym: "💗", date: "2021-12-05", title: "Relationships"},
+    {num: "12", sym: "🤔", date: "2022-01-16", title: "How to make choices in life? - <span style='font-size: small !important;'>with DJML</span>"},
+    {num: "13", sym: "🍸", date: "2023-01-15", title: "Alcohol - <span style='font-size: small !important;'>with DJML</span>"},
+    {num: "14", sym: "❔", date: "2030-12-31", title: "(coming soon)"}
+  ];
+  const options = { weekday: 'long', month: 'long', day: 'numeric' };
+  for(let i = 0; i < list_events.length; i++) {
+    if(new Date(list_events[i].date) > new Date() && new Date(list_events[i].date).getYear() <= (new Date().getYear()+1)) {
+      var current_event = new Date(list_events[i].date)
+      break;
+    }
+  }
+</script>
+
 # Join Us Online {#join}
 
 - 10:00 • UTC−3 (🇧🇷)
@@ -79,7 +105,7 @@ show-notif: false
   newtab=true
   class="button-primary"
   icon="fa fa-video fa-lg"
-  text="SpeakEat Videocall<br>Sunday • Dimanche • Domingo"
+  text="SpeakEat Videocall<br><script>document.write(current_event == null ? 'Sunday • Dimanche • Domingo' : current_event.toLocaleDateString('en-UK', options))</script>"
 %}
 
 {% include btn
@@ -87,7 +113,7 @@ show-notif: false
   newtab=true
   class="button"
   icon="fas fa-calendar-alt fa-lg"
-  text="Next SpeakEat Event"
+  text="Next SpeakEat Event<br>(add to your <i class='fab fa-facebook'></i> calendar)"
 %}
 
 {% include btn
@@ -118,22 +144,6 @@ show-notif: false
 
 <ol>
   <script>
-    var list_events = [
-      {num: "01", sym: "🏳️‍🌈", date: "2020-12-13", title: "LGBT+"},
-      {num: "02", sym: "👥", date: "2021-01-03", title: "Discrimination"},
-      {num: "03", sym: "🧠", date: "2021-01-31", title: "Cognitive Bias (Biais Cognitif)"},
-      {num: "04", sym: "❤️", date: "2021-02-14", title: "Self-Love"},
-      {num: "05", sym: "💼", date: "2021-03-21", title: "Wellbeing at Work"},
-      {num: "06", sym: "🌐", date: "2021-04-25", title: "Climate Change"},
-      {num: "07", sym: "⛱️", date: "2021-07-04", title: "Summer Body"},
-      {num: "08", sym: "😲", date: "2021-09-26", title: "Taboos at Work (Les Tabous au Travail) - <span style='font-size: small !important;'>with DJML</span>"},
-      {num: "09", sym: "⚙️", date: "2021-11-06", title: "How to integrate differences and plurality in our Rotary Family? - <span style='font-size: small !important;'>with Uni Rotary D1990</span>"}, // https://rotary1990.ch/en/agenda/show/134393
-      {num: "10", sym: "🗝️", date: "2021-11-21", title: "How to live the end of life?"},
-      {num: "11", sym: "💗", date: "2021-12-05", title: "Relationships"},
-      {num: "12", sym: "🤔", date: "2022-01-16", title: "How to make choices in life? - <span style='font-size: small !important;'>with DJML</span>"},
-      {num: "13", sym: "🍸", date: "2023-01-15", title: "Alcohol - <span style='font-size: small !important;'>with DJML</span>"},
-      {num: "14", sym: "❔", date: "2030-12-31", title: "(coming soon)"}
-    ];
     for(let i = 0; i < list_events.length; i++) {
         document.write(
           "<li>" +
