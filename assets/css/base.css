@@ -148,6 +148,7 @@ tok {
 	font-family: "linja-sike";
 	text-transform: none !important;
 	letter-spacing: normal !important;
+	font-weight: normal !important;
 }
 
 button,
