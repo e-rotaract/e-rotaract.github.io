@@ -361,7 +361,14 @@
         $.expr[':'].external = function(obj){ return (obj.hostname != location.hostname) && obj.href.startsWith("http"); };
         $('a:external').attr('target', '_blank');
 
-        $('tok').each(function() { $(this).attr('title', $(this).text()); });
+        $('tok').each(function() {
+            $(this).attr('title', $(this).text());
+            $(this).html(
+                "<tok2 style='white-space: nowrap;'>" +
+                $(this).text().replace(/ /g, "</tok2> <tok2 style='white-space: nowrap;'>") +
+                "</tok2>"
+            );
+        });
     </script>
     <script src="{{ site.baseurl }}/assets/js/plugins.js"></script>
     <script src="{{ site.baseurl }}/assets/js/main.js"></script>
