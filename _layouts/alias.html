@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+
+{% if page.redirect_to %}
+<html>
+    <head>
+        <title>Redirection</title>
+        <meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+        <script type="text/javascript"> window.location.href = "{{ page.redirect_to }}" </script>
+    </head>
+    <body>
+        If you are not redirected automatically, click this <a href="{{ page.redirect_to }}">link</a>.
+    </body>
+</html>
+
+{% else %}
+
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <meta http-equiv="refresh" content="0; url=https://iaco.io">
+        <script type="text/javascript"> window.location.href = "https://iaco.io" </script>
+    </head>
+    <body>
+        If you are not redirected automatically, click on <a href="https://iaco.io">this link</a>.
+    </body>
+</html>
+
+{% endif %}
