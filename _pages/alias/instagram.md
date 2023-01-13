@@ -5,5 +5,5 @@ permalink: /instagram
 redirect_from:
   - /ig
   - /insta
-redirect_to: https://www.instagram.com/rotaract_eclub
+alias_to: https://www.instagram.com/rotaract_eclub
 ---
