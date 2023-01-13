@@ -75,6 +75,7 @@ plugins:
   - jekyll-archives
   - jekyll-liquify
   - jekyll-target-blank
+  - jekyll-redirect-from
 
 # Archives
 jekyll-archives:
