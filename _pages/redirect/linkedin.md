@@ -1,6 +1,6 @@
 ---
-layout: redirect
+layout: blank
 title: LinkedIn
 permalink: /linkedin
-redirect: https://www.linkedin.com/company/e-rotaract
+redirect_to: https://www.linkedin.com/company/e-rotaract
 ---
