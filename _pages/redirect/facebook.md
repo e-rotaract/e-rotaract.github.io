@@ -1,6 +1,9 @@
 ---
-layout: redirect
+layout: alias
 title: Facebook
 permalink: /facebook
-redirect: https://fb.com/rotaract.eclub.bf
+redirect_from:
+  - /fb
+  - /face
+redirect_to: https://fb.com/rotaract.eclub.bf
 ---
