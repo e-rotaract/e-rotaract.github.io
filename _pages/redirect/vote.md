@@ -1,6 +1,6 @@
 ---
-layout: redirect
+layout: blank
 title: e-Rotaract Vote
 permalink: /vote
-redirect: https://forms.gle/PxwLSMD4TdZaVRbE6
+redirect_to: https://forms.gle/PxwLSMD4TdZaVRbE6
 ---
