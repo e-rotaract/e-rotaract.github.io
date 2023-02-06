@@ -11,7 +11,7 @@ image: default-bg.jpg
 #  position: top
 #  width: 150px
 
-pretitle: We are happy to hear you wish to
+pretitle: Happy to hear you wish to
 title: Join us!
 description: Check here if you can become a member today...
 
@@ -53,7 +53,9 @@ show-notif: false
 
 ---
 
-# Question 1 {#q1}
+# &nbsp; {#q1}
+
+# Question 1
 
 ## Can you invest 2+ hours per month in e-club activities?
 
@@ -71,7 +73,9 @@ This way our club can actively grow and make our world a better place!
 
 <div style="height: 2000px;"></div>
 
-# Question 2 {#q2}
+# &nbsp; {#q2}
+
+# Question 2
 
 ## Have you already been Leader of the Week?
 
@@ -87,7 +91,9 @@ If you do not know what it is, ask a member, we will be happy to answer!
 
 <div style="height: 2000px;"></div>
 
-# Question 3 {#q3}
+# &nbsp; {#q3}
+
+# Question 3
 
 ## Do you agree with the content of our Manifesto?
 
@@ -105,7 +111,9 @@ Questions and suggestions are always welcome!
 
 <div style="height: 2000px;"></div>
 
-# Question 4 {#q4}
+# &nbsp; {#q4}
+
+# Question 4
 
 ## Can you participate at least in one meeting monthly?
 
@@ -121,7 +129,9 @@ Our meetings are usually on Sundays, with a normal duration of 1 hour.
 
 <div style="height: 2000px;"></div>
 
-# Question 5 {#q5}
+# &nbsp; {#q5}
+
+# Question 5
 
 ## Is it okay for you to pay an annual fee of 15€?
 
@@ -137,7 +147,9 @@ Members pay the annual fee on the month of April every year.
 
 <div style="height: 2000px;"></div>
 
-# Amazing!!! {#amazing}
+# &nbsp; {#amazing}
+
+# Amazing!!!
 
 ## It seems you answered YES to all questions above
 
@@ -158,7 +170,9 @@ Reminder: you can always participate in our social projects, personal developmen
 
 <div style="height: 2000px;"></div>
 
-# It is probably better to wait {#wait}
+# &nbsp; {#wait}
+
+# It is probably better to wait
 
 ## It seems you answered NO to one of the questions above
 
