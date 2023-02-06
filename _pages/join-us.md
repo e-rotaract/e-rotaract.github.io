@@ -149,6 +149,13 @@ After that, just wait, and we will inform you when you can join the e-club.
 
 Reminder: you can always participate in our social projects, personal development events, virtual meetings, and much more!
 
+{% include gallery-btn
+  large=true
+  items='[
+    { name: "Back to homepage", icon: "fas fa-home", url: "/" }
+  ]'
+%}
+
 <div style="height: 100vh;"></div>
 
 # It is probably better to wait {#wait}
@@ -162,5 +169,12 @@ But hey, it is always a good idea to ask a member and see if you can join!
 At the very least, you can always keep participating in the e-club activities!
 
 If you have questions, ask one of our members, we will be happy to answer.
+
+{% include gallery-btn
+  large=true
+  items='[
+    { name: "Back to homepage", icon: "fas fa-home", url: "/" }
+  ]'
+%}
 
 <div style="height: 100vh;"></div>
