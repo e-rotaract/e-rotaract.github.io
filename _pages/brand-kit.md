@@ -44,6 +44,23 @@ show-notif: false
 
 ---
 
+# Our logo
+
+{% include gallery
+  items='[
+    { url: "/assets/images/logo/rotaract-text.svg", newtab:true, img: "logo/rotaract-text.svg", grid: 2 },
+    { url: "/assets/images/logo/rotaract.svg", newtab:true, img: "logo/rotaract.svg", grid: 2 }
+  ]'
+%}
+
+{% include btn
+  url="https://drive.google.com/drive/folders/1YW1ENQvcBjWHN9Y7qQLAz8BZR_zIaGZ6?usp=share_link"
+  newtab=true
+  class="button-primary"
+  icon="fas fa-cloud-download-alt fa-lg"
+  text="Download our logo"
+%}
+
 # The meaning of our logo
 
 We put a lot of thoght in designing our logo. Together, we wanted an image to represent us and our core values, and we loved the result:
@@ -53,28 +70,6 @@ We put a lot of thoght in designing our logo. Together, we wanted an image to re
 - The people hugging in the middle represent our care for each other and all life on Earth, as well as our wish to support people in their lives and actions;
 - If you pay attention, you will notice the planet has Antartica on the top and Arctic on the bottom, which some would call "upside down", but we know for a planet in space "up" and "down" has no meaning - and in our logo it represents the fact that in many situations there is no up/down, or right/wrong, but simply different points of view, all valid and correct, and it also shows the e-club wish to view and do things differently when necessary;
 - The Rotary logo, followed by a star tail that surrounds the world, symbolises a shooting star, where Rotary and our values guide our ideas and actions.
-
-# PNG images
-
-{% include gallery
-  items='[
-    { url: "/assets/images/logo/e-rotaract_pink-text.png", newtab:true, img: "logo/e-rotaract_pink-text.png", grid: 2 },
-    { url: "/assets/images/logo/e-rotaract_pink.png", newtab:true, img: "logo/e-rotaract_pink.png", grid: 2 },
-    { url: "/assets/images/logo/e-rotaract_white-text.png", newtab:true, img: "logo/e-rotaract_white-text.png", grid: 2 },
-    { url: "/assets/images/logo/e-rotaract_white.png", newtab:true, img: "logo/e-rotaract_white.png", grid: 2 },
-    { url: "/assets/images/logo/e-rotaract_black-text.png", newtab:true, img: "logo/e-rotaract_black-text.png", grid: 2 },
-    { url: "/assets/images/logo/e-rotaract_black.png", newtab:true, img: "logo/e-rotaract_black.png", grid: 2 }
-  ]'
-%}
-
-# SVG images
-
-{% include gallery
-  items='[
-    { url: "/assets/images/logo/rotaract-text.svg", newtab:true, img: "logo/rotaract-text.svg", grid: 2 },
-    { url: "/assets/images/logo/rotaract.svg", newtab:true, img: "logo/rotaract.svg", grid: 2 }
-  ]'
-%}
 
 # Our first historical logo
 
