@@ -55,7 +55,7 @@ show-notif: false
 
 # Question 1 {#q1}
 
-## Can you invest at least 2 hours per month in e-club activities?
+## Can you invest 2+ hours per month in e-club activities?
 
 It is important to try our best and be present in our meetings and events.
 
