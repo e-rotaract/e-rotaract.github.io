@@ -55,11 +55,11 @@ show-notif: false
 
 # Question 1 {#q1}
 
-## Considering only the last 4 official e-club meetings: have you been with us on at least 3 of those meetings?
+## Can you invest at least 2 hours per month in e-club activities?
 
 It is important to try our best and be present in our meetings and events.
 
-This way our club can actively grow and make our world a better place.
+This way our club can actively grow and make our world a better place!
 
 {% include gallery-btn
   large=false
@@ -69,6 +69,7 @@ This way our club can actively grow and make our world a better place.
   ]'
 %}
 
+<br><br><br>
 <br><br><br>
 <br><br><br>
 <br><br><br>
@@ -90,12 +91,13 @@ If you do not know what it is, ask a member, we will be happy to answer!
 <br><br><br>
 <br><br><br>
 <br><br><br>
+<br><br><br>
 
 # Question 3 {#q3}
 
-## Do you agree the content of our Manifesto?
+## Do you agree with the content of our Manifesto?
 
-Our [Manifesto is available online clicking here](https://docs.google.com/document/d/1bbMJXxgswu3yPEsXYcwbD9hDjsDLIxYhDd5ZG3wqfXM/edit?usp=sharing).
+Our [Manifesto is available online by clicking here](https://docs.google.com/document/d/1bbMJXxgswu3yPEsXYcwbD9hDjsDLIxYhDd5ZG3wqfXM/edit?usp=sharing).
 
 Questions and suggestions are always welcome!
 
@@ -110,12 +112,13 @@ Questions and suggestions are always welcome!
 <br><br><br>
 <br><br><br>
 <br><br><br>
+<br><br><br>
 
 # Question 4 {#q4}
 
 ## Can you participate at least in one meeting monthly?
 
-Our meetings are usually on Sundays, and last for 1 hour.
+Our meetings are usually on Sundays, with a normal duration of 1 hour.
 
 {% include gallery-btn
   large=false
@@ -125,6 +128,7 @@ Our meetings are usually on Sundays, and last for 1 hour.
   ]'
 %}
 
+<br><br><br>
 <br><br><br>
 <br><br><br>
 <br><br><br>
@@ -146,6 +150,7 @@ Members pay the annual fee on the month of April every year.
 <br><br><br>
 <br><br><br>
 <br><br><br>
+<br><br><br>
 
 # Amazing! {#amazing}
 
@@ -162,6 +167,7 @@ Reminder: if not being a member yet, you can still participate in our social pro
 <br><br><br>
 <br><br><br>
 <br><br><br>
+<br><br><br>
 
 # Oh, you cannot join, not yet! {#not-yet}
 
@@ -174,3 +180,8 @@ But hey, you can for sure keep participating in the e-club!
 And when you can answer YES to all questions, then you are ready to join!
 
 If you have questions, ask one of our members, we will be happy to answer.
+
+<br><br><br>
+<br><br><br>
+<br><br><br>
+<br><br><br>
