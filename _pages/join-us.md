@@ -53,7 +53,7 @@ show-notif: false
 
 ---
 
-# &nbsp; {#q1}
+# --- {#q1}
 
 # Question 1
 
@@ -73,7 +73,7 @@ This way our club can actively grow and make our world a better place!
 
 <div style="height: 2000px;"></div>
 
-# &nbsp; {#q2}
+# --- {#q2}
 
 # Question 2
 
@@ -91,7 +91,7 @@ If you do not know what it is, ask a member, we will be happy to answer!
 
 <div style="height: 2000px;"></div>
 
-# &nbsp; {#q3}
+# --- {#q3}
 
 # Question 3
 
@@ -111,7 +111,7 @@ Questions and suggestions are always welcome!
 
 <div style="height: 2000px;"></div>
 
-# &nbsp; {#q4}
+# --- {#q4}
 
 # Question 4
 
@@ -129,7 +129,7 @@ Our meetings are usually on Sundays, with a normal duration of 1 hour.
 
 <div style="height: 2000px;"></div>
 
-# &nbsp; {#q5}
+# --- {#q5}
 
 # Question 5
 
@@ -147,7 +147,7 @@ Members pay the annual fee on the month of April every year.
 
 <div style="height: 2000px;"></div>
 
-# &nbsp; {#amazing}
+# --- {#amazing}
 
 # Amazing!!!
 
@@ -170,7 +170,7 @@ Reminder: you can always participate in our social projects, personal developmen
 
 <div style="height: 2000px;"></div>
 
-# &nbsp; {#wait}
+# --- {#wait}
 
 # It is probably better to wait
 
