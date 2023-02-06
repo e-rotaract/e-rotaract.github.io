@@ -69,10 +69,7 @@ This way our club can actively grow and make our world a better place!
   ]'
 %}
 
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
+<div style="height: 100vh;"></div>
 
 # Question 2 {#q2}
 
@@ -88,10 +85,7 @@ If you do not know what it is, ask a member, we will be happy to answer!
   ]'
 %}
 
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
+<div style="height: 100vh;"></div>
 
 # Question 3 {#q3}
 
@@ -109,10 +103,7 @@ Questions and suggestions are always welcome!
   ]'
 %}
 
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
+<div style="height: 100vh;"></div>
 
 # Question 4 {#q4}
 
@@ -128,10 +119,7 @@ Our meetings are usually on Sundays, with a normal duration of 1 hour.
   ]'
 %}
 
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
+<div style="height: 100vh;"></div>
 
 # Question 5 {#q5}
 
@@ -147,10 +135,7 @@ Members pay the annual fee on the month of April every year.
   ]'
 %}
 
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
+<div style="height: 100vh;"></div>
 
 # Amazing! {#amazing}
 
@@ -164,10 +149,7 @@ After that, just wait, and we will inform you when you can join the e-club.
 
 Reminder: you can always participate in our social projects, personal development events, virtual meetings, and much more!
 
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
+<div style="height: 100vh;"></div>
 
 # Oh, you cannot join, not yet! {#not-yet}
 
@@ -181,7 +163,4 @@ At the very least, you can always keep participating in the e-club activities!
 
 If you have questions, ask one of our members, we will be happy to answer.
 
-<br><br><br>
-<br><br><br>
-<br><br><br>
-<br><br><br>
+<div style="height: 100vh;"></div>
