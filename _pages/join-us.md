@@ -173,7 +173,7 @@ Reminder: you can always participate in our social projects, personal developmen
 
 ## It seems you answered NO to one of the questions above
 
-If you answered NO to at least one question, it probably means you cannot join yet.
+If you answered NO to one question, it probably means you cannot join yet.
 
 But hey, it is always a good idea to ask a member and see if you can join!
 
