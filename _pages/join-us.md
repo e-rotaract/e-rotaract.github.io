@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /be-member
+permalink: /join-us
 # featured: true
 # hidden: true
 
@@ -11,9 +11,9 @@ image: default-bg.jpg
 #  position: top
 #  width: 150px
 
-pretitle: Learn how you can
-title: Become a Member!
-description: We are happy to hear you are interested, let's start!
+pretitle: We are happy to hear you wish to
+title: Join us!
+description: Check here if you can become a member today...
 
 # categories: [ a, b ]
 # tags: [ c, d, e ]
@@ -64,8 +64,8 @@ This way our club can actively grow and make our world a better place.
 {% include gallery-btn
   large=false
   items='[
-    { name: "YES", url: "#q2" },
-    { name: "NO", url: "/not-yet-be-member" }
+    { name: "YES", icon: "fas fa-check", url: "#q2" },
+    { name: "NO", icon: "fas fa-times", url: "#not-yet" }
   ]'
 %}
 
@@ -82,8 +82,8 @@ If you do not know what it is, ask a member, we will be happy to answer!
 {% include gallery-btn
   large=false
   items='[
-    { name: "YES", url: "#q3" },
-    { name: "NO", url: "/not-yet-be-member" }
+    { name: "YES", icon: "fas fa-check", url: "#q3" },
+    { name: "NO", icon: "fas fa-times", url: "#not-yet" }
   ]'
 %}
 
@@ -102,8 +102,8 @@ Questions and suggestions are always welcome!
 {% include gallery-btn
   large=false
   items='[
-    { name: "YES", url: "#q4" },
-    { name: "NO", url: "/not-yet-be-member" }
+    { name: "YES", icon: "fas fa-check", url: "#q4" },
+    { name: "NO", icon: "fas fa-times", url: "#not-yet" }
   ]'
 %}
 
@@ -120,8 +120,8 @@ Our meetings are usually on Sundays.
 {% include gallery-btn
   large=false
   items='[
-    { name: "YES", url: "#q5" },
-    { name: "NO", url: "/not-yet-be-member" }
+    { name: "YES", icon: "fas fa-check", url: "#q5" },
+    { name: "NO", icon: "fas fa-times", url: "#not-yet" }
   ]'
 %}
 
@@ -138,8 +138,8 @@ Members pay the annual fee on the month of April every year.
 {% include gallery-btn
   large=false
   items='[
-    { name: "YES", url: "#end" },
-    { name: "NO", url: "/not-yet-be-member" }
+    { name: "YES", icon: "fas fa-check", url: "#amazing" },
+    { name: "NO", icon: "fas fa-times", url: "#not-yet" }
   ]'
 %}
 
@@ -147,5 +147,30 @@ Members pay the annual fee on the month of April every year.
 <br><br><br>
 <br><br><br>
 
-# Amazing! {#end}
+# Amazing! {#amazing}
 
+## It seems you answered YES to all questions above
+
+We would be more than happy to see you joining us!
+
+Just contact one of our members and state your interest!
+
+After that, just wait, and we will inform you when you can join the e-club.
+
+Reminder: if not being a member yet, you can still participate in our social projects, personal development events, virtual meetings, and much more!
+
+<br><br><br>
+<br><br><br>
+<br><br><br>
+
+# Oh, you cannot join, not yet! {#not-yet}
+
+## It seems you answered NO to one of the questions above
+
+If you answered NO to at least one question, it means you cannot join us yet.
+
+But hey, you can for sure keep participating in the e-club!
+
+And when you can answer YES to all questions, then you are ready to join!
+
+If you have questions, ask one of our members, we will be happy to answer.
