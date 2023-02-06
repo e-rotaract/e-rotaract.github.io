@@ -93,7 +93,7 @@ If you do not know what it is, ask a member, we will be happy to answer!
 
 # Question 3 {#q3}
 
-## Did you read our Manifesto and do you agree with it?
+## Do you agree the content of our Manifesto?
 
 Our [Manifesto is available online clicking here](https://docs.google.com/document/d/1bbMJXxgswu3yPEsXYcwbD9hDjsDLIxYhDd5ZG3wqfXM/edit?usp=sharing).
 
@@ -115,7 +115,7 @@ Questions and suggestions are always welcome!
 
 ## Can you participate at least in one meeting monthly?
 
-Our meetings are usually on Sundays.
+Our meetings are usually on Sundays, and last for 1 hour.
 
 {% include gallery-btn
   large=false
