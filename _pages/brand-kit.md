@@ -58,7 +58,7 @@ show-notif: false
   newtab=true
   class="button-primary"
   icon="fas fa-cloud-download-alt fa-lg"
-  text="Download our logo"
+  text="Downloads"
 %}
 
 # The meaning of our logo
