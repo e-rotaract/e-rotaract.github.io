@@ -162,7 +162,7 @@ Just contact one of our members and state your interest!
 
 After that, just wait, and we will inform you when you can join the e-club.
 
-Reminder: if not being a member yet, you can still participate in our social projects, personal development events, virtual meetings, and much more!
+Reminder: you can always participate in our social projects, personal development events, virtual meetings, and much more!
 
 <br><br><br>
 <br><br><br>
@@ -173,11 +173,11 @@ Reminder: if not being a member yet, you can still participate in our social pro
 
 ## It seems you answered NO to one of the questions above
 
-If you answered NO to at least one question, it means you cannot join us yet.
+If you answered NO to at least one question, it probably means you cannot join yet.
 
-But hey, you can for sure keep participating in the e-club!
+But hey, it is always a good idea to ask a member and see if you can join!
 
-And when you can answer YES to all questions, then you are ready to join!
+At the very least, you can always keep participating in the e-club activities!
 
 If you have questions, ask one of our members, we will be happy to answer.
 
