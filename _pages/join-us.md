@@ -65,7 +65,7 @@ This way our club can actively grow and make our world a better place!
   large=false
   items='[
     { name: "YES", icon: "fas fa-check", url: "#q2" },
-    { name: "NO", icon: "fas fa-times", url: "#not-yet" }
+    { name: "NO", icon: "fas fa-times", url: "#wait" }
   ]'
 %}
 
@@ -81,7 +81,7 @@ If you do not know what it is, ask a member, we will be happy to answer!
   large=false
   items='[
     { name: "YES", icon: "fas fa-check", url: "#q3" },
-    { name: "NO", icon: "fas fa-times", url: "#not-yet" }
+    { name: "NO", icon: "fas fa-times", url: "#wait" }
   ]'
 %}
 
@@ -99,7 +99,7 @@ Questions and suggestions are always welcome!
   large=false
   items='[
     { name: "YES", icon: "fas fa-check", url: "#q4" },
-    { name: "NO", icon: "fas fa-times", url: "#not-yet" }
+    { name: "NO", icon: "fas fa-times", url: "#wait" }
   ]'
 %}
 
@@ -115,7 +115,7 @@ Our meetings are usually on Sundays, with a normal duration of 1 hour.
   large=false
   items='[
     { name: "YES", icon: "fas fa-check", url: "#q5" },
-    { name: "NO", icon: "fas fa-times", url: "#not-yet" }
+    { name: "NO", icon: "fas fa-times", url: "#wait" }
   ]'
 %}
 
@@ -131,13 +131,13 @@ Members pay the annual fee on the month of April every year.
   large=false
   items='[
     { name: "YES", icon: "fas fa-check", url: "#amazing" },
-    { name: "NO", icon: "fas fa-times", url: "#not-yet" }
+    { name: "NO", icon: "fas fa-times", url: "#wait" }
   ]'
 %}
 
 <div style="height: 100vh;"></div>
 
-# Amazing! {#amazing}
+# Amazing!!! {#amazing}
 
 ## It seems you answered YES to all questions above
 
@@ -151,11 +151,11 @@ Reminder: you can always participate in our social projects, personal developmen
 
 <div style="height: 100vh;"></div>
 
-# Oh, you cannot join, not yet! {#not-yet}
+# It is probably better to wait {#wait}
 
 ## It seems you answered NO to one of the questions above
 
-If you answered NO to one question, it probably means you cannot join yet.
+If you answered NO to one question, it probably means it is better to wait.
 
 But hey, it is always a good idea to ask a member and see if you can join!
 
