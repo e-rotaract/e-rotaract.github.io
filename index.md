@@ -97,6 +97,14 @@ To know more you can contact us!
   text="E-mail us: hi@e-rotaract.com"
 %}
 
+{% include btn
+  url="/join-us"
+  newtab=true
+  class="button-success"
+  icon="fas fa-file-signature fa-lg"
+  text="Interest to join as member?<br>Click here to check how to apply!"
+%}
+
 # What do we do? {#actions}
 
 We work on a variety of social projects and causes! When an action is beneficial to all concerned, we will support and help as much we can!
