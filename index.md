@@ -102,7 +102,7 @@ To know more you can contact us!
   newtab=true
   class="button-success"
   icon="fas fa-file-signature fa-lg"
-  text="Interest to join as member?<br>Click here to check how to apply!"
+  text="Interested to join as member?<br>Click here to check how to apply!"
 %}
 
 # What do we do? {#actions}
