@@ -85,7 +85,7 @@ We have weekly videocalls of 30 minutes, every Sunday:
 
 # Make a Donation {#donation}
 
-With **150 euros/swiss francs per month**, we can feed a kid two meals a day and provide them with shelter and education: school, supplies, clothes!
+With **200 euros/swiss francs per month**, we can feed a kid two meals a day and provide them with shelter and education: school, supplies, clothes!
 
 <!--
 <p style="text-align: center;">
@@ -100,6 +100,7 @@ To donate through a bank transfer, here is our details:
 - Account holder: <code id="holder">District Rotary 1990, Comission Rotaract</code>
 - IBAN: <code id="iban">CH30 8080 8003 8478 5531 6</code>
 - BIC/SWIFT: <code id="bic">RAIF CH22 XXX</code>
+- IID (NCB): <code id="iid">80241</code>
 
 {% include gallery-btn
   large=false
@@ -109,9 +110,11 @@ To donate through a bank transfer, here is our details:
   ]'
 %}
 {% include gallery-btn
-  large=true
+  large=false
   items='[
-    { name: "Copy Account Holder", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#holder\').text())" }
+    {
+      name: "Copy Account Holder", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#holder\').text())" },
+      { name: "Copy IID (NCB)", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#iid\').text())" }
   ]'
 %}
 
