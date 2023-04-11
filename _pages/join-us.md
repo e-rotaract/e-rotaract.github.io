@@ -135,7 +135,7 @@ Our meetings are usually on Sundays, with a normal duration of 1 hour.
 
 ## Is it okay for you to pay an annual fee of 15€?
 
-Members pay the annual fee on the month of April every year.
+Members pay the annual fee before the end of March every year.
 
 {% include gallery-btn
   large=false
