@@ -152,8 +152,11 @@ Join us!
     { img: "participants/alex.png" },
     { img: "participants/debora.png" },
     { img: "participants/emiline.png" },
+    { img: "participants/ghita.jpg" },
     { img: "participants/iaco.png" },
-    { img: "participants/leo.png" }
+    { img: "participants/leo.png" },
+    { img: "participants/magali.jpg" },
+    { img: "participants/tulio.jpg" }
   ]'
   items='[ { img: "participants/magali.png" } ]'
   post='[ { url: "#join", img: "participants/you.gif" } ]'
