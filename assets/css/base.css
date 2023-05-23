@@ -151,8 +151,13 @@ tok {
 	font-weight: normal !important;
 }
 
+input {
+	color: black;
+	font: inherit;
+	margin: 0;
+}
+
 button,
-input,
 optgroup,
 select,
 textarea {
