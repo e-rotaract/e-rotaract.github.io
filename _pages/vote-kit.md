@@ -59,7 +59,7 @@ document.write(d);
 {% include gallery-btn
   large=true
   items='[
-    { name: "Copy Simple Vote", icon: "fas fa-vote-yea fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#simplevote\').clone().children().remove().end().text())" }
+    { name: "Copy Simple Vote", icon: "fas fa-vote-yea fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#simplevote\').clone().children(\'script\').remove().end().text())" }
   ]'
 %}
 
@@ -82,7 +82,7 @@ document.write(d);
 {% include gallery-btn
   large=true
   items='[
-    { name: "Copy Urgent Vote", icon: "fas fa-exclamation-triangle fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#urgentvote\').clone().children().remove().end().text())" }
+    { name: "Copy Urgent Vote", icon: "fas fa-exclamation-triangle fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#urgentvote\').clone().children(\'script\').remove().end().text())" }
   ]'
 %}
 
