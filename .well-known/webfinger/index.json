@@ -1,0 +1,23 @@
+{
+  "subject":"acct:rotaract@masto.ai",
+  "aliases": [
+    "https://masto.ai/@rotaract",
+    "https://masto.ai/users/rotaract"
+  ],
+  "links": [
+    {
+      "rel":"http://webfinger.net/rel/profile-page",
+      "type":"text/html",
+      "href":"https://masto.ai/@rotaract"
+    },
+    {
+      "rel":"self",
+      "type":"application/activity+json",
+      "href":"https://masto.ai/users/rotaract"
+    },
+    {
+      "rel":"http://ostatus.org/schema/1.0/subscribe",
+      "template":"https://masto.ai/authorize_interaction?uri={uri}"
+    }
+  ]
+}
