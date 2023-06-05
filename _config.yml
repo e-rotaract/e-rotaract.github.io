@@ -11,7 +11,7 @@ favicon:
   ico: logo/rotaract-pink.ico
 
 baseurl:
-include: ["_pages"]
+include: ["_pages", ".well-known"]
 permalink: /page/:title/
 future: false
 
