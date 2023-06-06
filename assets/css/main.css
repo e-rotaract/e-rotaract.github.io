@@ -1214,6 +1214,7 @@ header .header-logo a {
     background: var(--dark);
     width: 100%;
     min-height: 100vh;
+    min-height: 100lvh;
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -1250,6 +1251,7 @@ header .header-logo a {
 .home-content-table {
     width: 100%;
     min-height: 100vh;
+    min-height: 100lvh;
     display: table;
     position: relative;
     padding-bottom: 5rem;
