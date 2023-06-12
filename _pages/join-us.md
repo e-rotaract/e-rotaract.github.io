@@ -97,7 +97,7 @@ If you do not know what it is, ask a member, we will be happy to answer!
 
 ## Do you agree with the content of our Manifesto?
 
-Our [Manifesto is available online by clicking here](https://docs.google.com/document/d/1bbMJXxgswu3yPEsXYcwbD9hDjsDLIxYhDd5ZG3wqfXM/edit?usp=sharing).
+Our [Manifesto is available online by clicking here](/manifesto).
 
 Questions and suggestions are always welcome!
 
