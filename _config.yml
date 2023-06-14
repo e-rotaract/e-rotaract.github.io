@@ -38,6 +38,11 @@ links-side:
     icon: fas fa-briefcase
     url: /brand-kit
     newtab: false
+  - name: Feedback
+    icon: fas fa-feather-alt
+    url: /feedback
+    newtab: true
+
 
 verification: "<a rel='me' href='https://masto.ai/@rotaract'></a>"
 
