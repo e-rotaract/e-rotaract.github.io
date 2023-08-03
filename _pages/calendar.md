@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /cale
+permalink: /calendar
 # featured: true
 # hidden: true
 
