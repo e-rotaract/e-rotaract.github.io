@@ -76,7 +76,7 @@ Copy and paste this Calendar link on your browser:
 
 Make sure you are logged in the correct Google acount (check the image on the top-right corner of the window)
 
-***If it is not the correct Google account***, first logout from all accounts (click the image on the top-right corner and select "Sign out of all accounts"), and then login to the correct account (after that, you need to paste the Calendar link in your browser again)
+***If it is not the correct Google account***, select the correct account by clicking the image on the top-right corner
 
 In the pop-up meassage that appears on your screen, click "Add"
 
@@ -84,7 +84,7 @@ In the pop-up meassage that appears on your screen, click "Add"
   large=FALSE
   items='[
     { name: "Copy Calendar Link", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#cal-link\').text())" },
-    { name: "Open Calendar Link", icon: "fas fa-window-restore fa-lg", url: "javascript:window.open($(\'#cal-link\').text())" }
+    { name: "Open Calendar Link", icon: "fas fa-window-restore fa-lg", url: "javascript:window.open($(\'#cal-link\').text(), \'_blank\');window.location.reload();" }
   ]'
 %}
 
@@ -102,7 +102,7 @@ Copy and paste this Calendar link in your <img style="max-height: 30px; max-widt
   large=FALSE
   items='[
     { name: "Copy Calendar Link", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#cal-link\').text())" },
-    { name: "Open Calendar Link", icon: "fas fa-window-restore fa-lg", url: "javascript:window.open($(\'#cal-link\').text())" }
+    { name: "Open Calendar Link", icon: "fas fa-window-restore fa-lg", url: "javascript:window.open($(\'#cal-link\').text());window.location.reload();" }
   ]'
 %}
 
@@ -110,7 +110,7 @@ Copy and paste this Calendar link in your <img style="max-height: 30px; max-widt
 
 Make sure you are logged in the correct Google acount (check the image on the top-right corner of the window)
 
-***If it is not the correct Google account***, first logout from all accounts (click the image on the top-right corner and select "Sign out of all accounts"), and then login to the correct account (after that, you need to paste the Calendar link in Safari again)
+***If it is not the correct Google account***, select the correct account by clicking the image on the top-right corner
 
 In the pop-up meassage that appears on your screen, click "Add"
 
@@ -124,7 +124,7 @@ Now, copy and paste this Google link in your <img style="max-height: 30px; max-w
   large=false
   items='[
     { name: "Copy Google Link", icon: "fas fa-copy fa-lg", url: "javascript:navigator.clipboard.writeText($(\'#cal-sync\').text())" },
-    { name: "Open Google Link", icon: "fas fa-window-restore fa-lg", url: "javascript:window.open($(\'#cal-sync\').text())" }
+    { name: "Open Google Link", icon: "fas fa-window-restore fa-lg", url: "javascript:window.open($(\'#cal-sync\').text());window.location.reload();" }
   ]'
 %}
 

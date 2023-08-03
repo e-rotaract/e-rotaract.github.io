@@ -33,7 +33,7 @@ links-side:
   - name: Calendar
     icon: fas fa-calendar-alt
     url: /calendar
-    newtab: true
+    newtab: false
   - name: Brand kit
     icon: fas fa-briefcase
     url: /brand-kit
