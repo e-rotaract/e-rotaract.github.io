@@ -11,9 +11,9 @@ author: eclub
 #   position: center
 #   width: 300px
 
-pretitle: Check our events
+pretitle: View all our events here
 title: e-Rotaract Calendar
-description: Together we can make our world a better place!
+description: Add our calendar to your Google Agenda or iPhone Calendar
 
 # categories: [ a, b ]
 # tags: [ c, d, e ]
