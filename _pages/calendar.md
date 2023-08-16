@@ -27,7 +27,7 @@ description: Add our calendar to your Google Agenda or iPhone Calendar
 links-home:
     - name: Browser View
       icon: fas fa-mouse-pointer
-      url: "/calendar/view"
+      url: "#main"
       newtab: true
       show-home: true
       show-side: false
@@ -75,13 +75,23 @@ show-notif: false
   text="Only Main Calendar<br>(e.g. meetings, events)"
 %}
 
+{% include gallery-btn
+  large=false
+  items='[
+    { name: "View All Calendars<br>(timezone: UTC 0)", icon: "fas fa-calendar-alt fa-lg", url: "/calendar/view", newtab: true, class: "button-success" },
+    { name: "Only Main Calendar<br>(e.g. meetings, events)", icon: "fas fa-calendar-alt fa-lg", url: "/calendar/main", newtab: true, class: "button-primary" }
+  ]'
+%}
+
 Common timezones we use:
 
 - 🇧🇷 UTC-3 Brasil (BR)
-- 🇲🇦 UTC+1 Morocco (MA, المغرب) [UTC+0 during Ramadan]
-- 🇫🇷 UTC+1 France (FR) [UTC+2 during ~April-October]
-- 🇳🇴 UTC+1 Norge (NO) [UTC+2 during ~April-October]
-- 🇹🇼 UTC+8 Taiwan (TW, 台灣)
+- 🌐 UTC 0
+- 🇲🇦 UTC+1 Morocco (MA) المغرب – _UTC+0 on Ramadan_
+- 🇪🇺 UTC+1 Europe (EU) – _UTC+2 on ~April-October_
+  - 🇫🇷 UTC+1 France (FR)
+  - 🇳🇴 UTC+1 Norge (NO)
+- 🇹🇼 UTC+8 Taiwan (TW) 台灣
 
 ---
 
