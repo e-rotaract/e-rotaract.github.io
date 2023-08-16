@@ -64,7 +64,15 @@ show-notif: false
   newtab=true
   class="button-success"
   icon="fas fa-calendar-alt fa-lg"
-  text="View Calendar<br>(timezone: UTC 0)"
+  text="View All Calendars<br>(timezone: UTC 0)"
+%}
+
+{% include btn
+  url="/calendar/main"
+  newtab=true
+  class="button-primary"
+  icon="fas fa-calendar-alt fa-lg"
+  text="Only Main Calendar<br>(e.g. meetings, events)"
 %}
 
 Common timezones we use:
