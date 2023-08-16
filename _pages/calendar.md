@@ -64,8 +64,16 @@ show-notif: false
   newtab=true
   class="button-success"
   icon="fas fa-calendar-alt fa-lg"
-  text="View the Calendar<br>(directly in your browser)"
+  text="View Calendar<br>(timezone: UTC 0)"
 %}
+
+Common timezones we use:
+
+- 🇧🇷 UTC-3 Brasil (BR)
+- 🇲🇦 UTC+1 Morocco (MA, المغرب) [UTC+0 during Ramadan]
+- 🇫🇷 UTC+1 France (FR) [UTC+2 during ~April-October]
+- 🇳🇴 UTC+1 Norge (NO) [UTC+2 during ~April-October]
+- 🇹🇼 UTC+8 Taiwan (TW, 台灣)
 
 - TOC
 {:toc}
