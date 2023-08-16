@@ -1,6 +1,8 @@
 ---
 layout: default
 permalink: /calendar
+redirect_from:
+  - /cal
 # featured: true
 # hidden: true
 
