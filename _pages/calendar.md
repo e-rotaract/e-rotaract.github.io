@@ -88,12 +88,6 @@ Copy and paste this Calendar link on your browser:
 
 <code id="cal-link">https://e-rotaract.com/calendar/add</code>
 
-Make sure you are logged in the correct Google acount (check the image on the top-right corner of the window)
-
-***If it is not the correct Google account***, select the correct account by clicking the image on the top-right corner
-
-In the pop-up meassage that appears on your screen, click "Add"
-
 {% include gallery-btn
   large=FALSE
   items='[
@@ -101,6 +95,12 @@ In the pop-up meassage that appears on your screen, click "Add"
     { name: "Open Calendar Link", icon: "fas fa-window-restore fa-lg", url: "javascript:window.open($(\'#cal-link\').text(), \'_blank\');window.location.reload();" }
   ]'
 %}
+
+Make sure you are logged in the correct Google acount (check the image on the top-right corner of the window)
+
+***If it is not the correct Google account***, select the correct account by clicking the image on the top-right corner
+
+In the pop-up meassage that appears on your screen, click "Add"
 
 # iPhone Calendar Sync {#iphone}
 
