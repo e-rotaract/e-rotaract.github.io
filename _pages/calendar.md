@@ -75,6 +75,8 @@ Common timezones we use:
 - 🇳🇴 UTC+1 Norge (NO) [UTC+2 during ~April-October]
 - 🇹🇼 UTC+8 Taiwan (TW, 台灣)
 
+---
+
 - TOC
 {:toc}
 
