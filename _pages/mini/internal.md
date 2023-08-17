@@ -56,60 +56,6 @@ permalink: "/internal"
             </a>
         </li>
     </ul>
-    <ul>
-        <li class="i-s">
-            <a href="" target="_blank">
-                <div class='logo'>
-                    <i class='far fa-comment fa-2x'></i>
-                </div>
-                <p class='title'>
-                    Our Chat Group
-                    <span>
-                        (WhatsApp)
-                    </span>
-                </p>
-            </a>
-        </li>
-        <li class="i-s">
-            <a href="" target="_blank">
-                <div class='logo'>
-                    <i class='fas fa-cloud fa-2x'></i>
-                </div>
-                <p class='title'>
-                    Our Cloud
-                    <span>
-                        (Google Drive)
-                    </span>
-                </p>
-            </a>
-        </li>
-        <li class="i-s">
-            <a href="https://calendar.google.com/calendar/u/4?cid=cm90YXJhY3RiZXlvbmRmcm9udGllcnNAZ21haWwuY29t" target="_blank">
-                <div class='logo'>
-                    <i class='far fa-calendar-plus fa-2x'></i>
-                </div>
-                <p class='title'>
-                    Add us to your Calendar
-                    <span>
-                        (Add to Google Agenda)
-                    </span>
-                </p>
-            </a>
-        </li>
-        <li class="i-s">
-            <a href="https://calendar.google.com/calendar/embed?height=600&wkst=7&bgcolor=%23ffffff&ctz=UTC&showTitle=0&showNav=1&showDate=1&showPrint=0&showTabs=1&showCalendars=1&mode=MONTH&hl=en_GB&src=cm90YXJhY3RiZXlvbmRmcm9udGllcnNAZ21haWwuY29t&src=bGY2b2hrZGNjZ24yY3Q2N2s0amc3MTFlaGMwYTdqOHVAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=ZW4tZ2IuYnJhemlsaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2IuZnJlbmNoI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4tZ2Iubm9yd2VnaWFuI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=OW9ybDA3NjZ1ZnRpZzZmamFkbnJrazlpZjNldXJnajhAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=cGhsbm5pc3NoMjZlZ25rYWNxdjMxYTU5dDU2NzNmaDJAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&src=b2FxNGx0cHJvaHZwb2w5cDliYjFta3JvZnFpcDRnMmRAaW1wb3J0LmNhbGVuZGFyLmdvb2dsZS5jb20&color=%234285F4&color=%23F09300&color=%230B8043&color=%233F51B5&color=%23D81B60&color=%23A79B8E&color=%23039BE5&color=%23616161" target="_blank">
-                <div class='logo'>
-                    <i class='fas fa-calendar-alt fa-2x'></i>
-                </div>
-                <p class='title'>
-                    View our Calendar
-                    <span>
-                        (Open in the browser)
-                    </span>
-                </p>
-            </a>
-        </li>
-    </ul>
     <br><br><br>
     <hr style="width: 100px;">
     <br><br><br>
@@ -300,7 +246,7 @@ permalink: "/internal"
     <center>
         What is important to us!
         <br>
-        (121 answers!!!)
+        (121 answers!)
     </center>
     <br><br><br>
     <ul>
