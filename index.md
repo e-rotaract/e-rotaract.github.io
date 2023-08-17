@@ -140,9 +140,9 @@ Some of the actions we worked and helped on are:
 Our past and current volunteers are from all around the world, located in different countries and Rotary International Discricts, including:
 Brasil 🇧🇷 ([4700](https://www.rotary4700.org.br/home)),
 France 🇫🇷 ([1710](https://rotary1710.org), [1730](https://www.rotary1730.org), [1780](https://www.rotary1780.org)),
-Maroc 🇲🇦 ([9010](https://rotary-d9010.org)),
+Maroc المغرب 🇲🇦 ([9010](https://rotary-d9010.org)),
 Norge 🇳🇴 ([2310](https://d2310.rotary.no)),
-and Taiwan 🇹🇼 ([3481](https://www.rid3481.org)).
+and Taiwan 台灣 🇹🇼 ([3481](https://www.rid3481.org)).
 Join us!
 
 {% include gallery
