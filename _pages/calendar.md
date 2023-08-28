@@ -63,7 +63,7 @@ show-notif: false
   large=false
   items='[
     { name: "View All Calendars<br>(timezone: UTC 0)", icon: "fas fa-calendar-alt fa-lg", url: "/calendar/view", newtab: true, class: "button-success" },
-    { name: "Only Main Calendar<br>(e.g. meetings, events)", icon: "fas fa-calendar-alt fa-lg", url: "/calendar/main", newtab: true, class: "button-primary" }
+    { name: "Only Main Calendar<br>(UTC 0: meetings, events)", icon: "fas fa-calendar-alt fa-lg", url: "/calendar/main", newtab: true, class: "button-primary" }
   ]'
 %}
 
