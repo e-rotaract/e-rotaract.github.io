@@ -71,7 +71,7 @@ Common timezones we use:
 
 - 🇧🇷 UTC-3 Brasil (BR)
 - 🌐 UTC 0 _Coordinated Universal Time_
-- 🇲🇦 UTC+1 Morocco (MA) المغرب – _UTC+0 on Ramadan_
+- 🇲🇦 UTC+1 Maroc (MA) المغرب – _UTC+0 on Ramadan_
 - 🇪🇺 UTC+1 central Europe (cEU) – _UTC+2 on ~April-October_
   - 🇫🇷 UTC+1 France (FR)
   - 🇳🇴 UTC+1 Norge (NO)
