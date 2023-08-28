@@ -273,7 +273,7 @@ permalink: "/internal"
             // heath causes
             ["Blood Donation", "Bone Marrow Donation", "Organs Donation", "All Donations", "All Cancers Prevention", "Prostate Cancer", "Breast Cancer", "Lung Cancer", "Skin Cancer", "Colorectal/Bowel Cancer", "Healthy Habits", "Psychological Wellbeing", "Emotional Intelligence", "HIV/AIDS", "All Diseases Prevention/Cure", "Clean Water", "Nutrition Adequacy", "Sex/Relationship Education", "Contraception/Birth Control", "Coronavirus/Covid-19",
             // social causes
-            "Accessibility", "Racism", "Veganism", "Feminism", "Ableism", "LGBT+", "Xenophobia", "Carnism ", "Speciesism", "Environment", "Islamophobia", "Data Privacy", "Human Rights", "Peace", "Net Neutrality", "Support Small Businesses", "Waste Reduction", "Minimalism", "Milk Tea Alliance", "Animal Rights/Welfare",
+            "Accessibility", "Racism", "Veganism", "Feminism", "Ableism", "LGBT+", "Xenophobia", "Carnism ", "Speciesism", "Environment", "Islamophobia", "Data Privacy", "Human Rights", "Peace", "Net Neutrality", "Support Small Businesses", "Waste Reduction", "Minimalism", "Milk Tea Alliance", "Animal Rights/Welfare", "Cruelty-Free",
             // core values
             "Goodwill", "Open-mindedness", "Honesty/Transparency", "Diversity", "Transparency", "Justice", "Humility", "Solidarity", "Mutual Respect", "Good Manners", "Assertiveness", "Altruism", "Secularism", "Equality/Equity", "Collaboration", "Leadership", "Responsibility", "Engagement", "Communication", "Kindness", "Not forced to be 'nice/happy/smiley'"]
             .sort()
