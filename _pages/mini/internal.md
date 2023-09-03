@@ -63,7 +63,7 @@ permalink: "/internal"
                     <i class='far fa-gem fa-2x'></i>
                 </div>
                 <p class='title'>
-👼 Guardian Angels - Protégés:<br>
+👼 Guardians - Protégés:<br>
 👼 GHITA → 💎 TULIO<br>
 👼 TULIO → 💎 MAGALI<br>
 👼 MAGALI → 💎 LEO<br>
