@@ -56,6 +56,26 @@ permalink: "/internal"
             </a>
         </li>
     </ul>
+    <ul>
+        <li class="i-s">
+            <a>
+                <div class='logo'>
+                    <i class='far fa-gem fa-2x'></i>
+                </div>
+                <p class='title'>
+👼 Guardian Angels - Protégés:<br>
+👼 GHITA → 💎 TULIO<br>
+👼 TULIO → 💎 MAGALI<br>
+👼 MAGALI → 💎 LEO<br>
+👼 LEO → 💎 ALEX<br>
+👼 ALEX → 💎 DEBORA<br>
+👼 DEBORA → 💎 IACO<br>
+👼 IACO → 💎 EMILINE<br>
+👼 EMILINE → 💎 GHITA
+                </p>
+            </a>
+        </li>
+    </ul>
     <br><br><br>
     <hr style="width: 100px;">
     <br><br><br>
