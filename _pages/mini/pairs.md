@@ -253,7 +253,7 @@ permalink: "/pairs"
                         + "<p class='title' id='result'>"
                         + "</p>"
                         + "</li>";
-                pairings.forEach((k, v) => document.getElementById("result").innerHTML += "<p>👼 " + k + " → 💎 " + v + ", </p>");
+                new Map([...pairings].reverse()).forEach((k, v) => document.getElementById("result").innerHTML += "<p>👼 " + k + " → 💎 " + v + ", </p>");
             }
         }
     </script>
